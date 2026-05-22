@@ -21,7 +21,7 @@ export default function PageTransition() {
       el.style.transition = "none";
       el.style.transform  = "translateY(100%)";
     });
-    p1.current?.offsetHeight;
+    void p1.current?.offsetHeight;
   }
 
   function reveal() {
