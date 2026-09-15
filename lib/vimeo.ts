@@ -1,3 +1,5 @@
+import { BehanceModule } from "@/lib/behance";
+
 export interface VimeoVideo {
   id: number;
   title: string;
@@ -9,6 +11,15 @@ export interface VimeoVideo {
   embed_privacy: string;
   stats_number_of_plays: number;
   duration: number;
+  upload_date?: string;
+  /** proyectos que no vienen de Vimeo (ej. galería traída en vivo de Behance) */
+  provider?: "vimeo" | "behance";
+  /** módulos del proyecto de Behance (imágenes, texto, video) en el orden real del proyecto */
+  behanceModules?: BehanceModule[];
+  /** fondo, color de texto y separación entre módulos, tal como están en el proyecto de Behance */
+  behanceBackground?: string;
+  behanceTextColor?: string;
+  behanceSpacerHeight?: number;
 }
 
 export async function getVimeoVideos(): Promise<VimeoVideo[]> {
@@ -25,11 +36,12 @@ export async function getVimeoVideos(): Promise<VimeoVideo[]> {
   }
 }
 
-export function getVideoCategory(video: VimeoVideo): "CGI Films" | "VFX & Post" {
-  const text = ((video.title ?? "") + " " + (video.description ?? "")).toLowerCase();
-  const vfxKeywords = ["vfx", "post", "composit", "effect", "motion", "grade", "color", "retouche"];
-  if (vfxKeywords.some((k) => text.includes(k))) return "VFX & Post";
-  return video.id % 2 === 0 ? "CGI Films" : "VFX & Post";
+export type ProjectCategory = "3D & IA" | "VFX & POST";
+
+// Placeholder por índice — después se categoriza manualmente (ver nota en cgi-films/page.tsx).
+// Vive acá para que /cgi-films, /vfx-post y /portfolio repartan los mismos videos en las mismas categorías.
+export function assignCategory(index: number): ProjectCategory {
+  return index % 2 === 0 ? "3D & IA" : "VFX & POST";
 }
 
 const FALLBACK_VIDEOS: VimeoVideo[] = [

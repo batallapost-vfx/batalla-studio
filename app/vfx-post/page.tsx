@@ -1,7 +1,7 @@
 import NavbarInner from "@/components/NavbarInner";
 import CategoryGrid from "@/components/CategoryGrid";
 import Footer from "@/components/Footer";
-import { getVimeoVideos } from "@/lib/vimeo";
+import { getVimeoVideos, assignCategory } from "@/lib/vimeo";
 
 export const metadata = {
   title: "VFX & Post — Batalla Studio",
@@ -11,7 +11,7 @@ export const metadata = {
 export default async function VFXPostPage() {
   const all = await getVimeoVideos();
   // Índices impares para VFX & Post — después se categoriza manualmente
-  const videos = all.filter((_, i) => i % 2 !== 0).slice(0, 6);
+  const videos = all.filter((_, i) => assignCategory(i) === "VFX & POST").slice(0, 6);
 
   return (
     <>
@@ -22,8 +22,8 @@ export default async function VFXPostPage() {
           <p className="text-teal text-[0.6rem] uppercase tracking-[0.6em] mb-4">
             — Especialidad —
           </p>
-          <h1 className="font-playfair font-bold text-cream leading-none mb-6 text-[clamp(3rem,8vw,6rem)]">
-            VFX &amp; Post
+          <h1 className="font-playfair font-bold text-cream leading-none mb-6 text-[clamp(2rem,7vw,6rem)] whitespace-nowrap">
+            VFX &amp; POST
           </h1>
           <div className="flex items-center justify-center gap-3 mb-8">
             <div className="w-16 h-px bg-teal opacity-35" />

@@ -84,7 +84,7 @@ export default function SplitHero() {
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            background: "radial-gradient(ellipse at 35% 50%, rgba(61,26,10,0.75) 0%, rgba(13,8,4,0.92) 100%)",
+            backgroundColor: "rgba(0,0,0,0.6)",
             opacity: hovered === "left" ? 0 : 1,
             transition: "opacity 0.65s ease",
           }}
@@ -92,25 +92,28 @@ export default function SplitHero() {
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            background: "linear-gradient(to right, rgba(13,8,4,0.75) 0%, rgba(13,8,4,0.3) 50%, transparent 100%)",
+            background: "linear-gradient(to right, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.3) 50%, transparent 100%)",
             opacity: hovered === "left" ? 1 : 0,
             transition: "opacity 0.65s ease",
           }}
         />
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            backdropFilter: "blur(16px)",
+            WebkitBackdropFilter: "blur(16px)",
+            opacity: hovered === "left" ? 0 : 0.25,
+            transition: "opacity 0.5s ease",
+          }}
+        />
 
         <div
-          className="relative z-10 flex flex-col justify-center h-full px-12 md:px-20 pt-20 pointer-events-none"
+          className="relative z-10 flex flex-col justify-center h-full px-12 md:px-14 pt-20 pointer-events-none"
           style={{
             opacity: hovered === "right" ? 0.38 : 1,
             transition: "opacity 0.45s ease",
           }}
         >
-          <span
-            className="hero-stagger text-[0.6rem] uppercase tracking-[0.5em] mb-8 block"
-            style={{ color: "rgba(247, 225, 177, 0.6)", "--reveal-delay": "0.30s" } as React.CSSProperties}
-          >
-            Full CGI Commercial
-          </span>
           <h1
             className="hero-stagger font-playfair font-bold text-cream leading-[0.9] mb-5 text-[clamp(3.5rem,8vw,7rem)]"
             style={{ "--reveal-delay": "0.42s" } as React.CSSProperties}
@@ -121,14 +124,8 @@ export default function SplitHero() {
           </h1>
           <div
             className="hero-stagger w-14 h-px mb-5"
-            style={{ background: "#F7E1B1", "--reveal-delay": "0.62s" } as React.CSSProperties}
+            style={{ background: "#769d8d", "--reveal-delay": "0.62s" } as React.CSSProperties}
           />
-          <p
-            className="hero-stagger text-[0.6rem] uppercase tracking-[0.45em] mb-5"
-            style={{ color: "#F7E1B1", "--reveal-delay": "0.70s" } as React.CSSProperties}
-          >
-            100% Digital Commercials
-          </p>
           <p
             className="hero-stagger text-gold/70 text-[0.55rem] uppercase tracking-[0.4em] mb-2"
             style={{ "--reveal-delay": "0.80s" } as React.CSSProperties}
@@ -136,13 +133,15 @@ export default function SplitHero() {
             (EN)
           </p>
           <p
-            className="hero-stagger text-cream/65 text-sm leading-relaxed max-w-xs mb-4 font-light"
+            className="hero-stagger text-cream/65 text-sm leading-relaxed max-w-2xl mb-4 font-light"
             style={{ "--reveal-delay": "0.88s" } as React.CSSProperties}
           >
-            We make 100% digital commercials. 3D, AI, and — above all — the judgment to use them right. Everything that used to need a shoot, we solve right here.
+            We make 100% digital commercials. 3D, AI, and above all, the judgment to use them right.
+            <br />
+            Everything that used to need a shoot, we solve right here.
           </p>
           <div
-            className="hero-stagger flex items-center gap-1.5 max-w-xs mb-4"
+            className="hero-stagger flex items-center gap-1.5 max-w-2xl mb-4"
             style={{ "--reveal-delay": "1.00s" } as React.CSSProperties}
           >
             <div className="w-5 h-px bg-gold/50" />
@@ -158,10 +157,12 @@ export default function SplitHero() {
             (ES)
           </p>
           <p
-            className="hero-stagger text-cream/65 text-sm leading-relaxed max-w-xs mb-10 font-light"
+            className="hero-stagger text-cream/65 text-sm leading-relaxed max-w-2xl mb-10 font-light"
             style={{ "--reveal-delay": "1.18s" } as React.CSSProperties}
           >
-            Hacemos comerciales 100% digitales. 3D, IA y, sobre todo, criterio para usarlos. Todo lo que antes pedía un rodaje, hoy lo resolvemos acá.
+            Hacemos comerciales 100% digitales. 3D, IA y, sobre todo, criterio para usarlos.
+            <br />
+            Todo lo que antes pedía un rodaje, hoy lo resolvemos acá.
           </p>
           <span
             className="hero-stagger"
@@ -236,7 +237,7 @@ export default function SplitHero() {
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            background: "radial-gradient(ellipse at 65% 50%, rgba(14,34,32,0.75) 0%, rgba(10,12,8,0.92) 100%)",
+            backgroundColor: "rgba(0,0,0,0.6)",
             opacity: hovered === "right" ? 0 : 1,
             transition: "opacity 0.65s ease",
           }}
@@ -244,25 +245,28 @@ export default function SplitHero() {
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            background: "linear-gradient(to left, rgba(13,8,4,0.75) 0%, rgba(13,8,4,0.3) 50%, transparent 100%)",
+            background: "linear-gradient(to left, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.3) 50%, transparent 100%)",
             opacity: hovered === "right" ? 1 : 0,
             transition: "opacity 0.65s ease",
           }}
         />
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            backdropFilter: "blur(16px)",
+            WebkitBackdropFilter: "blur(16px)",
+            opacity: hovered === "right" ? 0 : 0.25,
+            transition: "opacity 0.5s ease",
+          }}
+        />
 
         <div
-          className="relative z-10 flex flex-col justify-center items-end h-full px-12 md:px-20 pt-20 pointer-events-none"
+          className="relative z-10 flex flex-col justify-center items-end h-full px-12 md:px-14 pt-20 pointer-events-none"
           style={{
             opacity: hovered === "left" ? 0.38 : 1,
             transition: "opacity 0.45s ease",
           }}
         >
-          <span
-            className="hero-stagger text-gold/60 text-[0.6rem] uppercase tracking-[0.5em] mb-8 block"
-            style={{ "--reveal-delay": "0.38s" } as React.CSSProperties}
-          >
-            Film · Commercial · Digital
-          </span>
           <h1
             className="hero-stagger font-playfair font-bold text-cream leading-[0.9] mb-5 text-right text-[clamp(3.5rem,8vw,7rem)]"
             style={{ "--reveal-delay": "0.50s" } as React.CSSProperties}
@@ -272,15 +276,9 @@ export default function SplitHero() {
             POST
           </h1>
           <div
-            className="hero-stagger w-14 h-px bg-gold mb-5"
-            style={{ "--reveal-delay": "0.70s" } as React.CSSProperties}
+            className="hero-stagger w-14 h-px mb-5"
+            style={{ background: "#769d8d", "--reveal-delay": "0.70s" } as React.CSSProperties}
           />
-          <p
-            className="hero-stagger text-gold text-[0.6rem] uppercase tracking-[0.45em] mb-5"
-            style={{ "--reveal-delay": "0.78s" } as React.CSSProperties}
-          >
-            Visual Effects &amp; Finishing
-          </p>
           <p
             className="hero-stagger text-gold/70 text-[0.55rem] uppercase tracking-[0.4em] mb-2 text-right"
             style={{ "--reveal-delay": "0.88s" } as React.CSSProperties}
@@ -288,13 +286,15 @@ export default function SplitHero() {
             (EN)
           </p>
           <p
-            className="hero-stagger text-cream/65 text-sm leading-relaxed max-w-xs mb-4 text-right font-light"
+            className="hero-stagger text-cream/65 text-sm leading-relaxed max-w-md mb-4 text-right font-light"
             style={{ "--reveal-delay": "0.96s" } as React.CSSProperties}
           >
-            Post-production, VFX and color for film and advertising. 15 years of experience and on-time delivery.
+            Post-production, VFX and color for film and advertising.
+            <br />
+            15 years of experience and on-time delivery.
           </p>
           <div
-            className="hero-stagger flex items-center gap-1.5 w-full max-w-xs mb-4"
+            className="hero-stagger flex items-center gap-1.5 w-full max-w-md mb-4"
             style={{ "--reveal-delay": "1.08s" } as React.CSSProperties}
           >
             <div className="w-5 h-px bg-gold/50" />
@@ -310,10 +310,12 @@ export default function SplitHero() {
             (ES)
           </p>
           <p
-            className="hero-stagger text-cream/65 text-sm leading-relaxed max-w-xs mb-10 text-right font-light"
+            className="hero-stagger text-cream/65 text-sm leading-relaxed max-w-md mb-10 text-right font-light"
             style={{ "--reveal-delay": "1.26s" } as React.CSSProperties}
           >
-            Postproducción, VFX y color para cine y publicidad. 15 años de experiencia y entregas a tiempo.
+            Postproducción, VFX y color para cine y publicidad.
+            <br />
+            15 años de experiencia y entregas a tiempo.
           </p>
           <span
             className="hero-stagger"

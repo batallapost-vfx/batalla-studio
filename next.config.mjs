@@ -10,6 +10,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "i.vimeocdn.com",
       },
+      {
+        protocol: "https",
+        hostname: "mir-s3-cdn-cf.behance.net",
+      },
     ],
   },
   webpack: (config, { dev }) => {

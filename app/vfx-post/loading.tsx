@@ -9,8 +9,8 @@ export default function Loading() {
           <p className="text-teal text-[0.6rem] uppercase tracking-[0.6em] mb-4">
             — Especialidad —
           </p>
-          <h1 className="font-playfair font-bold text-cream leading-none mb-6 text-[clamp(3rem,8vw,6rem)]">
-            VFX &amp; Post
+          <h1 className="font-playfair font-bold text-cream leading-none mb-6 text-[clamp(2rem,7vw,6rem)] whitespace-nowrap">
+            VFX &amp; POST
           </h1>
           <div className="flex items-center justify-center gap-3 mb-8">
             <div className="w-16 h-px bg-teal opacity-35" />
