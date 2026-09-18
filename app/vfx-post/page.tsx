@@ -10,8 +10,8 @@ export const metadata = {
 
 export default async function VFXPostPage() {
   const all = await getVimeoVideos();
-  // Índices impares para VFX & Post — después se categoriza manualmente
-  const videos = all.filter((_, i) => assignCategory(i) === "VFX & POST").slice(0, 6);
+  // Índices por resto 3 — después se categoriza manualmente
+  const videos = all.filter((_, i) => assignCategory(i) === "POST").slice(0, 6);
 
   return (
     <>

@@ -15,11 +15,17 @@ interface PortfolioGridProps {
 type FilterOption = "ALL ITEMS" | ProjectCategory;
 type OrderOption = "Relevancia" | "Fecha" | "Nombre";
 
-const FILTERS: FilterOption[] = ["ALL ITEMS", "3D & IA", "VFX & POST"];
+const FILTERS: FilterOption[] = ["ALL ITEMS", "3D", "IA", "POST"];
 const ORDER_OPTIONS: OrderOption[] = ["Relevancia", "Fecha", "Nombre"];
 
+const ACCENTS: Record<ProjectCategory, string> = {
+  "3D": "#CD8641",
+  IA: "#B65939",
+  POST: "#769D8D",
+};
+
 function accentFor(category: ProjectCategory) {
-  return category === "VFX & POST" ? "#769D8D" : "#CD8641";
+  return ACCENTS[category];
 }
 
 export default function PortfolioGrid({ videos }: PortfolioGridProps) {
@@ -60,10 +66,20 @@ export default function PortfolioGrid({ videos }: PortfolioGridProps) {
     return () => window.removeEventListener("keydown", handleEsc);
   }, []);
 
+  // el hero de la home dispara este evento al clickear 3D/IA/POST, para aplicar el filtro acá
+  useEffect(() => {
+    const onSetFilter = (e: Event) => {
+      const category = (e as CustomEvent<{ category?: ProjectCategory }>).detail?.category;
+      if (category) setFilter(category);
+    };
+    window.addEventListener("trabajos:filter", onSetFilter as EventListener);
+    return () => window.removeEventListener("trabajos:filter", onSetFilter as EventListener);
+  }, []);
+
   return (
-    <section id="portfolio" className="pt-2 pb-20">
+    <section id="portfolio" className="py-[10vh] px-[10%] scroll-mt-24">
       {/* Filtros + orden */}
-      <div className="flex flex-wrap items-center justify-between gap-x-8 gap-y-4 px-6 md:px-12 mb-8">
+      <div className="flex flex-wrap items-center justify-between gap-x-8 gap-y-4 mb-8">
         <div className="flex flex-wrap items-center gap-2">
           {FILTERS.map((f) => {
             const active = filter === f;
@@ -101,7 +117,7 @@ export default function PortfolioGrid({ videos }: PortfolioGridProps) {
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-1">
         {visibleVideos.map((video) => (
           <VideoCard key={video.id} video={video} onClick={() => setSelectedVideo(video)} />
         ))}
@@ -190,7 +206,7 @@ function VideoCard({
 }
 
 /* ─── Video Modal ─── */
-function VideoModal({
+export function VideoModal({
   video,
   onClose,
 }: {

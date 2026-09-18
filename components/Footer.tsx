@@ -48,7 +48,7 @@ import TransitionLink from "@/components/TransitionLink";
 
 export default function Footer() {
   return (
-    <footer id="contact" className="relative border-t border-gold/15">
+    <footer className="relative border-t border-gold/15">
       {/* Top ornamental line */}
       <div className="flex items-center px-10 md:px-20 pt-16 pb-0">
         <div

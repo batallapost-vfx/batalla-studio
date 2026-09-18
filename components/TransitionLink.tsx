@@ -11,7 +11,10 @@ export default function TransitionLink({ href, onClick, children, ...rest }: Pro
     // Links externos o anclas: comportamiento normal
     if (href.startsWith("http") || href.startsWith("#") || href.startsWith("mailto") || href.startsWith("tel")) return;
     e.preventDefault();
-    if (window.location.pathname === href) return;
+    if (window.location.pathname === href) {
+      onClick?.(e);
+      return;
+    }
     window.dispatchEvent(new CustomEvent("transition:navigate", { detail: { href } }));
     onClick?.(e);
   }

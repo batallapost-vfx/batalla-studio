@@ -36,12 +36,13 @@ export async function getVimeoVideos(): Promise<VimeoVideo[]> {
   }
 }
 
-export type ProjectCategory = "3D & IA" | "VFX & POST";
+export type ProjectCategory = "3D" | "IA" | "POST";
 
 // Placeholder por índice — después se categoriza manualmente (ver nota en cgi-films/page.tsx).
-// Vive acá para que /cgi-films, /vfx-post y /portfolio repartan los mismos videos en las mismas categorías.
+// Vive acá para que /cgi-films, /vfx-post, /portfolio y la home repartan los mismos videos en las mismas categorías.
 export function assignCategory(index: number): ProjectCategory {
-  return index % 2 === 0 ? "3D & IA" : "VFX & POST";
+  const rest = index % 3;
+  return rest === 0 ? "3D" : rest === 1 ? "IA" : "POST";
 }
 
 const FALLBACK_VIDEOS: VimeoVideo[] = [

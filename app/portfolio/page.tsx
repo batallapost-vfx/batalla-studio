@@ -1,9 +1,7 @@
 import NavbarInner from "@/components/NavbarInner";
-import PortfolioGrid, { PortfolioVideo } from "@/components/PortfolioGrid";
+import PortfolioGrid from "@/components/PortfolioGrid";
 import Footer from "@/components/Footer";
-import { getVimeoVideos, assignCategory } from "@/lib/vimeo";
-import { getBehanceProject, behanceProjectToVideoShape } from "@/lib/behance";
-import { CGI_FILMS_BEHANCE_URLS } from "@/lib/behanceProjects";
+import { getPortfolioVideos } from "@/lib/portfolio";
 
 export const metadata = {
   title: "Portfolio — Batalla Studio",
@@ -11,22 +9,7 @@ export const metadata = {
 };
 
 export default async function PortfolioPage() {
-  const [all, behanceProjects] = await Promise.all([
-    getVimeoVideos(),
-    Promise.all(CGI_FILMS_BEHANCE_URLS.map(getBehanceProject)),
-  ]);
-
-  const vimeoEntries: PortfolioVideo[] = all.map((video, i) => ({
-    ...video,
-    category: assignCategory(i),
-  }));
-
-  // los proyectos de Behance viven en la sección CGI Films
-  const behanceEntries: PortfolioVideo[] = behanceProjects
-    .filter((p): p is NonNullable<typeof p> => p !== null)
-    .map((p) => ({ ...behanceProjectToVideoShape(p), category: "3D & IA" as const }));
-
-  const videos = [...behanceEntries, ...vimeoEntries];
+  const videos = await getPortfolioVideos();
 
   return (
     <>

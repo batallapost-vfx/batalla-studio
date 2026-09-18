@@ -15,8 +15,10 @@ export default function NavbarInner() {
 
   return (
     <nav
-      className="fixed top-0 left-0 right-0 z-50"
+      className="fixed top-0 left-0 right-0"
       style={{
+        // z-index 70 = viñeta global (globals.css) — por encima de eso para que no la oscurezca
+        zIndex: 75,
         backgroundColor: "rgba(247,225,177,0.95)",
         backdropFilter: "blur(8px)",
         borderBottom: "1px solid rgba(205,134,65,0.20)",
@@ -42,7 +44,7 @@ export default function NavbarInner() {
             <TransitionLink
               key={href}
               href={href}
-              className="inline-flex items-center px-3 py-3 text-[0.6rem] uppercase tracking-[0.35em] transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold focus-visible:outline-offset-2"
+              className="inline-flex items-center px-3 py-3 text-[0.6rem] uppercase tracking-[0.35em] font-semibold transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold focus-visible:outline-offset-2"
               style={{
                 color: pathname === href ? "#CD8641" : "rgba(61,26,10,0.75)",
                 minHeight: "44px",

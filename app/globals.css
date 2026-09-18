@@ -119,8 +119,7 @@
 /* Z-index scale
    10    content overlays (video overlays, gradients inside sections)
    20    hero panel content, center divider
-   50    navbar (fixed)
-   70    vignette
+   75    navbar (fixed)
    80    grain
    90    modal (above grain for clean focus)
    100   intro animation
@@ -138,19 +137,6 @@ body::after {
   pointer-events: none;
   z-index: 80;
   mix-blend-mode: overlay;
-}
-
-/* Vignette — radial edge darkening */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background:
-    radial-gradient(ellipse at center, transparent 45%, rgba(8, 5, 3, 0.55) 100%),
-    linear-gradient(180deg, rgba(8, 5, 3, 0.25) 0%, transparent 18%, transparent 82%, rgba(8, 5, 3, 0.35) 100%);
-  pointer-events: none;
-  z-index: 70;
-  mix-blend-mode: multiply;
 }
 
 /* Hero staggered reveal */
@@ -286,8 +272,8 @@ body::before {
 /* Corner ornament styles */
 .corner-ornament {
   position: absolute;
-  width: 36px;
-  height: 36px;
+  width: var(--ornament-size, 36px);
+  height: var(--ornament-size, 36px);
 }
 .corner-ornament::before,
 .corner-ornament::after {
@@ -296,15 +282,21 @@ body::before {
   background: #CD8641;
   opacity: 0.75;
 }
-.corner-ornament.tl { top: -3px; left: -3px; }
-.corner-ornament.tl::before { top: 0; left: 0; width: 2px; height: 36px; }
-.corner-ornament.tl::after  { top: 0; left: 0; width: 36px; height: 2px; }
-.corner-ornament.tr { top: -3px; right: -3px; }
-.corner-ornament.tr::before { top: 0; right: 0; width: 2px; height: 36px; }
-.corner-ornament.tr::after  { top: 0; right: 0; width: 36px; height: 2px; }
-.corner-ornament.bl { bottom: -3px; left: -3px; }
-.corner-ornament.bl::before { bottom: 0; left: 0; width: 2px; height: 36px; }
-.corner-ornament.bl::after  { bottom: 0; left: 0; width: 36px; height: 2px; }
-.corner-ornament.br { bottom: -3px; right: -3px; }
-.corner-ornament.br::before { bottom: 0; right: 0; width: 2px; height: 36px; }
-.corner-ornament.br::after  { bottom: 0; right: 0; width: 36px; height: 2px; }
+/* variante grande — usada en el showreel, para que se destaquen y no se pierdan en el borde */
+.corner-ornament-lg {
+  --ornament-size: 72px;
+  --ornament-thickness: 3px;
+  --ornament-offset: -6px;
+}
+.corner-ornament.tl { top: var(--ornament-offset, -3px); left: var(--ornament-offset, -3px); }
+.corner-ornament.tl::before { top: 0; left: 0; width: var(--ornament-thickness, 2px); height: var(--ornament-size, 36px); }
+.corner-ornament.tl::after  { top: 0; left: 0; width: var(--ornament-size, 36px); height: var(--ornament-thickness, 2px); }
+.corner-ornament.tr { top: var(--ornament-offset, -3px); right: var(--ornament-offset, -3px); }
+.corner-ornament.tr::before { top: 0; right: 0; width: var(--ornament-thickness, 2px); height: var(--ornament-size, 36px); }
+.corner-ornament.tr::after  { top: 0; right: 0; width: var(--ornament-size, 36px); height: var(--ornament-thickness, 2px); }
+.corner-ornament.bl { bottom: var(--ornament-offset, -3px); left: var(--ornament-offset, -3px); }
+.corner-ornament.bl::before { bottom: 0; left: 0; width: var(--ornament-thickness, 2px); height: var(--ornament-size, 36px); }
+.corner-ornament.bl::after  { bottom: 0; left: 0; width: var(--ornament-size, 36px); height: var(--ornament-thickness, 2px); }
+.corner-ornament.br { bottom: var(--ornament-offset, -3px); right: var(--ornament-offset, -3px); }
+.corner-ornament.br::before { bottom: 0; right: 0; width: var(--ornament-thickness, 2px); height: var(--ornament-size, 36px); }
+.corner-ornament.br::after  { bottom: 0; right: 0; width: var(--ornament-size, 36px); height: var(--ornament-thickness, 2px); }
