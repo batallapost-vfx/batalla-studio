@@ -16,7 +16,7 @@ export default function FeaturedGrid({ videos }: FeaturedGridProps) {
   if (featured.length === 0) return null;
 
   return (
-    <section className="py-20">
+    <section id="destacados" className="py-20 scroll-mt-24">
       <div className="text-center mb-20 px-6 md:px-12">
         <p className="text-gold text-[0.6rem] uppercase tracking-[0.6em] mb-4">
           — Our —

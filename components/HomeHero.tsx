@@ -24,7 +24,7 @@ const DEFAULT_PHRASE = { line1: "Lorem ipsum dolor sit amet,", line2: "consectet
 
 const NAV_LINKS = [
   { label: "REEL", id: "reel" },
-  { label: "TRABAJOS", id: "portfolio" },
+  { label: "TRABAJOS", id: "destacados" },
   { label: "ABOUT US", id: "about" },
   { label: "CONTACTO", id: "contact" },
 ];

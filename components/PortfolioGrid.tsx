@@ -17,10 +17,10 @@ interface PortfolioGridProps {
 }
 
 type FilterOption = "ALL ITEMS" | ProjectCategory;
-type OrderOption = "Relevancia" | "Fecha" | "Nombre";
+type OrderOption = "DEFAULT" | "Fecha" | "Nombre";
 
 const FILTERS: FilterOption[] = ["ALL ITEMS", "3D", "IA", "VFX"];
-const ORDER_OPTIONS: OrderOption[] = ["Relevancia", "Fecha", "Nombre"];
+const ORDER_OPTIONS: OrderOption[] = ["DEFAULT", "Fecha", "Nombre"];
 
 const ACCENTS: Record<ProjectCategory, string> = {
   "3D": "#CD8641",
@@ -36,11 +36,12 @@ function accentFor(categories: ProjectCategory[]) {
 export default function PortfolioGrid({ videos }: PortfolioGridProps) {
   const [selectedVideo, setSelectedVideo] = useState<PortfolioVideo | null>(null);
   const [filter, setFilter] = useState<FilterOption>("ALL ITEMS");
-  const [orderBy, setOrderBy] = useState<OrderOption>("Relevancia");
+  const [orderBy, setOrderBy] = useState<OrderOption>("DEFAULT");
 
   const visibleVideos = useMemo(() => {
     const base = filter === "ALL ITEMS" ? videos : videos.filter((v) => v.categories.includes(filter));
-    if (orderBy === "Relevancia") return base;
+    // DEFAULT = el orden en que están cargados los proyectos (mismo orden que el sheet del estudio)
+    if (orderBy === "DEFAULT") return base;
     const sorted = [...base];
     if (orderBy === "Fecha") {
       sorted.sort((a, b) => {

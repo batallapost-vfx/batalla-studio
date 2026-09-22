@@ -5,8 +5,8 @@ import Image from "next/image";
 import { VimeoVideo } from "@/lib/vimeo";
 import VimeoEmbeds from "@/components/VimeoEmbeds";
 
-type OrderOption = "Relevancia" | "Fecha" | "Nombre";
-const ORDER_OPTIONS: OrderOption[] = ["Relevancia", "Fecha", "Nombre"];
+type OrderOption = "DEFAULT" | "Fecha" | "Nombre";
+const ORDER_OPTIONS: OrderOption[] = ["DEFAULT", "Fecha", "Nombre"];
 
 interface CategoryGridProps {
   videos: VimeoVideo[];
@@ -15,14 +15,15 @@ interface CategoryGridProps {
 
 export default function CategoryGrid({ videos, accentColor }: CategoryGridProps) {
   const [selected, setSelected] = useState<VimeoVideo | null>(null);
-  const [orderBy, setOrderBy] = useState<OrderOption>("Relevancia");
+  const [orderBy, setOrderBy] = useState<OrderOption>("DEFAULT");
   const closeBtnRef = useRef<HTMLButtonElement>(null);
   const lastFocused = useRef<HTMLElement | null>(null);
 
   const accent = accentColor === "gold" ? "#CD8641" : "#769D8D";
 
   const orderedVideos = useMemo(() => {
-    if (orderBy === "Relevancia") return videos;
+    // DEFAULT = el orden en que están cargados los proyectos (mismo orden que el sheet del estudio)
+    if (orderBy === "DEFAULT") return videos;
     const sorted = [...videos];
     if (orderBy === "Fecha") {
       sorted.sort((a, b) => {
