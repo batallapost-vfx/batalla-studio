@@ -1,9 +1,6 @@
 import { ProjectCategory } from "@/lib/vimeo";
 
-// Proyectos de Behance que se muestran en el sitio, con su categoría propia.
+// Proyectos de Behance que se muestran en el sitio, con sus tags (mismos que en lib/projects.ts).
 // Para agregar uno nuevo, sumar la URL acá — se trae en vivo en cada visita (ver lib/behance.ts).
-export const BEHANCE_PROJECTS: { url: string; category: ProjectCategory }[] = [
-  { url: "https://www.behance.net/gallery/255755833/Test", category: "3D" },
-  { url: "https://www.behance.net/gallery/255760357/VAX-TEAM", category: "IA" },
-  { url: "https://www.behance.net/gallery/221076949/TTRacing-Aeroflex-Ergochair", category: "3D" },
-];
+// Por ahora vacío: la lista de proyectos de la web sale del sheet del estudio (lib/projects.ts).
+export const BEHANCE_PROJECTS: { url: string; categories: ProjectCategory[]; featured?: boolean }[] = [];

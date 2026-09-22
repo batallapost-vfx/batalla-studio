@@ -1,7 +1,7 @@
 import NavbarInner from "@/components/NavbarInner";
 import CategoryGrid from "@/components/CategoryGrid";
 import Footer from "@/components/Footer";
-import { getVimeoVideos, assignCategory } from "@/lib/vimeo";
+import { getPortfolioVideos } from "@/lib/portfolio";
 
 export const metadata = {
   title: "VFX & Post — Batalla Studio",
@@ -9,9 +9,8 @@ export const metadata = {
 };
 
 export default async function VFXPostPage() {
-  const all = await getVimeoVideos();
-  // Índices por resto 3 — después se categoriza manualmente
-  const videos = all.filter((_, i) => assignCategory(i) === "POST").slice(0, 6);
+  const all = await getPortfolioVideos();
+  const videos = all.filter((v) => v.categories.includes("VFX"));
 
   return (
     <>

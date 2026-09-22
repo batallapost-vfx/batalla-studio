@@ -1,7 +1,17 @@
 import { BehanceModule } from "@/lib/behance";
 
+/** una pieza (video) de un proyecto — los proyectos con varias piezas las muestran todas al abrirse */
+export interface VimeoPiece {
+  id: number;
+  /** hash de privacidad (?h=...) para videos no listados */
+  hash?: string;
+}
+
 export interface VimeoVideo {
   id: number;
+  hash?: string;
+  /** solo si el proyecto tiene más de una pieza; la primera es la misma que `id` */
+  pieces?: VimeoPiece[];
   title: string;
   description: string | null;
   url: string;
@@ -36,14 +46,8 @@ export async function getVimeoVideos(): Promise<VimeoVideo[]> {
   }
 }
 
-export type ProjectCategory = "3D" | "IA" | "POST";
-
-// Placeholder por índice — después se categoriza manualmente (ver nota en cgi-films/page.tsx).
-// Vive acá para que /cgi-films, /vfx-post, /portfolio y la home repartan los mismos videos en las mismas categorías.
-export function assignCategory(index: number): ProjectCategory {
-  const rest = index % 3;
-  return rest === 0 ? "3D" : rest === 1 ? "IA" : "POST";
-}
+// tags específicos de los proyectos (además de "ALL ITEMS", donde entran todos) — ver lib/projects.ts
+export type ProjectCategory = "3D" | "IA" | "VFX";
 
 const FALLBACK_VIDEOS: VimeoVideo[] = [
   {

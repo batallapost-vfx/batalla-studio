@@ -8,11 +8,10 @@ interface FeaturedGridProps {
   videos: PortfolioVideo[];
 }
 
-// 6 proyectos destacados, 2 columnas x 3 filas — por ahora los primeros 6 de Trabajos,
-// se puede curar a mano más adelante
+// los "Selected Works" del sheet del estudio (6), 2 columnas x 3 filas
 export default function FeaturedGrid({ videos }: FeaturedGridProps) {
   const [selected, setSelected] = useState<PortfolioVideo | null>(null);
-  const featured = videos.slice(0, 6);
+  const featured = videos.filter((v) => v.featured).slice(0, 6);
 
   if (featured.length === 0) return null;
 

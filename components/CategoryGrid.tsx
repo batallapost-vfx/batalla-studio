@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { VimeoVideo } from "@/lib/vimeo";
+import VimeoEmbeds from "@/components/VimeoEmbeds";
 
 type OrderOption = "Relevancia" | "Fecha" | "Nombre";
 const ORDER_OPTIONS: OrderOption[] = ["Relevancia", "Fecha", "Nombre"];
@@ -286,20 +287,7 @@ export default function CategoryGrid({ videos, accentColor }: CategoryGridProps)
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
-            <div className="relative">
-              <span className="corner-ornament tl" aria-hidden="true" />
-              <span className="corner-ornament tr" aria-hidden="true" />
-              <span className="corner-ornament bl" aria-hidden="true" />
-              <span className="corner-ornament br" aria-hidden="true" />
-              <div className="video-container border border-gold/20">
-                <iframe
-                  src={`https://player.vimeo.com/video/${selected.id}?autoplay=1&color=${accentColor === "gold" ? "CD8641" : "769D8D"}&title=0&byline=0&portrait=0&transparent=0`}
-                  allow="autoplay; fullscreen; picture-in-picture"
-                  allowFullScreen
-                  title={selected.title}
-                />
-              </div>
-            </div>
+            <VimeoEmbeds video={selected} colorHex={accentColor === "gold" ? "CD8641" : "769D8D"} />
             <div className="flex items-start justify-between mt-4 px-1">
               <div>
                 <h3 id="video-modal-title" className="font-playfair text-cream text-lg font-medium">{selected.title}</h3>

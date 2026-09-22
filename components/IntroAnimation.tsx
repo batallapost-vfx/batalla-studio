@@ -51,14 +51,22 @@ export default function IntroAnimation() {
         pointerEvents: fading ? "none" : "all",
       }}
     >
-      <video
-        ref={videoRef}
-        src="/videos/logo-animation-intro.mp4"
-        autoPlay
-        muted
-        playsInline
-        className="w-full h-full object-contain"
-      />
+      {/* Marco 16:9 que recorta el 1% de cada borde del video: el borde exterior del cuadro tiene una
+          línea apenas más oscura que el fondo, y se veía como dos rayas verticales a los costados */}
+      <div
+        className="relative overflow-hidden"
+        style={{ width: "min(100vw, calc(100vh * 16 / 9))", aspectRatio: "16 / 9" }}
+      >
+        <video
+          ref={videoRef}
+          src="/videos/logo-animation-intro.mp4"
+          autoPlay
+          muted
+          playsInline
+          className="absolute max-w-none object-cover"
+          style={{ width: "102%", height: "102%", left: "-1%", top: "-1%" }}
+        />
+      </div>
     </div>
   );
 }

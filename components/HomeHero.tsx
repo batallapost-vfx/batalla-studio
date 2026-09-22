@@ -5,19 +5,19 @@ import Image from "next/image";
 import TransitionLink from "@/components/TransitionLink";
 import type { ProjectCategory } from "@/lib/vimeo";
 
-const CATEGORIES: ProjectCategory[] = ["3D", "IA", "POST"];
+const CATEGORIES: ProjectCategory[] = ["3D", "IA", "VFX"];
 
 // todavía no hay un reel propio de IA — por ahora reusa el de 3D (ver conversación con el estudio)
 const CATEGORY_VIDEO: Record<ProjectCategory, string> = {
   "3D": "/videos/cgi-films.mp4",
   IA: "/videos/cgi-films.mp4",
-  POST: "/videos/vfx-post.mp4",
+  VFX: "/videos/vfx-post.mp4",
 };
 
 const CATEGORY_PHRASE: Record<ProjectCategory, { line1: string; line2: string }> = {
   "3D": { line1: "Lorem ipsum dolor sit amet,", line2: "consectetur adipiscing elit." },
   IA: { line1: "Sed do eiusmod tempor incididunt,", line2: "ut labore et dolore magna aliqua." },
-  POST: { line1: "Ut enim ad minim veniam, quis nostrud", line2: "exercitation ullamco laboris nisi." },
+  VFX: { line1: "Ut enim ad minim veniam, quis nostrud", line2: "exercitation ullamco laboris nisi." },
 };
 
 const DEFAULT_PHRASE = { line1: "Lorem ipsum dolor sit amet,", line2: "consectetur adipiscing elit." };

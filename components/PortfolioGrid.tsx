@@ -3,9 +3,13 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { VimeoVideo, ProjectCategory } from "@/lib/vimeo";
+import VimeoEmbeds from "@/components/VimeoEmbeds";
 
 export interface PortfolioVideo extends VimeoVideo {
-  category: ProjectCategory;
+  /** tags específicos del proyecto (3D / IA / VFX) — puede ser más de uno o ninguno; todos entran en "ALL ITEMS" */
+  categories: ProjectCategory[];
+  /** "Selected Works" del sheet — van en la sección Destacados */
+  featured?: boolean;
 }
 
 interface PortfolioGridProps {
@@ -15,17 +19,18 @@ interface PortfolioGridProps {
 type FilterOption = "ALL ITEMS" | ProjectCategory;
 type OrderOption = "Relevancia" | "Fecha" | "Nombre";
 
-const FILTERS: FilterOption[] = ["ALL ITEMS", "3D", "IA", "POST"];
+const FILTERS: FilterOption[] = ["ALL ITEMS", "3D", "IA", "VFX"];
 const ORDER_OPTIONS: OrderOption[] = ["Relevancia", "Fecha", "Nombre"];
 
 const ACCENTS: Record<ProjectCategory, string> = {
   "3D": "#CD8641",
   IA: "#B65939",
-  POST: "#769D8D",
+  VFX: "#769D8D",
 };
 
-function accentFor(category: ProjectCategory) {
-  return ACCENTS[category];
+// color del proyecto = el de su primer tag; los que no tienen tag usan el dorado de la marca
+function accentFor(categories: ProjectCategory[]) {
+  return categories.length ? ACCENTS[categories[0]] : "#CD8641";
 }
 
 export default function PortfolioGrid({ videos }: PortfolioGridProps) {
@@ -34,7 +39,7 @@ export default function PortfolioGrid({ videos }: PortfolioGridProps) {
   const [orderBy, setOrderBy] = useState<OrderOption>("Relevancia");
 
   const visibleVideos = useMemo(() => {
-    const base = filter === "ALL ITEMS" ? videos : videos.filter((v) => v.category === filter);
+    const base = filter === "ALL ITEMS" ? videos : videos.filter((v) => v.categories.includes(filter));
     if (orderBy === "Relevancia") return base;
     const sorted = [...base];
     if (orderBy === "Fecha") {
@@ -66,7 +71,7 @@ export default function PortfolioGrid({ videos }: PortfolioGridProps) {
     return () => window.removeEventListener("keydown", handleEsc);
   }, []);
 
-  // el hero de la home dispara este evento al clickear 3D/IA/POST, para aplicar el filtro acá
+  // el hero de la home dispara este evento al clickear 3D/IA/VFX, para aplicar el filtro acá
   useEffect(() => {
     const onSetFilter = (e: Event) => {
       const category = (e as CustomEvent<{ category?: ProjectCategory }>).detail?.category;
@@ -150,7 +155,7 @@ function VideoCard({
     video.thumbnail_medium ||
     video.thumbnail_small ||
     "";
-  const accent = accentFor(video.category);
+  const accent = accentFor(video.categories);
 
   return (
     <button
@@ -192,7 +197,7 @@ function VideoCard({
         className="absolute bottom-3 left-4 text-[0.55rem] uppercase tracking-[0.3em] opacity-0 group-hover:opacity-100 transition-opacity duration-300"
         style={{ color: accent }}
       >
-        {video.category}
+        {video.categories.join(" · ")}
       </p>
 
       {/* Title — centrado, visible solo en hover */}
@@ -215,7 +220,7 @@ export function VideoModal({
 }) {
   const closeBtnRef = useRef<HTMLButtonElement>(null);
   const lastFocused = useRef<HTMLElement | null>(null);
-  const accent = accentFor(video.category);
+  const accent = accentFor(video.categories);
 
   useEffect(() => {
     lastFocused.current = document.activeElement as HTMLElement;
@@ -339,7 +344,7 @@ export function VideoModal({
                 {video.title}
               </h3>
               <p className="text-[0.6rem] uppercase tracking-[0.3em] mt-1" style={{ color: accent }}>
-                {video.category}
+                {video.categories.join(" · ")}
               </p>
             </div>
             <a
@@ -386,22 +391,8 @@ export function VideoModal({
           </svg>
         </button>
 
-        {/* Corner ornaments */}
-        <div className="relative">
-          <span className="corner-ornament tl" aria-hidden="true" />
-          <span className="corner-ornament tr" aria-hidden="true" />
-          <span className="corner-ornament bl" aria-hidden="true" />
-          <span className="corner-ornament br" aria-hidden="true" />
-
-          <div className="video-container border border-gold/20">
-            <iframe
-              src={`https://player.vimeo.com/video/${video.id}?autoplay=1&color=${accent.replace("#", "")}&title=0&byline=0&portrait=0&transparent=0`}
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowFullScreen
-              title={video.title}
-            />
-          </div>
-        </div>
+        {/* Reproductor(es) — todas las piezas del proyecto */}
+        <VimeoEmbeds video={video} colorHex={accent.replace("#", "")} />
 
         {/* Title */}
         <div className="flex items-start justify-between mt-4 px-1">
@@ -410,7 +401,7 @@ export function VideoModal({
               {video.title}
             </h3>
             <p className="text-[0.6rem] uppercase tracking-[0.3em] mt-1" style={{ color: accent }}>
-              {video.category}
+              {video.categories.join(" · ")}
             </p>
           </div>
           <a
