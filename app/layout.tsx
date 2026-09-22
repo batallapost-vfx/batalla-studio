@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, DM_Sans } from "next/font/google";
 import dynamic from "next/dynamic";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const SmoothScroll    = dynamic(() => import("@/components/SmoothScroll"),    { ssr: false });
@@ -40,6 +41,7 @@ export default function RootLayout({
         <CustomCursor />
         <PageTransition />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
