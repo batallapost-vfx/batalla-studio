@@ -27,6 +27,8 @@ const CLIENTS = [
   { name: "Mercado Pago", file: "LOGO__Mercado Pago.png" },
   { name: "Marinela", file: "LOGO__Marinela.png" },
   { name: "Telcel", file: "LOGO__Telcel.png" },
+  { name: "YPF", file: "LOGOS_CLIENTES_v01_YPF.png" },
+  { name: "Burger King", file: "LOGOS_CLIENTES_v01_Burger King.png" },
 ];
 
 export default function Clients() {
