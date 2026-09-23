@@ -29,10 +29,15 @@ const config: Config = {
           from: { opacity: "0", transform: "scale(0.95)" },
           to: { opacity: "1", transform: "scale(1)" },
         },
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         "fade-in": "fadeIn 0.5s ease forwards",
         "modal-in": "modalIn 0.3s ease forwards",
+        marquee: "marquee 40s linear infinite",
       },
     },
   },

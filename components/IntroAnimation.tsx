@@ -55,7 +55,7 @@ export default function IntroAnimation() {
           línea apenas más oscura que el fondo, y se veía como dos rayas verticales a los costados */}
       <div
         className="relative overflow-hidden"
-        style={{ width: "min(100vw, calc(100vh * 16 / 9))", aspectRatio: "16 / 9" }}
+        style={{ width: "min(50vw, calc(50vh * 16 / 9))", aspectRatio: "16 / 9" }}
       >
         <video
           ref={videoRef}

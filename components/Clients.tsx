@@ -1,18 +1,32 @@
 import Image from "next/image";
 
 const CLIENTS = [
-  { name: "KIA",       file: "Logo_Kia.png" },
-  { name: "Ford",      file: "Logo_Ford.png" },
-  { name: "KFC",       file: "Logo_KFC.png" },
-  { name: "Nestlé",    file: "Logo_Nestle.png" },
-  { name: "Gillette",  file: "Logo_Gillete.png" },
-  { name: "Honda",     file: "Logo_Honda.png" },
-  { name: "Nescafé",   file: "Logo_Nescafe.png" },
-  { name: "Bimbo",     file: "Logo_Bimbo.png" },
-  { name: "Takis",     file: "Logo_Takis.png" },
+  { name: "KIA", file: "Logo_Kia.png" },
+  { name: "Ford", file: "Logo_Ford.png" },
+  { name: "KFC", file: "Logo_KFC.png" },
+  { name: "Nestlé", file: "Logo_Nestle.png" },
+  { name: "Gillette", file: "Logo_Gillete.png" },
+  { name: "Honda", file: "Logo_Honda.png" },
+  { name: "Nescafé", file: "Logo_Nescafe.png" },
+  { name: "Bimbo", file: "Logo_Bimbo.png" },
+  { name: "Takis", file: "Logo_Takis.png" },
   { name: "Schneider", file: "Logo_Schneider.png" },
-  { name: "Activia",   file: "Logo_Activia.png" },
-  { name: "Imperial",  file: "Logo.png" },
+  { name: "Activia", file: "Logo_Activia.png" },
+  { name: "Imperial", file: "LOGO__Imperial.png" },
+  { name: "Amazon Prime Video", file: "LOGO__Amazon Primer Video.png" },
+  { name: "Adidas", file: "LOGO__Adidas.png" },
+  { name: "Drean", file: "LOGO__Drean.png" },
+  { name: "Hyundai", file: "LOGO__Hyundai.png" },
+  { name: "Disney", file: "LOGO__Disney.png" },
+  { name: "Coca-Cola", file: "LOGO__Coca Cola.png" },
+  { name: "Bagley", file: "LOGO__Bagley.png" },
+  { name: "Juegos Olímpicos", file: "LOGO__JJOO.png" },
+  { name: "Mabe", file: "LOGO__Mabe.png" },
+  { name: "McDonald's", file: "LOGO__McDonnals.png" },
+  { name: "Netflix", file: "LOGO__Netflix.png" },
+  { name: "Mercado Pago", file: "LOGO__Mercado Pago.png" },
+  { name: "Marinela", file: "LOGO__Marinela.png" },
+  { name: "Telcel", file: "LOGO__Telcel.png" },
 ];
 
 export default function Clients() {
@@ -32,7 +46,7 @@ export default function Clients() {
         </div>
       </div>
 
-      <div className="clients-grid grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-px border border-gold/10">
+      <div className="clients-grid grid grid-cols-4 sm:grid-cols-5 md:grid-cols-7 gap-px border border-gold/10">
         {CLIENTS.map((client) => (
           <div
             key={client.name}
@@ -48,10 +62,6 @@ export default function Clients() {
           </div>
         ))}
       </div>
-
-      <p className="text-center text-cream/55 text-[0.6rem] uppercase tracking-[0.4em] mt-10">
-        Eleven countries shipped · One room in Rosario
-      </p>
     </section>
   );
 }

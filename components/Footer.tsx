@@ -78,9 +78,14 @@ export default function Footer() {
         </TransitionLink>
 
         {/* Tagline */}
-        <p className="text-cream/60 text-xs text-center tracking-[0.25em] font-light max-w-sm">
-          CGI Films &amp; VFX Post Production · Rosario, Santa Fe, Argentina
-        </p>
+        <div className="text-center">
+          <p className="text-cream/60 text-xs tracking-[0.25em] font-light max-w-sm">
+            CGI Films &amp; VFX Post Production
+          </p>
+          <p className="text-cream/45 text-[0.65rem] tracking-[0.25em] font-light mt-1.5">
+            Based in Argentina
+          </p>
+        </div>
 
         {/* Social links */}
         <div className="flex items-center gap-8">
@@ -103,7 +108,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="text-cream/55 text-[0.6rem] text-center uppercase tracking-[0.4em]">
-          © 2025 Batalla Studio · Rosario, Santa Fe
+          © 2026 Batalla Studio
         </p>
       </div>
     </footer>
