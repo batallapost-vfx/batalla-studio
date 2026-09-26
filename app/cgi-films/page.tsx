@@ -4,8 +4,10 @@ import Footer from "@/components/Footer";
 import { getPortfolioVideos } from "@/lib/portfolio";
 
 export const metadata = {
-  title: "CGI Films — Batalla Studio",
-  description: "Producciones CGI fotorrealistas de Batalla Studio, Rosario, Santa Fe, Argentina.",
+  title: "CGI Films",
+  description:
+    "Producciones CGI fotorrealistas de Batalla Studio, estudio de postproducción y animación 3D con base en Rosario, Santa Fe, Argentina.",
+  keywords: ["CGI films", "animación 3D Rosario", "estudio CGI Argentina", "Batalla Studio"],
 };
 
 export default async function CGIFilmsPage() {

@@ -4,8 +4,10 @@ import Footer from "@/components/Footer";
 import { getPortfolioVideos } from "@/lib/portfolio";
 
 export const metadata = {
-  title: "VFX & Post — Batalla Studio",
-  description: "VFX, compositing y post-producción de Batalla Studio, Rosario, Santa Fe, Argentina.",
+  title: "VFX & Post",
+  description:
+    "VFX, compositing y postproducción de Batalla Studio, estudio de postproducción con base en Rosario, Santa Fe, Argentina.",
+  keywords: ["VFX Argentina", "postproducción Rosario", "compositing", "estudio de postproducción"],
 };
 
 export default async function VFXPostPage() {

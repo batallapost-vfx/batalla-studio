@@ -4,8 +4,10 @@ import Footer from "@/components/Footer";
 import { getPortfolioVideos } from "@/lib/portfolio";
 
 export const metadata = {
-  title: "Portfolio — Batalla Studio",
-  description: "Todos los proyectos de Batalla Studio — CGI Films y VFX & Post Production.",
+  title: "Portfolio",
+  description:
+    "Portfolio de Batalla Studio: proyectos de CGI, VFX y postproducción para marcas globales, producidos por nuestro estudio en Rosario, Argentina.",
+  keywords: ["portfolio Batalla Studio", "proyectos CGI", "proyectos VFX", "estudio de postproducción Argentina"],
 };
 
 export default async function PortfolioPage() {

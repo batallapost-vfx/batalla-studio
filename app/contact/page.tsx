@@ -5,8 +5,10 @@ import SectionDivider from "@/components/SectionDivider";
 import ContactSection from "@/components/ContactSection";
 
 export const metadata: Metadata = {
-  title: "Contact — Batalla Studio",
-  description: "Contactanos para tu próximo proyecto de CGI y VFX. Rosario, Santa Fe, Argentina.",
+  title: "Contacto",
+  description:
+    "Contactá a Batalla Studio para tu próximo proyecto de CGI, VFX o postproducción. Estudio con base en Rosario, Santa Fe, Argentina.",
+  keywords: ["contacto Batalla Studio", "presupuesto VFX", "estudio de postproducción Rosario"],
 };
 
 export default function ContactPage() {
