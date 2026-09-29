@@ -11,19 +11,19 @@ export default function AboutBanner() {
           {/* Texto — código, no imagen */}
           <div className="w-full lg:w-[41%] lg:shrink-0 text-center lg:text-left" style={{ color: "#49271A" }}>
             <p className="text-base sm:text-lg lg:text-xl xl:text-2xl leading-relaxed mb-6 font-light">
-              Batalla es un equipo in-house de artistas especializados en 3D, IA, composición,
-              color, motion y edición. Con base en Argentina y más de 15 años de experiencia en
-              la industria audiovisual, trabajamos con clientes de México, LATAM, Estados
-              Unidos, España y otros mercados.
+              Batalla is an in-house team of artists specialized in 3D, AI, compositing, color,
+              motion and editing. Based in Argentina, with over 15 years in the audiovisual
+              industry, we work with clients in Mexico, LATAM, the United States, Spain and
+              beyond.
             </p>
             <p className="text-base sm:text-lg lg:text-xl xl:text-2xl leading-relaxed mb-8 font-light">
-              Nos involucramos desde el inicio de cada proyecto, desarrollando concepts,
-              búsquedas visuales y propuestas creativas que ayudan a potenciar su alcance. Cada
-              proyecto recibe lo mejor del equipo: ideas, criterio y la experiencia necesaria
-              para llevarlo donde tiene que llegar.
+              We get involved from day one with concepts, visual research and creative
+              proposals. We stay with the project all the way, from the first idea to the final
+              frame, bringing judgment, flexibility and the experience needed to take every
+              piece where it needs to go.
             </p>
             <p className="font-playfair text-xl sm:text-2xl lg:text-3xl xl:text-4xl leading-snug italic">
-              Cumplimos con las entregas en tiempo y forma. Siempre.
+              Ideas that add up. Processes that support. Deliveries that land.
             </p>
           </div>
 

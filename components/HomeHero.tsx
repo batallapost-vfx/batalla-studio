@@ -14,13 +14,9 @@ const CATEGORY_VIDEO: Record<ProjectCategory, string> = {
   VFX: "/videos/vfx-post.mp4",
 };
 
-const CATEGORY_PHRASE: Record<ProjectCategory, { line1: string; line2: string }> = {
-  "3D": { line1: "Lorem ipsum dolor sit amet,", line2: "consectetur adipiscing elit." },
-  IA: { line1: "Sed do eiusmod tempor incididunt,", line2: "ut labore et dolore magna aliqua." },
-  VFX: { line1: "Ut enim ad minim veniam, quis nostrud", line2: "exercitation ullamco laboris nisi." },
-};
-
-const DEFAULT_PHRASE = { line1: "Lorem ipsum dolor sit amet,", line2: "consectetur adipiscing elit." };
+// fija — no cambia con el botón de categoría que se hovera (antes sí cambiaba)
+const HERO_PHRASE_LINE1 = "15 years creating 3D animation, VFX and AI for advertising, film and series.";
+const HERO_PHRASE_LINE2 = "We propose, design and direct the image alongside every team.";
 
 const NAV_LINKS = [
   { label: "REEL", id: "reel" },
@@ -79,8 +75,6 @@ export default function HomeHero() {
     window.dispatchEvent(new CustomEvent("trabajos:filter", { detail: { category } }));
   }
 
-  const phrase = active ? CATEGORY_PHRASE[active] : DEFAULT_PHRASE;
-
   return (
     <>
       {/* Header fijo — se mantiene en toda la home, no solo en el hero, y se achica al scrollear.
@@ -98,14 +92,14 @@ export default function HomeHero() {
           transition: "padding-top 0.4s ease, padding-bottom 0.4s ease, opacity 0.8s ease 0.1s, background-color 0.5s ease, backdrop-filter 0.5s ease",
         }}
       >
-        <TransitionLink href="/" onClick={scrollToTop} className="select-none shrink-0 relative block" style={{ width: 242, height: scrolled ? 43 : 72 }}>
+        <TransitionLink href="/" onClick={scrollToTop} className="select-none shrink-0 relative block" style={{ width: 290, height: scrolled ? 52 : 86 }}>
           <Image
             src="/images/batalla/Batalla_cremita.png"
             alt="Batalla Studio"
             width={161}
             height={77}
             className="w-auto absolute inset-0"
-            style={{ height: scrolled ? "43px" : "72px", opacity: scrolled ? 0 : 1, transition: "height 0.4s ease, opacity 0.4s ease" }}
+            style={{ height: scrolled ? "52px" : "86px", opacity: scrolled ? 0 : 1, transition: "height 0.4s ease, opacity 0.4s ease" }}
             priority
           />
           <Image
@@ -114,7 +108,7 @@ export default function HomeHero() {
             width={161}
             height={77}
             className="w-auto absolute inset-0"
-            style={{ height: scrolled ? "43px" : "72px", opacity: scrolled ? 1 : 0, transition: "height 0.4s ease, opacity 0.4s ease" }}
+            style={{ height: scrolled ? "52px" : "86px", opacity: scrolled ? 1 : 0, transition: "height 0.4s ease, opacity 0.4s ease" }}
             priority
           />
         </TransitionLink>
@@ -184,10 +178,10 @@ export default function HomeHero() {
           className="hero-stagger relative z-10 flex flex-col sm:flex-row items-start sm:items-end justify-between gap-10 px-8 md:px-12 pb-12"
           style={{ "--reveal-delay": "0.3s" } as React.CSSProperties}
         >
-          <p className="text-cream/80 text-base md:text-lg leading-relaxed font-light max-w-sm">
-            {phrase.line1}
+          <p className="text-cream/80 text-[0.9rem] md:text-[1.0125rem] leading-relaxed font-light max-w-sm sm:max-w-xl">
+            {HERO_PHRASE_LINE1}
             <br />
-            {phrase.line2}
+            {HERO_PHRASE_LINE2}
           </p>
 
           <div className="flex flex-col gap-2 w-full sm:w-auto sm:items-end">

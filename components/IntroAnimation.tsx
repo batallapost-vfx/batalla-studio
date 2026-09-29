@@ -45,28 +45,23 @@ export default function IntroAnimation() {
     <div
       className="fixed inset-0 z-[100] flex items-center justify-center"
       style={{
-        backgroundColor: "#F7E1B1",
+        backgroundColor: "#120905",
         opacity: fading ? 0 : 1,
         transition: "opacity 0.7s ease",
         pointerEvents: fading ? "none" : "all",
       }}
     >
-      {/* Marco 16:9 que recorta el 1% de cada borde del video: el borde exterior del cuadro tiene una
-          línea apenas más oscura que el fondo, y se veía como dos rayas verticales a los costados */}
-      <div
-        className="relative overflow-hidden"
-        style={{ width: "min(50vw, calc(50vh * 16 / 9))", aspectRatio: "16 / 9" }}
-      >
-        <video
-          ref={videoRef}
-          src="/videos/logo-animation-intro.mp4"
-          autoPlay
-          muted
-          playsInline
-          className="absolute max-w-none object-cover"
-          style={{ width: "102%", height: "102%", left: "-1%", top: "-1%" }}
-        />
-      </div>
+      {/* Ocupa toda la pantalla — se recorta con object-cover en vez de dejarlo chico
+          y recuadrado; el 102% de más evita que se note el borde del video en el límite. */}
+      <video
+        ref={videoRef}
+        src="/videos/logo-animation-intro-2.mp4"
+        autoPlay
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+        style={{ transform: "scale(1.02)" }}
+      />
     </div>
   );
 }
