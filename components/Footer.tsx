@@ -68,7 +68,7 @@ export default function Footer() {
         {/* Logo */}
         <TransitionLink href="/" className="select-none">
           <Image
-            src="/images/batalla/logo_batalla.png"
+            src="/images/batalla/Batalla_cremita.png"
             alt="Batalla Studio"
             width={160}
             height={76}

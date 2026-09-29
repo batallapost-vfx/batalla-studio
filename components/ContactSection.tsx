@@ -25,12 +25,12 @@ export default function ContactSection() {
         </p>
       </div>
 
-      <div className="max-w-md lg:max-w-3xl mx-auto px-8 pb-32 grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-10">
+      <div className="max-w-md lg:max-w-3xl mx-auto px-8 pb-32 grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-10 text-center place-items-center">
         <div>
           <p className="text-gold text-[0.6rem] uppercase tracking-[0.45em] mb-3">Contacto</p>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col items-center gap-4">
             <div>
-              <p className="text-cream/70 text-sm font-light mb-1 flex items-center gap-2">
+              <p className="text-cream/70 text-sm font-light mb-1 flex items-center justify-center gap-2">
                 <span className="w-1.5 h-1.5 bg-gold shrink-0" />
                 Fede Lo Cascio — Executive Producer
               </p>
@@ -42,7 +42,7 @@ export default function ContactSection() {
               </a>
             </div>
             <div>
-              <p className="text-cream/70 text-sm font-light mb-1 flex items-center gap-2">
+              <p className="text-cream/70 text-sm font-light mb-1 flex items-center justify-center gap-2">
                 <span className="w-1.5 h-1.5 bg-gold shrink-0" />
                 Francisco Iglesias — VFX Supervisor
               </p>
@@ -71,7 +71,7 @@ export default function ContactSection() {
         </div>
         <div>
           <p className="text-gold text-[0.6rem] uppercase tracking-[0.45em] mb-5">Redes</p>
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col items-center gap-3">
             {SOCIAL_LINKS.map(({ label, href }) => (
               <a
                 key={label}

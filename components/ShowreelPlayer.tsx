@@ -160,12 +160,6 @@ export default function ShowreelPlayer({ reels }: ShowreelPlayerProps) {
       <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
         {/* Video grande — marginado a la izquierda */}
         <div className="relative lg:flex-[3]" ref={containerRef}>
-          {/* Corner ornaments — grandes y siempre visibles, recubriendo el reel */}
-          <span className="corner-ornament corner-ornament-lg tl" aria-hidden="true" style={{ zIndex: 2 }} />
-          <span className="corner-ornament corner-ornament-lg tr" aria-hidden="true" style={{ zIndex: 2 }} />
-          <span className="corner-ornament corner-ornament-lg bl" aria-hidden="true" style={{ zIndex: 2 }} />
-          <span className="corner-ornament corner-ornament-lg br" aria-hidden="true" style={{ zIndex: 2 }} />
-
           {/* Etiqueta del reel activo — centrada respecto al video, no a toda la fila */}
           <p className="text-center text-gold text-[0.6rem] uppercase tracking-[0.5em] mb-3">
             {active.label}
