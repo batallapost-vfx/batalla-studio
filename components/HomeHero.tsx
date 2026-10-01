@@ -84,6 +84,36 @@ export default function HomeHero() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  // una vez que terminó de cargar la página (no antes, para no competir con los
+  // recursos críticos), precarga los videos de categoría en segundo plano —
+  // así al pasar el mouse ya están bufferizados y arrancan sin esperar
+  useEffect(() => {
+    function preloadCategoryVideos() {
+      CATEGORIES.forEach((cat) => {
+        const video = videoRefs.current[cat];
+        if (video && video.readyState === 0) {
+          video.preload = "auto";
+          video.load();
+        }
+      });
+    }
+
+    function schedulePreload() {
+      if (typeof window.requestIdleCallback === "function") {
+        window.requestIdleCallback(preloadCategoryVideos, { timeout: 3000 });
+      } else {
+        setTimeout(preloadCategoryVideos, 1500);
+      }
+    }
+
+    if (document.readyState === "complete") {
+      schedulePreload();
+      return;
+    }
+    window.addEventListener("load", schedulePreload, { once: true });
+    return () => window.removeEventListener("load", schedulePreload);
+  }, []);
+
   function handleCategoryClick(category: ProjectCategory) {
     scrollToId("portfolio");
     window.dispatchEvent(new CustomEvent("trabajos:filter", { detail: { category } }));
