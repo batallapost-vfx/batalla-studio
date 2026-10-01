@@ -111,7 +111,7 @@ app/
 - **Fundado**: 2010
 - **Contacto EP**: Fede Lo Cascio — fede@batallapost.com
 - **WhatsApp**: https://wa.me/5493415769931
-- **Instagram**: https://www.instagram.com/batallapost/
+- **Instagram**: https://www.instagram.com/batallastudio_/
 - **Vimeo**: cuenta del estudio
 
 ## Convenciones importantes

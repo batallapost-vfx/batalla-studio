@@ -50,5 +50,5 @@ public/          → Assets estáticos (logos, imágenes)
 
 - **Web**: [batallapost.com](https://batallapost.com)
 - **Email**: fede@batallapost.com
-- **Instagram**: [@batallapost](https://www.instagram.com/batallapost/)
+- **Instagram**: [@batallastudio_](https://www.instagram.com/batallastudio_/)
 - **WhatsApp**: [+54 9 341 576 9931](https://wa.me/5493415769931)

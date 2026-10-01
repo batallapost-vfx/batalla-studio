@@ -1,6 +1,6 @@
 const SOCIAL_LINKS = [
   { label: "Vimeo",     href: "https://vimeo.com/batallapost"          },
-  { label: "Instagram", href: "https://www.instagram.com/batallapost/" },
+  { label: "Instagram", href: "https://www.instagram.com/batallastudio_/" },
   { label: "Behance",   href: "https://www.behance.net/batallastudio"  },
 ];
 

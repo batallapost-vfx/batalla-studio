@@ -115,7 +115,7 @@ const ORGANIZATION_JSON_LD = {
   },
   sameAs: [
     "https://vimeo.com/batallapost",
-    "https://www.instagram.com/batallapost/",
+    "https://www.instagram.com/batallastudio_/",
     "https://www.behance.net/batallastudio",
   ],
 };

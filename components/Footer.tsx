@@ -15,7 +15,7 @@ const SOCIAL_LINKS = [
   },
   {
     label: "Instagram",
-    href: "https://instagram.com/batallastudio",
+    href: "https://www.instagram.com/batallastudio_/",
     icon: (
       <svg
         className="w-5 h-5"

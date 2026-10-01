@@ -54,7 +54,10 @@ export default function HomeHero() {
   const videoRefs = useRef<Partial<Record<ProjectCategory, HTMLVideoElement>>>({});
 
   // reinicia el video de la categoría desde 0 cada vez que se selecciona el botón,
-  // aunque ya esté activa — para que no siga desde donde venía reproduciéndose
+  // aunque ya esté activa — para que no siga desde donde venía reproduciéndose.
+  // los videos de categoría no precargan (ver preload="none" más abajo): recién
+  // piden el archivo acá, al seleccionarse por primera vez — si precargaran los 3
+  // de entrada, la home tendría que bajar ~40MB de video de más en cada visita
   function selectCategory(category: ProjectCategory) {
     setActive(category);
     const video = videoRefs.current[category];
@@ -170,11 +173,10 @@ export default function HomeHero() {
               videoRefs.current[cat] = el ?? undefined;
             }}
             src={CATEGORY_VIDEO[cat]}
-            autoPlay
             muted
             loop
             playsInline
-            preload="metadata"
+            preload="none"
             className="absolute inset-0 w-full h-full object-cover pointer-events-none"
             style={{
               opacity: active === cat ? 1 : 0,
