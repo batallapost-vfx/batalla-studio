@@ -1,19 +1,26 @@
 import dynamic from "next/dynamic";
-import { getVimeoVideos } from "@/lib/vimeo";
 
 // browser-only (@vimeo/player accede al DOM)
 const ShowreelPlayer = dynamic(() => import("@/components/ShowreelPlayer"), { ssr: false });
 
-// Reel general del estudio (Vimeo no listado — necesita su hash de privacidad para embeberse)
-const GENERAL_REEL_ID = 1227860706;
-const GENERAL_REEL_HASH = "5af9e00b20";
+// Reels no listados en Vimeo — necesitan su hash de privacidad para embeberse
+const GENERAL_REEL_ID = 1232030355;
+const GENERAL_REEL_HASH = "f63c163779";
+const VFX_REEL_ID = 1232025028;
+const VFX_REEL_HASH = "2963e73a47";
+const IA_REEL_ID = 1232042079;
+const IA_REEL_HASH = "993913523e";
+const REEL_3D_ID = 1232044573;
+const REEL_3D_HASH = "ab83a8da99";
+// video público de Vimeo (listado) — no necesita hash de privacidad
+const COLOR_REEL_ID = 887690081;
 
-async function getGeneralReelThumbnail(): Promise<string | undefined> {
+async function getReelThumbnail(id: number, hash?: string): Promise<string | undefined> {
   try {
-    const res = await fetch(
-      `https://vimeo.com/api/oembed.json?url=https://vimeo.com/${GENERAL_REEL_ID}/${GENERAL_REEL_HASH}`,
-      { next: { revalidate: 3600 } }
-    );
+    const url = hash ? `https://vimeo.com/${id}/${hash}` : `https://vimeo.com/${id}`;
+    const res = await fetch(`https://vimeo.com/api/oembed.json?url=${url}`, {
+      next: { revalidate: 3600 },
+    });
     if (!res.ok) return undefined;
     const data = await res.json();
     return data.thumbnail_url;
@@ -22,19 +29,21 @@ async function getGeneralReelThumbnail(): Promise<string | undefined> {
   }
 }
 
-// TODO: reemplazar por los reels dedicados de cada especialidad cuando el estudio los tenga listos —
-// por ahora las miniaturas de 3D/IA/VFX/Color Grading apuntan a un video placeholder
 export default async function Showreel() {
-  const [videos, generalThumb] = await Promise.all([getVimeoVideos(), getGeneralReelThumbnail()]);
-  const placeholderId = videos.length > 0 ? videos[0].id : 76979871;
-  const placeholderThumb = videos.length > 0 ? videos[0].thumbnail_small : undefined;
+  const [generalThumb, vfxThumb, iaThumb, reel3dThumb, colorThumb] = await Promise.all([
+    getReelThumbnail(GENERAL_REEL_ID, GENERAL_REEL_HASH),
+    getReelThumbnail(VFX_REEL_ID, VFX_REEL_HASH),
+    getReelThumbnail(IA_REEL_ID, IA_REEL_HASH),
+    getReelThumbnail(REEL_3D_ID, REEL_3D_HASH),
+    getReelThumbnail(COLOR_REEL_ID),
+  ]);
 
   const reels = [
     { key: "general", label: "GENERAL", videoId: GENERAL_REEL_ID, hash: GENERAL_REEL_HASH, thumbnail: generalThumb },
-    { key: "3d", label: "3D", videoId: placeholderId, thumbnail: placeholderThumb },
-    { key: "ia", label: "IA", videoId: placeholderId, thumbnail: placeholderThumb },
-    { key: "vfx", label: "VFX", videoId: placeholderId, thumbnail: placeholderThumb },
-    { key: "color", label: "COLOR GRADING", videoId: placeholderId, thumbnail: placeholderThumb },
+    { key: "3d", label: "3D", videoId: REEL_3D_ID, hash: REEL_3D_HASH, thumbnail: reel3dThumb },
+    { key: "ia", label: "IA", videoId: IA_REEL_ID, hash: IA_REEL_HASH, thumbnail: iaThumb },
+    { key: "vfx", label: "VFX", videoId: VFX_REEL_ID, hash: VFX_REEL_HASH, thumbnail: vfxThumb },
+    { key: "color", label: "COLOR GRADING", videoId: COLOR_REEL_ID, thumbnail: colorThumb },
   ];
 
   return (

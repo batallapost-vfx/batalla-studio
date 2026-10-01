@@ -1,16 +1,15 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import TransitionLink from "@/components/TransitionLink";
 import type { ProjectCategory } from "@/lib/vimeo";
 
 const CATEGORIES: ProjectCategory[] = ["3D", "IA", "VFX"];
 
-// todavía no hay un reel propio de IA — por ahora reusa el de 3D (ver conversación con el estudio)
 const CATEGORY_VIDEO: Record<ProjectCategory, string> = {
   "3D": "/videos/cgi-films.mp4",
-  IA: "/videos/cgi-films.mp4",
+  IA: "/videos/ia.mp4",
   VFX: "/videos/vfx-post.mp4",
 };
 
@@ -52,6 +51,18 @@ export default function HomeHero() {
   // una vez que se posiciona sobre un botón, la selección queda — no vuelve al video
   // por default al sacar el cursor (por eso no es "hovered", es "active")
   const [active, setActive] = useState<ProjectCategory | null>(null);
+  const videoRefs = useRef<Partial<Record<ProjectCategory, HTMLVideoElement>>>({});
+
+  // reinicia el video de la categoría desde 0 cada vez que se selecciona el botón,
+  // aunque ya esté activa — para que no siga desde donde venía reproduciéndose
+  function selectCategory(category: ProjectCategory) {
+    setActive(category);
+    const video = videoRefs.current[category];
+    if (video) {
+      video.currentTime = 0;
+      video.play().catch(() => {});
+    }
+  }
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -155,6 +166,9 @@ export default function HomeHero() {
         {CATEGORIES.map((cat) => (
           <video
             key={cat}
+            ref={(el) => {
+              videoRefs.current[cat] = el ?? undefined;
+            }}
             src={CATEGORY_VIDEO[cat]}
             autoPlay
             muted
@@ -188,7 +202,7 @@ export default function HomeHero() {
             {CATEGORIES.map((cat) => (
               <button
                 key={cat}
-                onMouseEnter={() => setActive(cat)}
+                onMouseEnter={() => selectCategory(cat)}
                 onClick={() => handleCategoryClick(cat)}
                 className="px-8 py-2.5 rounded-full border text-[0.65rem] uppercase tracking-[0.3em] text-center transition-all duration-300 sm:min-w-[9rem]"
                 style={{
