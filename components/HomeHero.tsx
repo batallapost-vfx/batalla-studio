@@ -19,9 +19,9 @@ const HERO_PHRASE_LINE2 = "We propose, design and direct the image alongside eve
 
 const NAV_LINKS = [
   { label: "REEL", id: "reel" },
-  { label: "TRABAJOS", id: "destacados" },
+  { label: "WORKS", id: "destacados" },
   { label: "ABOUT US", id: "about" },
-  { label: "CONTACTO", id: "contact" },
+  { label: "CONTACT", id: "contact" },
 ];
 
 // negativo: deja espacio arriba del target para que no quede tapado por el header fijo
