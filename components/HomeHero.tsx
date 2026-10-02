@@ -25,13 +25,16 @@ const NAV_LINKS = [
 ];
 
 // negativo: deja espacio arriba del target para que no quede tapado por el header fijo
-const HEADER_SCROLL_OFFSET = -90;
+// (en mobile el header scrolleado es más alto: logo arriba y nav abajo)
+function headerScrollOffset() {
+  return window.innerWidth < 768 ? -104 : -90;
+}
 
 function scrollToId(id: string) {
   const target = document.getElementById(id);
   if (!target) return;
   if (window.__lenis) {
-    window.__lenis.scrollTo(target, { offset: HEADER_SCROLL_OFFSET });
+    window.__lenis.scrollTo(target, { offset: headerScrollOffset() });
   } else {
     target.scrollIntoView({ behavior: "smooth", block: "start" });
   }
@@ -125,7 +128,7 @@ export default function HomeHero() {
           No usa hero-stagger (esa animación anima "transform" y acá no la necesitamos: alcanza con un fade). */}
       <div
         id="site-header"
-        className="fixed top-0 left-0 right-0 flex flex-wrap items-center justify-between gap-x-6 gap-y-3 px-8 md:px-12"
+        className="fixed top-0 left-0 right-0 flex flex-col items-center gap-y-2 px-4 md:flex-row md:justify-between md:gap-x-4 md:gap-y-0 md:px-12"
         style={{
           zIndex: 75,
           backgroundColor: scrolled ? "rgba(247,225,177,0.55)" : "transparent",
@@ -136,13 +139,13 @@ export default function HomeHero() {
           transition: "padding-top 0.4s ease, padding-bottom 0.4s ease, opacity 0.8s ease 0.1s, background-color 0.5s ease, backdrop-filter 0.5s ease",
         }}
       >
-        <TransitionLink href="/" onClick={scrollToTop} className="select-none shrink-0 relative block" style={{ width: 290, height: scrolled ? 52 : 86 }}>
+        <TransitionLink href="/" onClick={scrollToTop} className="select-none shrink-0 relative block w-[180px] md:w-[290px]" style={{ height: scrolled ? 52 : 86 }}>
           <Image
             src="/images/batalla/Batalla_cremita.png"
             alt="Batalla Studio"
             width={161}
             height={77}
-            className="w-auto absolute inset-0"
+            className="w-auto absolute top-0 left-1/2 -translate-x-1/2 md:left-0 md:translate-x-0"
             style={{ height: scrolled ? "52px" : "86px", opacity: scrolled ? 0 : 1, transition: "height 0.4s ease, opacity 0.4s ease" }}
             priority
           />
@@ -151,18 +154,18 @@ export default function HomeHero() {
             alt="Batalla Studio"
             width={161}
             height={77}
-            className="w-auto absolute inset-0"
+            className="w-auto absolute top-0 left-1/2 -translate-x-1/2 md:left-0 md:translate-x-0"
             style={{ height: scrolled ? "52px" : "86px", opacity: scrolled ? 1 : 0, transition: "height 0.4s ease, opacity 0.4s ease" }}
             priority
           />
         </TransitionLink>
 
         <nav
-          className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[0.72rem] uppercase tracking-[0.3em] font-bold"
+          className="flex flex-nowrap items-center justify-center whitespace-nowrap gap-x-2 sm:gap-x-3 text-[0.6rem] sm:text-[0.72rem] uppercase tracking-[0.15em] sm:tracking-[0.3em] font-bold"
           style={{ color: scrolled ? "rgba(61,26,10,0.8)" : "rgba(247,225,177,0.9)", transition: "color 0.4s ease" }}
         >
           {NAV_LINKS.map(({ label, id }, i) => (
-            <span key={id} className="flex items-center gap-3">
+            <span key={id} className="flex items-center gap-2 sm:gap-3">
               {i > 0 && <span className="text-gold/50">|</span>}
               <a
                 href={`#${id}`}
