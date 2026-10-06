@@ -37,7 +37,12 @@ export const PROJECTS: ProjectDef[] = [
     name: "Takis",
     tags: ["3D", "VFX"],
     featured: true,
-    links: ["https://vimeo.com/925119526", "https://vimeo.com/884907260", "https://vimeo.com/884907196"],
+    links: [
+      "https://vimeo.com/1233417985/d5258268e3",
+      "https://vimeo.com/925119526",
+      "https://vimeo.com/884907260",
+      "https://vimeo.com/884907196",
+    ],
   },
   { name: "Adermicina facial", tags: [], featured: false, links: ["https://vimeo.com/910952458"] },
   { name: "Olympics 2025", tags: [], featured: false, links: ["https://vimeo.com/886832583"] },
