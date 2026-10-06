@@ -2,6 +2,7 @@ const SOCIAL_LINKS = [
   { label: "Vimeo",     href: "https://vimeo.com/batallapost"          },
   { label: "Instagram", href: "https://www.instagram.com/batallastudio_/" },
   { label: "Behance",   href: "https://www.behance.net/batallastudio"  },
+  { label: "LinkedIn",  href: "https://www.linkedin.com/company/batalla-studio/" },
 ];
 
 export default function ContactSection() {

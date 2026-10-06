@@ -29,7 +29,7 @@ const SOCIAL_LINKS = [
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/company/batallastudio",
+    href: "https://www.linkedin.com/company/batalla-studio/",
     icon: (
       <svg
         className="w-5 h-5"

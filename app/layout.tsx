@@ -117,6 +117,7 @@ const ORGANIZATION_JSON_LD = {
     "https://vimeo.com/batallapost",
     "https://www.instagram.com/batallastudio_/",
     "https://www.behance.net/batallastudio",
+    "https://www.linkedin.com/company/batalla-studio/",
   ],
 };
 
