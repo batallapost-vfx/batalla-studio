@@ -48,7 +48,9 @@ function scrollToTop() {
   }
 }
 
-export default function HomeHero() {
+// skipIntro: la página no tiene animación de intro (entrada directa por el link de un trabajo),
+// así que no hay que esperar su evento "intro:done" para mostrar el hero
+export default function HomeHero({ skipIntro = false }: { skipIntro?: boolean }) {
   const [revealed, setRevealed] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   // una vez que se posiciona sobre un botón, la selección queda — no vuelve al video
@@ -72,14 +74,14 @@ export default function HomeHero() {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    if (sessionStorage.getItem("intro-played")) {
+    if (skipIntro || sessionStorage.getItem("intro-played")) {
       const t = setTimeout(() => setRevealed(true), 120);
       return () => clearTimeout(t);
     }
     const onDone = () => setRevealed(true);
     window.addEventListener("intro:done", onDone);
     return () => window.removeEventListener("intro:done", onDone);
-  }, []);
+  }, [skipIntro]);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);

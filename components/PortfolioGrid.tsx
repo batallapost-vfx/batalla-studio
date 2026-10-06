@@ -5,12 +5,15 @@ import Image from "next/image";
 import { VimeoVideo, ProjectCategory } from "@/lib/vimeo";
 import VimeoEmbeds from "@/components/VimeoEmbeds";
 import BehanceImageRows from "@/components/BehanceImageRows";
+import { openProject } from "@/lib/openProject";
 
 export interface PortfolioVideo extends VimeoVideo {
   /** tags específicos del proyecto (3D / IA / VFX) — puede ser más de uno o ninguno; todos entran en "ALL ITEMS" */
   categories: ProjectCategory[];
   /** "Selected Works" del sheet — van en la sección Destacados */
   featured?: boolean;
+  /** link propio del trabajo: /slug (ver projectSlug en lib/projects.ts) */
+  slug: string;
 }
 
 interface PortfolioGridProps {
@@ -35,7 +38,6 @@ function accentFor(categories: ProjectCategory[]) {
 }
 
 export default function PortfolioGrid({ videos }: PortfolioGridProps) {
-  const [selectedVideo, setSelectedVideo] = useState<PortfolioVideo | null>(null);
   const [filter, setFilter] = useState<FilterOption>("ALL ITEMS");
   const [orderBy, setOrderBy] = useState<OrderOption>("DEFAULT");
 
@@ -55,23 +57,6 @@ export default function PortfolioGrid({ videos }: PortfolioGridProps) {
     }
     return sorted;
   }, [videos, filter, orderBy]);
-
-  /* Lock body scroll when modal is open */
-  useEffect(() => {
-    document.body.style.overflow = selectedVideo ? "hidden" : "";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [selectedVideo]);
-
-  /* ESC to close */
-  useEffect(() => {
-    const handleEsc = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setSelectedVideo(null);
-    };
-    window.addEventListener("keydown", handleEsc);
-    return () => window.removeEventListener("keydown", handleEsc);
-  }, []);
 
   // el hero de la home dispara este evento al clickear 3D/IA/VFX, para aplicar el filtro acá
   useEffect(() => {
@@ -126,7 +111,7 @@ export default function PortfolioGrid({ videos }: PortfolioGridProps) {
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-1">
         {visibleVideos.map((video) => (
-          <VideoCard key={video.id} video={video} onClick={() => setSelectedVideo(video)} />
+          <VideoCard key={video.id} video={video} onClick={() => openProject(video.slug)} />
         ))}
       </div>
 
@@ -134,11 +119,6 @@ export default function PortfolioGrid({ videos }: PortfolioGridProps) {
         <p className="text-center text-cream/60 text-sm mt-16 uppercase tracking-[0.3em] px-6">
           No works to show yet.
         </p>
-      )}
-
-      {/* Modal */}
-      {selectedVideo && (
-        <VideoModal video={selectedVideo} onClose={() => setSelectedVideo(null)} />
       )}
     </section>
   );

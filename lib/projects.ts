@@ -69,6 +69,17 @@ export const PROJECTS: ProjectDef[] = [
   { name: "Coca Cola", tags: [], featured: false, links: ["https://vimeo.com/361877034"] },
 ];
 
+// link propio de cada trabajo: www.studiobatalla.com/<slug> — sale del nombre del sheet
+// ("Mabe BIC 7 | Heladeras" → "mabe-bic-7-heladeras", "Kía" → "kia")
+export function projectSlug(name: string): string {
+  return name
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 // "https://vimeo.com/123456789" o, si es no listado, "https://vimeo.com/123456789/abcdef1234"
 export function parseVimeoLink(url: string): { id: number; hash?: string } | null {
   const m = url.match(/vimeo\.com\/(?:video\/)?(\d+)(?:\/([0-9a-f]+))?/i);

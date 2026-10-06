@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
-import { VideoModal, type PortfolioVideo } from "@/components/PortfolioGrid";
+import type { PortfolioVideo } from "@/components/PortfolioGrid";
+import { openProject } from "@/lib/openProject";
 
 interface FeaturedGridProps {
   videos: PortfolioVideo[];
@@ -10,7 +10,6 @@ interface FeaturedGridProps {
 
 // los "Selected Works" del sheet del estudio (6), 2 columnas x 3 filas
 export default function FeaturedGrid({ videos }: FeaturedGridProps) {
-  const [selected, setSelected] = useState<PortfolioVideo | null>(null);
   const featured = videos.filter((v) => v.featured).slice(0, 6);
 
   if (featured.length === 0) return null;
@@ -38,7 +37,7 @@ export default function FeaturedGrid({ videos }: FeaturedGridProps) {
           return (
             <button
               key={video.id}
-              onClick={() => setSelected(video)}
+              onClick={() => openProject(video.slug)}
               aria-label={`Play ${video.title}`}
               className="group relative overflow-hidden bg-dark-brown aspect-video w-full text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-studio-bg"
             >
@@ -74,8 +73,6 @@ export default function FeaturedGrid({ videos }: FeaturedGridProps) {
           );
         })}
       </div>
-
-      {selected && <VideoModal video={selected} onClose={() => setSelected(null)} />}
     </section>
   );
 }

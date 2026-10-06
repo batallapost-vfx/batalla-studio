@@ -1,6 +1,6 @@
 import { getBehanceProject, behanceProjectToVideoShape } from "@/lib/behance";
 import { BEHANCE_PROJECTS } from "@/lib/behanceProjects";
-import { PROJECTS, parseVimeoLink } from "@/lib/projects";
+import { PROJECTS, parseVimeoLink, projectSlug } from "@/lib/projects";
 import type { PortfolioVideo } from "@/components/PortfolioGrid";
 
 interface OEmbedData {
@@ -36,6 +36,7 @@ async function getSheetProjects(): Promise<PortfolioVideo[]> {
         return {
           ...behanceProjectToVideoShape(behance),
           title: project.name,
+          slug: projectSlug(project.name),
           categories: project.tags,
           featured: project.featured,
         };
@@ -55,6 +56,7 @@ async function getSheetProjects(): Promise<PortfolioVideo[]> {
         hash: main.hash,
         pieces: pieces.length > 1 ? pieces : undefined,
         title: project.name,
+        slug: projectSlug(project.name),
         description: null,
         url: `https://vimeo.com/${main.id}${main.hash ? `/${main.hash}` : ""}`,
         thumbnail_small: thumb,
@@ -85,6 +87,7 @@ export async function getPortfolioVideos(): Promise<PortfolioVideo[]> {
       p
         ? {
             ...behanceProjectToVideoShape(p),
+            slug: projectSlug(p.title),
             categories: BEHANCE_PROJECTS[i].categories,
             featured: BEHANCE_PROJECTS[i].featured ?? false,
           }

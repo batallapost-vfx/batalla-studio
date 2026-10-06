@@ -1,5 +1,6 @@
 import NavbarInner from "@/components/NavbarInner";
 import PortfolioGrid from "@/components/PortfolioGrid";
+import ProjectModalHost from "@/components/ProjectModalHost";
 import Footer from "@/components/Footer";
 import { getPortfolioVideos } from "@/lib/portfolio";
 
@@ -35,6 +36,7 @@ export default async function PortfolioPage() {
         </section>
 
         <PortfolioGrid videos={videos} />
+        <ProjectModalHost videos={videos} />
       </main>
       <Footer />
     </>
