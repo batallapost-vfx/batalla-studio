@@ -342,14 +342,17 @@ export function VideoModal({
                 {video.categories.join(" · ")}
               </p>
             </div>
-            <a
-              href={video.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 rounded-full bg-gold text-studio-bg hover:bg-cream px-10 py-4 text-xs uppercase tracking-[0.3em] font-semibold transition-colors duration-300"
-            >
-              View full project on Behance <span aria-hidden="true">↗</span>
-            </a>
+            {/* solo sin galería (proyecto que todavía no está en la copia): es la única forma de verlo */}
+            {!video.behanceModules?.length && (
+              <a
+                href={video.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 rounded-full bg-gold text-studio-bg hover:bg-cream px-10 py-4 text-xs uppercase tracking-[0.3em] font-semibold transition-colors duration-300"
+              >
+                View full project on Behance <span aria-hidden="true">↗</span>
+              </a>
+            )}
           </div>
         </div>
       </div>

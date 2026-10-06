@@ -249,14 +249,17 @@ export default function CategoryGrid({ videos, accentColor }: CategoryGridProps)
                   {accentColor === "gold" ? "CGI Films" : "VFX & Post"}
                 </p>
               </div>
-              <a
-                href={selected.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 rounded-full bg-gold text-studio-bg hover:bg-cream px-10 py-4 text-xs uppercase tracking-[0.3em] font-semibold transition-colors duration-300"
-              >
-                View full project on Behance <span aria-hidden="true">↗</span>
-              </a>
+              {/* solo sin galería (proyecto que todavía no está en la copia): es la única forma de verlo */}
+              {!selected.behanceModules?.length && (
+                <a
+                  href={selected.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 rounded-full bg-gold text-studio-bg hover:bg-cream px-10 py-4 text-xs uppercase tracking-[0.3em] font-semibold transition-colors duration-300"
+                >
+                  View full project on Behance <span aria-hidden="true">↗</span>
+                </a>
+              )}
             </div>
           </div>
         </div>
