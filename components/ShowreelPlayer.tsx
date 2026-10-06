@@ -160,11 +160,6 @@ export default function ShowreelPlayer({ reels }: ShowreelPlayerProps) {
       <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
         {/* Video grande — marginado a la izquierda */}
         <div className="relative lg:flex-[3]" ref={containerRef}>
-          {/* Etiqueta del reel activo — centrada respecto al video, no a toda la fila */}
-          <p className="text-center text-gold text-[0.6rem] uppercase tracking-[0.5em] mb-3">
-            {active.label}
-          </p>
-
           {/* Marco decorativo dorado — desaparece al reproducir */}
           <div
             className="transition-opacity duration-700"
@@ -252,7 +247,7 @@ function ReelThumb({ reel, active, onClick }: { reel: ShowreelItem; active: bool
       />
       <div className="absolute inset-0 flex items-center justify-center px-2">
         <p
-          className={`text-center text-[0.6rem] md:text-[0.65rem] uppercase tracking-[0.2em] font-semibold transition-all duration-300 ${
+          className={`text-center text-[0.6rem] md:text-[1.09rem] uppercase tracking-[0.2em] font-semibold transition-all duration-300 ${
             active ? "text-gold" : "text-cream/70 group-hover:text-cream group-hover:tracking-[0.25em]"
           }`}
         >

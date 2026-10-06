@@ -16,8 +16,9 @@ export default function FeaturedGrid({ videos }: FeaturedGridProps) {
   if (featured.length === 0) return null;
 
   return (
-    <section id="destacados" className="py-20 scroll-mt-24">
-      <div className="text-center mb-20 px-6 md:px-12">
+    <section id="destacados" className="pb-20 scroll-mt-24">
+      {/* el espacio de arriba lo da el padding inferior del Showreel (10vh): mismo valor abajo para que el título quede centrado */}
+      <div className="text-center mb-[10vh] px-6 md:px-12">
         <p className="text-gold text-[0.6rem] uppercase tracking-[0.6em] mb-4">
           — Our —
         </p>
