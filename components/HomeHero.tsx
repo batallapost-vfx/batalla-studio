@@ -221,8 +221,6 @@ export default function HomeHero({ skipIntro = false }: { skipIntro?: boolean })
             aria-hidden="true"
           />
         ))}
-        {/* velo oscuro para que el texto se lea siempre, con o sin video */}
-        <div className="absolute inset-0 pointer-events-none" style={{ backgroundColor: "rgba(26,16,8,0.45)", zIndex: 1 }} />
 
         {/* Frase + botones de categoría */}
         <div
