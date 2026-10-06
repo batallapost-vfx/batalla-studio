@@ -4,15 +4,14 @@ import dynamic from "next/dynamic";
 const ShowreelPlayer = dynamic(() => import("@/components/ShowreelPlayer"), { ssr: false });
 
 // Reels no listados en Vimeo — necesitan su hash de privacidad para embeberse
-const GENERAL_REEL_ID = 1232030355;
-const GENERAL_REEL_HASH = "f63c163779";
 const VFX_REEL_ID = 1232025028;
 const VFX_REEL_HASH = "2963e73a47";
 const IA_REEL_ID = 1232042079;
 const IA_REEL_HASH = "993913523e";
 const REEL_3D_ID = 1232044573;
 const REEL_3D_HASH = "ab83a8da99";
-// video público de Vimeo (listado) — no necesita hash de privacidad
+// videos públicos de Vimeo (listados) — no necesitan hash de privacidad
+const GENERAL_REEL_ID = 76996352;
 const COLOR_REEL_ID = 887690081;
 
 async function getReelThumbnail(id: number, hash?: string): Promise<string | undefined> {
@@ -31,7 +30,7 @@ async function getReelThumbnail(id: number, hash?: string): Promise<string | und
 
 export default async function Showreel() {
   const [generalThumb, vfxThumb, iaThumb, reel3dThumb, colorThumb] = await Promise.all([
-    getReelThumbnail(GENERAL_REEL_ID, GENERAL_REEL_HASH),
+    getReelThumbnail(GENERAL_REEL_ID),
     getReelThumbnail(VFX_REEL_ID, VFX_REEL_HASH),
     getReelThumbnail(IA_REEL_ID, IA_REEL_HASH),
     getReelThumbnail(REEL_3D_ID, REEL_3D_HASH),
@@ -39,7 +38,7 @@ export default async function Showreel() {
   ]);
 
   const reels = [
-    { key: "general", label: "GENERAL", videoId: GENERAL_REEL_ID, hash: GENERAL_REEL_HASH, thumbnail: generalThumb },
+    { key: "general", label: "GENERAL", videoId: GENERAL_REEL_ID, thumbnail: generalThumb },
     { key: "3d", label: "3D", videoId: REEL_3D_ID, hash: REEL_3D_HASH, thumbnail: reel3dThumb },
     { key: "ia", label: "IA", videoId: IA_REEL_ID, hash: IA_REEL_HASH, thumbnail: iaThumb },
     { key: "vfx", label: "VFX", videoId: VFX_REEL_ID, hash: VFX_REEL_HASH, thumbnail: vfxThumb },
