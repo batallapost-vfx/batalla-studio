@@ -30,7 +30,7 @@ const DEFAULT_DESCRIPTION =
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — Estudio de CGI, VFX y Postproducción`,
+    default: SITE_NAME,
     template: `%s — ${SITE_NAME}`,
   },
   description: DEFAULT_DESCRIPTION,
