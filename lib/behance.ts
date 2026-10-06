@@ -1,9 +1,11 @@
+import snapshot from "@/lib/behanceSnapshot.json";
+
 export type BehanceModule =
   | { type: "image"; src: string; width: number; height: number; alt: string }
   | { type: "text"; html: string; alignment?: string }
   | { type: "video"; embedSrc: string; width: number; height: number }
   // "colección de imágenes" de Behance — varias fotos agrupadas en una grilla
-  | { type: "imageRow"; images: { src: string; width: number; height: number; alt: string }[] };
+  | { type: "imageRow"; images: { src: string; width: number; height: number; alt: string }[]; rows?: number[] };
 
 export interface BehanceProject {
   id: number;
@@ -74,15 +76,61 @@ function pickImageUrl(sizes: RawImageSize[] | undefined): string | null {
   return (target ?? jpgs[jpgs.length - 1] ?? sizes[0])?.url ?? null;
 }
 
+const STATE_RE = /<script type="application\/json" id="beconfig-store_state">([\s\S]*?)<\/script>/;
+
+// Behance a veces responde 403 con un chequeo anti-bots a la página completa del proyecto
+// cuando la pide un servidor. La página de embed oficial (la que Behance ofrece para
+// incrustar proyectos en otros sitios) sigue abierta: trae título y portada, no la galería.
+// Último recurso para un proyecto nuevo que todavía no está en la copia (ver SNAPSHOT):
+// aparece en la grilla y el modal muestra la portada con un botón a Behance.
+async function fetchEmbed(id: string, url: string): Promise<BehanceProject | null> {
+  try {
+    const res = await fetch(`https://www.behance.net/embed/project/${id}`, {
+      headers: BROWSER_HEADERS,
+      next: { revalidate: 3600 },
+    });
+    if (!res.ok) return null;
+    const match = (await res.text()).match(STATE_RE);
+    if (!match) return null;
+    const project = JSON.parse(match[1])?.embedStore?.project;
+    if (!project?.name) return null;
+    const covers = project.covers ?? {};
+    return {
+      id: project.id,
+      title: project.name,
+      url,
+      thumbnail: covers.size_original_webp?.url ?? covers.size_808_webp?.url ?? "",
+      modules: [],
+      background: "#1a1008",
+      textColor: "#F7E1B1",
+      spacerHeight: 60,
+    };
+  } catch {
+    return null;
+  }
+}
+
+// Copia de los proyectos completos tomada desde un navegador, para cuando Behance bloquea
+// al servidor. Si se edita un proyecto en Behance mientras dure el bloqueo, hay que volver
+// a generar esta copia para que el cambio se vea en la web.
+const SNAPSHOT = snapshot as Record<string, Omit<BehanceProject, "url">>;
+
 export async function getBehanceProject(url: string): Promise<BehanceProject | null> {
+  const id = url.match(/behance\.net\/gallery\/(\d+)/)?.[1];
+  const live = await fetchGallery(url);
+  if (live) return live;
+  const saved = id ? SNAPSHOT[id] : undefined;
+  if (saved) return { ...saved, url };
+  return id ? fetchEmbed(id, url) : null;
+}
+
+async function fetchGallery(url: string): Promise<BehanceProject | null> {
   try {
     const res = await fetch(url, { headers: BROWSER_HEADERS, next: { revalidate: 3600 } });
     if (!res.ok) return null;
     const html = await res.text();
 
-    const match = html.match(
-      /<script type="application\/json" id="beconfig-store_state">([\s\S]*?)<\/script>/
-    );
+    const match = html.match(STATE_RE);
     if (!match) return null;
 
     const data = JSON.parse(match[1]);
@@ -98,10 +146,16 @@ export async function getBehanceProject(url: string): Promise<BehanceProject | n
         }
       } else if (m.__typename === "TextModule" && m.text) {
         modules.push({ type: "text", html: m.text, alignment: m.alignment });
-      } else if (m.__typename === "VideoModule" && m.embed) {
-        const srcMatch = (m.embed as string).match(/src="([^"]+)"/);
+      } else if ((m.__typename === "VideoModule" && m.embed) || (m.__typename === "EmbedModule" && m.originalEmbed)) {
+        // EmbedModule = video de Vimeo/YouTube incrustado en el proyecto
+        const srcMatch = ((m.embed ?? m.originalEmbed) as string).match(/src="([^"]+)"/);
         if (srcMatch) {
-          modules.push({ type: "video", embedSrc: srcMatch[1], width: m.width, height: m.height });
+          modules.push({
+            type: "video",
+            embedSrc: srcMatch[1].replace(/&amp;/g, "&"),
+            width: m.originalWidth ?? m.width,
+            height: m.originalHeight ?? m.height,
+          });
         }
       } else if (m.__typename === "MediaCollectionModule" && m.components?.length) {
         const images = (m.components as { imageSizes?: { allAvailable?: RawImageSize[] }; width: number; height: number }[])
@@ -114,21 +168,9 @@ export async function getBehanceProject(url: string): Promise<BehanceProject | n
       }
     }
 
-    // La tarjeta del grid es 16:9. La "portada" que se recorta a mano en Behance casi
-    // nunca tiene esa proporción (acá era 1.28:1), así que se termina cortando de más al
-    // forzarla — en vez de esa portada, usamos la imagen del proyecto más cercana a 16:9.
-    const imageModules = modules.filter(
-      (m): m is Extract<BehanceModule, { type: "image" }> => m.type === "image"
-    );
-    const TARGET_RATIO = 16 / 9;
-    const closestToWidescreen = imageModules.reduce<typeof imageModules[number] | null>((best, m) => {
-      const diff = Math.abs(m.width / m.height - TARGET_RATIO);
-      const bestDiff = best ? Math.abs(best.width / best.height - TARGET_RATIO) : Infinity;
-      return diff < bestDiff ? m : best;
-    }, null);
-
+    // misma portada que el proyecto tiene en Behance
     const thumbnail =
-      closestToWidescreen?.src ??
+      project.covers?.size_original_webp?.url ??
       pickImageUrl(project.covers?.allAvailable) ??
       "";
 

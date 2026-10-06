@@ -12,13 +12,19 @@ export interface ProjectDef {
 }
 
 export const PROJECTS: ProjectDef[] = [
-  // TODO: falta el link de Mabe Continental (el sheet lo tiene vacío) — hasta entonces no se muestra
-  { name: "Mabe Continental", tags: ["IA"], featured: true, links: [] },
   // los links de behance.net se traen en vivo de Behance (ver lib/behance.ts); el resto son de Vimeo
-  { name: "Mabe BIC 7", tags: ["3D"], featured: true, links: ["https://www.behance.net/gallery/255881693/BIC-7-HELADERAS-MABE"] },
-  { name: "Juegos Suramericanos | CAPI", tags: ["3D", "IA"], featured: true, links: ["https://www.behance.net/gallery/255761183/JUEGOS-SURAMERICANOS"] },
+  { name: "Mabe Continental", tags: ["IA"], featured: true, links: ["https://www.behance.net/gallery/256360691/Mabe-Continental"] },
+  { name: "Mabe BIC 7", tags: ["3D"], featured: true, links: ["https://www.behance.net/gallery/256374957/BIC-7-ALL-PROJECTS"] },
+  { name: "Mabe BIC 7 | Heladeras", tags: ["3D"], featured: false, links: ["https://www.behance.net/gallery/256361195/BIC-7-HELADERAS-MABE"] },
+  { name: "Mabe BIC 7 | Lavavajillas Ge Profile", tags: ["3D"], featured: false, links: ["https://www.behance.net/gallery/256370179/BIC-7-GE-PROFILE"] },
+  { name: "Mabe BIC 7 | Lavavajillas Mabe", tags: ["3D"], featured: false, links: ["https://www.behance.net/gallery/256367565/BIC-7-LAVAVAJILLAS-MABE"] },
+  { name: "Mabe BIC 7 | Estufa eléctrica", tags: ["3D"], featured: false, links: ["https://www.behance.net/gallery/256367297/BIC-7-ESTUFA-MABE"] },
+  { name: "Mabe BIC 7 | Lavadora y secadora Appliance", tags: ["3D"], featured: false, links: ["https://www.behance.net/gallery/256363601/BIC-7-GE-APPLIANCES"] },
+  { name: "Juegos Suramericanos", tags: ["IA"], featured: false, links: ["https://www.behance.net/gallery/256373095/Juegos-Suramericanos-2026-Institucional"] },
+  { name: "Juegos Suramericanos | CAPI", tags: ["3D", "IA"], featured: true, links: ["https://www.behance.net/gallery/256360931/Juegos-Suramericanos-2026-CAPI"] },
+  { name: "Vax Team", tags: ["IA"], featured: true, links: ["https://www.behance.net/gallery/255760357/VAX-TEAM"] },
 
-  { name: "Seguridad Vial", tags: ["3D"], featured: true, links: ["https://vimeo.com/1020751215"] },
+  { name: "Seguridad Vial", tags: ["3D"], featured: false, links: ["https://vimeo.com/1020751215"] },
   { name: "MC Donals", tags: [], featured: false, links: ["https://vimeo.com/1074690501"] },
   { name: "Amex 100 | 200 | 300 | 400", tags: [], featured: false, links: ["https://vimeo.com/1020948163"] },
   { name: "Tomas Schneider", tags: [], featured: false, links: ["https://vimeo.com/1014928731"] },

@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { VimeoVideo, ProjectCategory } from "@/lib/vimeo";
 import VimeoEmbeds from "@/components/VimeoEmbeds";
+import BehanceImageRows from "@/components/BehanceImageRows";
 
 export interface PortfolioVideo extends VimeoVideo {
   /** tags específicos del proyecto (3D / IA / VFX) — puede ser más de uno o ninguno; todos entran en "ALL ITEMS" */
@@ -255,7 +256,7 @@ export function VideoModal({
         aria-modal="true"
         aria-labelledby="portfolio-modal-title"
         data-modal-root
-        className="fixed inset-0 z-[90] flex justify-center bg-studio-bg/92 backdrop-blur-sm"
+        className={`fixed inset-0 z-[90] flex justify-center bg-studio-bg/92 backdrop-blur-sm ${video.behanceModules?.length ? "" : "items-center p-4"}`}
         onClick={(e) => e.target === e.currentTarget && onClose()}
       >
         <button
@@ -270,7 +271,7 @@ export function VideoModal({
           </svg>
         </button>
         <div
-          className="w-full sm:w-[55vw] max-w-4xl h-full overflow-y-auto overscroll-contain animate-modal-in"
+          className={`w-full overflow-y-auto overscroll-contain animate-modal-in ${video.behanceModules?.length ? "sm:w-[calc(100vw-12rem)] max-w-[1400px] h-full" : "sm:w-[50vw] max-w-3xl max-h-full"}`}
           style={{ backgroundColor: video.behanceBackground || "#1a1008" }}
           data-lenis-prevent
           onWheel={(e) => {
@@ -295,7 +296,7 @@ export function VideoModal({
                 )}
                 {mod.type === "text" && (
                   <div
-                    className="px-6 md:px-10 text-sm leading-relaxed font-light [&_a]:text-gold [&_a]:underline [&_p]:mb-3 [&_strong]:font-medium"
+                    className="max-w-3xl mx-auto px-6 md:px-10 py-6 text-sm md:text-base lg:text-lg leading-relaxed font-light [&_a]:text-gold [&_a]:underline [&_p]:mb-3 [&_strong]:font-medium"
                     style={{
                       textAlign: (mod.alignment as React.CSSProperties["textAlign"]) || "left",
                       color: video.behanceTextColor || "#F7E1B1",
@@ -303,22 +304,7 @@ export function VideoModal({
                     dangerouslySetInnerHTML={{ __html: mod.html }}
                   />
                 )}
-                {mod.type === "imageRow" && (
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-1">
-                    {mod.images.map((img, j) => (
-                      <Image
-                        key={j}
-                        src={img.src}
-                        alt={img.alt}
-                        width={img.width}
-                        height={img.height}
-                        sizes="18rem"
-                        className="w-full h-full object-cover block"
-                        unoptimized
-                      />
-                    ))}
-                  </div>
-                )}
+                {mod.type === "imageRow" && <BehanceImageRows images={mod.images} rows={mod.rows} />}
                 {mod.type === "video" && (
                   <div className="video-container">
                     <iframe
@@ -332,16 +318,24 @@ export function VideoModal({
               </div>
             ))
           ) : (
-            <p className="text-cream/60 text-sm p-10 text-center font-light">
-              No se pudo cargar el proyecto de Behance en este momento.
-            </p>
+            // Behance no deja leer la galería desde el servidor: solo hay portada (ver lib/behance.ts)
+            <div className="relative w-full aspect-[404/316]">
+              <Image
+                src={video.thumbnail_large}
+                alt={video.title}
+                fill
+                sizes="(min-width: 640px) 60vw, 100vw"
+                className="object-cover"
+                unoptimized
+              />
+            </div>
           )}
           <div
-            className="flex items-start justify-between px-6 md:px-10 py-8"
+            className="flex flex-col items-center text-center gap-6 px-6 md:px-10 py-12"
             style={{ color: video.behanceTextColor || "#F7E1B1" }}
           >
             <div>
-              <h3 id="portfolio-modal-title" className="font-playfair text-lg font-medium">
+              <h3 id="portfolio-modal-title" className="font-playfair text-xl font-medium">
                 {video.title}
               </h3>
               <p className="text-[0.6rem] uppercase tracking-[0.3em] mt-1" style={{ color: accent }}>
@@ -352,9 +346,9 @@ export function VideoModal({
               href={video.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="opacity-70 hover:opacity-100 hover:text-gold text-[0.55rem] uppercase tracking-[0.3em] transition-all mt-1 shrink-0"
+              className="inline-flex items-center gap-3 rounded-full bg-gold text-studio-bg hover:bg-cream px-10 py-4 text-xs uppercase tracking-[0.3em] font-semibold transition-colors duration-300"
             >
-              Behance ↗
+              View full project on Behance <span aria-hidden="true">↗</span>
             </a>
           </div>
         </div>
