@@ -40,7 +40,7 @@ export default async function Showreel() {
   const reels = [
     { key: "general", label: "GENERAL", videoId: GENERAL_REEL_ID, thumbnail: generalThumb },
     { key: "3d", label: "3D", videoId: REEL_3D_ID, hash: REEL_3D_HASH, thumbnail: reel3dThumb },
-    { key: "ia", label: "IA", videoId: IA_REEL_ID, hash: IA_REEL_HASH, thumbnail: iaThumb },
+    { key: "ia", label: "AI", videoId: IA_REEL_ID, hash: IA_REEL_HASH, thumbnail: iaThumb },
     { key: "vfx", label: "VFX", videoId: VFX_REEL_ID, hash: VFX_REEL_HASH, thumbnail: vfxThumb },
     { key: "color", label: "COLOR GRADING", videoId: COLOR_REEL_ID, thumbnail: colorThumb },
   ];

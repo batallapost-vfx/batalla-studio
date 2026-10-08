@@ -47,7 +47,7 @@ export async function getVimeoVideos(): Promise<VimeoVideo[]> {
 }
 
 // tags específicos de los proyectos (además de "ALL ITEMS", donde entran todos) — ver lib/projects.ts
-export type ProjectCategory = "3D" | "IA" | "VFX";
+export type ProjectCategory = "3D" | "AI" | "VFX";
 
 const FALLBACK_VIDEOS: VimeoVideo[] = [
   {

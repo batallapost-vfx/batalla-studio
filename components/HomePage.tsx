@@ -22,7 +22,7 @@ async function Projects({ openSlug }: { openSlug?: string }) {
     <>
       <FeaturedGrid videos={videos} />
       <SectionDivider className="mb-10" />
-      <PortfolioGrid videos={videos} />
+      <PortfolioGrid videos={videos} initialLimit={10} />
       <ProjectModalHost videos={videos} initialSlug={openSlug} />
     </>
   );

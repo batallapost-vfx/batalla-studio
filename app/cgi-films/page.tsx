@@ -6,14 +6,14 @@ import { getPortfolioVideos } from "@/lib/portfolio";
 export const metadata = {
   title: "CGI Films",
   description:
-    "Producciones CGI fotorrealistas de Batalla Studio, estudio de postproducción y animación 3D con base en Rosario, Santa Fe, Argentina.",
+    "Photorealistic CGI productions by Batalla Studio, a 3D animation and post-production studio based in Rosario, Santa Fe, Argentina.",
   keywords: ["CGI films", "animación 3D Rosario", "estudio CGI Argentina", "Batalla Studio"],
 };
 
 export default async function CGIFilmsPage() {
-  // esta página agrupa los proyectos con tag "3D" o "IA"
+  // esta página agrupa los proyectos con tag "3D" o "AI"
   const all = await getPortfolioVideos();
-  const videos = all.filter((v) => v.categories.includes("3D") || v.categories.includes("IA"));
+  const videos = all.filter((v) => v.categories.includes("3D") || v.categories.includes("AI"));
 
   return (
     <>
@@ -22,10 +22,10 @@ export default async function CGIFilmsPage() {
         {/* Hero header */}
         <section className="pt-36 pb-20 px-8 text-center">
           <p className="text-gold text-[0.6rem] uppercase tracking-[0.6em] mb-4">
-            — Especialidad —
+            — Specialty —
           </p>
           <h1 className="font-playfair font-bold text-cream leading-none mb-6 text-[clamp(2rem,6vw,6rem)] whitespace-nowrap">
-            CREATIVE 3D &amp; IA
+            CREATIVE 3D &amp; AI
           </h1>
           <div className="flex items-center justify-center gap-3 mb-8">
             <div className="w-16 h-px bg-gold opacity-35" />
@@ -33,8 +33,8 @@ export default async function CGIFilmsPage() {
             <div className="w-16 h-px bg-gold opacity-35" />
           </div>
           <p className="text-cream/60 text-sm font-light max-w-md mx-auto leading-relaxed">
-            Producciones CGI fotorrealistas, desde concepto hasta frame final,
-            para las marcas más exigentes del mercado.
+            Photorealistic CGI productions, from concept to final frame,
+            for the most demanding brands.
           </p>
         </section>
 

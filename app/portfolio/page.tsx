@@ -7,7 +7,7 @@ import { getPortfolioVideos } from "@/lib/portfolio";
 export const metadata = {
   title: "Portfolio",
   description:
-    "Portfolio de Batalla Studio: proyectos de CGI, VFX y postproducción para marcas globales, producidos por nuestro estudio en Rosario, Argentina.",
+    "Batalla Studio portfolio: CGI, VFX and post-production projects for global brands, produced by our studio in Rosario, Argentina.",
   keywords: ["portfolio Batalla Studio", "proyectos CGI", "proyectos VFX", "estudio de postproducción Argentina"],
 };
 
@@ -31,7 +31,7 @@ export default async function PortfolioPage() {
             <div className="w-16 h-px bg-gold opacity-35" />
           </div>
           <p className="text-cream/60 text-sm font-light max-w-md mx-auto leading-relaxed">
-            CGI Films y VFX & Post — toda la producción de Batalla Studio desde Rosario, Santa Fe, Argentina.
+            CGI Films and VFX & Post — all of Batalla Studio&apos;s work, from Rosario, Santa Fe, Argentina.
           </p>
         </section>
 

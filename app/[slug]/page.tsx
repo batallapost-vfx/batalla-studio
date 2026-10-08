@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!project) return {};
   const video = (await getPortfolioVideos()).find((v) => v.slug === params.slug);
   const image = video?.thumbnail_large;
-  const description = `${project.name} — proyecto de Batalla Studio, estudio de CGI, VFX y postproducción de Rosario, Argentina.`;
+  const description = `${project.name} — a project by Batalla Studio, a CGI, VFX and post-production studio from Rosario, Argentina.`;
   return {
     title: project.name,
     description,

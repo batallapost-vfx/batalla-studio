@@ -7,7 +7,7 @@ export default function Loading() {
       <main>
         <section className="pt-36 pb-20 px-8 text-center">
           <p className="text-teal text-[0.6rem] uppercase tracking-[0.6em] mb-4">
-            — Especialidad —
+            — Specialty —
           </p>
           <h1 className="font-playfair font-bold text-cream leading-none mb-6 text-[clamp(2rem,7vw,6rem)] whitespace-nowrap">
             VFX &amp; POST

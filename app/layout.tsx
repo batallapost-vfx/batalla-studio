@@ -25,7 +25,8 @@ const dmSans = DM_Sans({
 const SITE_URL = "https://studiobatalla.com";
 const SITE_NAME = "Batalla Studio";
 const DEFAULT_DESCRIPTION =
-  "Batalla Studio es un estudio de postproducción, CGI y VFX con base en Rosario, Argentina, fundado en 2010. Producción in-house de 3D, animación, composición y color grading para marcas globales.";
+  "Batalla Studio is a CGI, VFX and post-production studio based in Rosario, Argentina, founded in 2010. In-house 3D, animation, AI, compositing and color grading for global brands.";
+const SHARE_TITLE = `${SITE_NAME} — CGI, VFX & Post-production Studio`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -60,10 +61,10 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "es_AR",
+    locale: "en_US",
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: `${SITE_NAME} — Estudio de CGI, VFX y Postproducción`,
+    title: SHARE_TITLE,
     description: DEFAULT_DESCRIPTION,
     images: [
       {
@@ -76,7 +77,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_NAME} — Estudio de CGI, VFX y Postproducción`,
+    title: SHARE_TITLE,
     description: DEFAULT_DESCRIPTION,
     images: ["/images/batalla/Imagen_batalla_studio_v01.png"],
   },
@@ -127,7 +128,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${playfair.variable} ${dmSans.variable}`}>
+    <html lang="en" className={`${playfair.variable} ${dmSans.variable}`}>
       <head>
         <script
           type="application/ld+json"

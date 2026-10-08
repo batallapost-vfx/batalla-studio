@@ -5,11 +5,11 @@ import Image from "next/image";
 import TransitionLink from "@/components/TransitionLink";
 import type { ProjectCategory } from "@/lib/vimeo";
 
-const CATEGORIES: ProjectCategory[] = ["3D", "IA", "VFX"];
+const CATEGORIES: ProjectCategory[] = ["3D", "AI", "VFX"];
 
 const CATEGORY_VIDEO: Record<ProjectCategory, string> = {
   "3D": "/videos/cgi-films.mp4",
-  IA: "/videos/ia.mp4",
+  AI: "/videos/ia.mp4",
   VFX: "/videos/vfx-post.mp4",
 };
 
@@ -188,6 +188,8 @@ export default function HomeHero({ skipIntro = false }: { skipIntro?: boolean })
         className={`relative flex flex-col justify-end overflow-hidden ${revealed ? "hero-revealed" : ""}`}
         style={{ minHeight: "100svh" }}
       >
+        {/* título principal de la página para buscadores y lectores de pantalla — el diseño no lo muestra */}
+        <h1 className="sr-only">Batalla Studio — 3D animation, VFX and AI studio</h1>
         {/* Video por default — se ve mientras no se seleccionó ninguna categoría */}
         <video
           src="/videos/reel-gral_2024.mp4"

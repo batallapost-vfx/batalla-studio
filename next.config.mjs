@@ -16,6 +16,10 @@ const nextConfig = {
       },
     ],
   },
+  // links de trabajos que cambiaron de nombre: el link viejo sigue funcionando
+  async redirects() {
+    return [{ source: "/mc-donals", destination: "/mcdonalds", statusCode: 301 }];
+  },
   webpack: (config, { dev }) => {
     if (dev) {
       // Desactiva el cache de filesystem en dev para evitar

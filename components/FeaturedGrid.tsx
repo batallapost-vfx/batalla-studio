@@ -62,9 +62,10 @@ export default function FeaturedGrid({ videos }: FeaturedGridProps) {
                   background: "linear-gradient(to top, rgba(26,16,8,0.95) 0%, rgba(26,16,8,0.2) 60%, transparent 100%)",
                 }}
               />
-              <div className="absolute inset-0 bg-studio-bg/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              {/* en pantallas táctiles no hay hover: el título se muestra siempre */}
+              <div className="absolute inset-0 bg-studio-bg/30 opacity-0 group-hover:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity duration-300" />
 
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 px-6">
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity duration-300 px-6">
                 <p className="text-cream font-playfair font-medium leading-snug text-center line-clamp-3 text-xl md:text-2xl">
                   {video.title}
                 </p>

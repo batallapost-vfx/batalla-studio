@@ -6,7 +6,7 @@ import { getPortfolioVideos } from "@/lib/portfolio";
 export const metadata = {
   title: "VFX & Post",
   description:
-    "VFX, compositing y postproducción de Batalla Studio, estudio de postproducción con base en Rosario, Santa Fe, Argentina.",
+    "VFX, compositing and post-production by Batalla Studio, a post-production studio based in Rosario, Santa Fe, Argentina.",
   keywords: ["VFX Argentina", "postproducción Rosario", "compositing", "estudio de postproducción"],
 };
 
@@ -21,7 +21,7 @@ export default async function VFXPostPage() {
         {/* Hero header */}
         <section className="pt-36 pb-20 px-8 text-center">
           <p className="text-teal text-[0.6rem] uppercase tracking-[0.6em] mb-4">
-            — Especialidad —
+            — Specialty —
           </p>
           <h1 className="font-playfair font-bold text-cream leading-none mb-6 text-[clamp(2rem,7vw,6rem)] whitespace-nowrap">
             VFX &amp; POST
@@ -32,8 +32,8 @@ export default async function VFXPostPage() {
             <div className="w-16 h-px bg-teal opacity-35" />
           </div>
           <p className="text-cream/60 text-sm font-light max-w-md mx-auto leading-relaxed">
-            VFX compositing, color grading y post-producción de alta exigencia
-            para cine y publicidad, con ojo técnico y sensibilidad artística.
+            High-end VFX compositing, color grading and post-production
+            for film and advertising, with a technical eye and artistic sensibility.
           </p>
         </section>
 

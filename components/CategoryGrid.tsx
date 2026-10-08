@@ -6,8 +6,8 @@ import { VimeoVideo } from "@/lib/vimeo";
 import VimeoEmbeds from "@/components/VimeoEmbeds";
 import BehanceImageRows from "@/components/BehanceImageRows";
 
-type OrderOption = "DEFAULT" | "Fecha" | "Nombre";
-const ORDER_OPTIONS: OrderOption[] = ["DEFAULT", "Fecha", "Nombre"];
+type OrderOption = "Featured" | "Date" | "Name";
+const ORDER_OPTIONS: OrderOption[] = ["Featured", "Date", "Name"];
 
 interface CategoryGridProps {
   videos: VimeoVideo[];
@@ -16,17 +16,17 @@ interface CategoryGridProps {
 
 export default function CategoryGrid({ videos, accentColor }: CategoryGridProps) {
   const [selected, setSelected] = useState<VimeoVideo | null>(null);
-  const [orderBy, setOrderBy] = useState<OrderOption>("DEFAULT");
+  const [orderBy, setOrderBy] = useState<OrderOption>("Featured");
   const closeBtnRef = useRef<HTMLButtonElement>(null);
   const lastFocused = useRef<HTMLElement | null>(null);
 
   const accent = accentColor === "gold" ? "#CD8641" : "#769D8D";
 
   const orderedVideos = useMemo(() => {
-    // DEFAULT = el orden en que están cargados los proyectos (mismo orden que el sheet del estudio)
-    if (orderBy === "DEFAULT") return videos;
+    // Featured = el orden en que están cargados los proyectos (mismo orden que el sheet del estudio)
+    if (orderBy === "Featured") return videos;
     const sorted = [...videos];
-    if (orderBy === "Fecha") {
+    if (orderBy === "Date") {
       sorted.sort((a, b) => {
         const da = a.upload_date ? new Date(a.upload_date).getTime() : -Infinity;
         const db = b.upload_date ? new Date(b.upload_date).getTime() : -Infinity;
@@ -169,10 +169,10 @@ export default function CategoryGrid({ videos, accentColor }: CategoryGridProps)
           <button
             ref={closeBtnRef}
             onClick={() => setSelected(null)}
-            aria-label="Cerrar modal"
+            aria-label="Close modal"
             className="fixed top-4 right-4 md:top-6 md:right-6 z-20 bg-studio-bg/70 backdrop-blur-sm px-3 py-2 text-cream/80 hover:text-gold transition-colors duration-200 text-[0.6rem] uppercase tracking-[0.35em] flex items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
           >
-            <span>Cerrar</span>
+            <span>Close</span>
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
             </svg>
@@ -277,10 +277,10 @@ export default function CategoryGrid({ videos, accentColor }: CategoryGridProps)
             <button
               ref={closeBtnRef}
               onClick={() => setSelected(null)}
-              aria-label="Cerrar modal"
+              aria-label="Close modal"
               className="absolute -top-10 right-0 text-cream/70 hover:text-gold transition-colors duration-200 text-[0.6rem] uppercase tracking-[0.35em] flex items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
             >
-              <span>Cerrar</span>
+              <span>Close</span>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
               </svg>

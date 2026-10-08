@@ -8,7 +8,7 @@ import BehanceImageRows from "@/components/BehanceImageRows";
 import { openProject } from "@/lib/openProject";
 
 export interface PortfolioVideo extends VimeoVideo {
-  /** tags específicos del proyecto (3D / IA / VFX) — puede ser más de uno o ninguno; todos entran en "ALL ITEMS" */
+  /** tags específicos del proyecto (3D / AI / VFX) — puede ser más de uno o ninguno; todos entran en "ALL ITEMS" */
   categories: ProjectCategory[];
   /** "Selected Works" del sheet — van en la sección Destacados */
   featured?: boolean;
@@ -18,17 +18,19 @@ export interface PortfolioVideo extends VimeoVideo {
 
 interface PortfolioGridProps {
   videos: PortfolioVideo[];
+  /** cuántos mostrar antes del botón "View more" (en la home); sin valor muestra todos */
+  initialLimit?: number;
 }
 
 type FilterOption = "ALL ITEMS" | ProjectCategory;
-type OrderOption = "DEFAULT" | "Fecha" | "Nombre";
+type OrderOption = "Featured" | "Date" | "Name";
 
-const FILTERS: FilterOption[] = ["ALL ITEMS", "3D", "IA", "VFX"];
-const ORDER_OPTIONS: OrderOption[] = ["DEFAULT", "Fecha", "Nombre"];
+const FILTERS: FilterOption[] = ["ALL ITEMS", "3D", "AI", "VFX"];
+const ORDER_OPTIONS: OrderOption[] = ["Featured", "Date", "Name"];
 
 const ACCENTS: Record<ProjectCategory, string> = {
   "3D": "#CD8641",
-  IA: "#B65939",
+  AI: "#B65939",
   VFX: "#769D8D",
 };
 
@@ -37,28 +39,32 @@ function accentFor(categories: ProjectCategory[]) {
   return categories.length ? ACCENTS[categories[0]] : "#CD8641";
 }
 
-export default function PortfolioGrid({ videos }: PortfolioGridProps) {
+export default function PortfolioGrid({ videos, initialLimit }: PortfolioGridProps) {
+  const [showAll, setShowAll] = useState(false);
   const [filter, setFilter] = useState<FilterOption>("ALL ITEMS");
-  const [orderBy, setOrderBy] = useState<OrderOption>("DEFAULT");
+  const [orderBy, setOrderBy] = useState<OrderOption>("Featured");
 
   const visibleVideos = useMemo(() => {
     const base = filter === "ALL ITEMS" ? videos : videos.filter((v) => v.categories.includes(filter));
-    // DEFAULT = el orden en que están cargados los proyectos (mismo orden que el sheet del estudio)
-    if (orderBy === "DEFAULT") return base;
+    // Featured = el orden en que están cargados los proyectos (mismo orden que el sheet del estudio)
+    if (orderBy === "Featured") return base;
     const sorted = [...base];
-    if (orderBy === "Fecha") {
+    if (orderBy === "Date") {
       sorted.sort((a, b) => {
         const da = a.upload_date ? new Date(a.upload_date).getTime() : -Infinity;
         const db = b.upload_date ? new Date(b.upload_date).getTime() : -Infinity;
         return db - da;
       });
-    } else if (orderBy === "Nombre") {
+    } else if (orderBy === "Name") {
       sorted.sort((a, b) => a.title.localeCompare(b.title, "es", { sensitivity: "base" }));
     }
     return sorted;
   }, [videos, filter, orderBy]);
 
-  // el hero de la home dispara este evento al clickear 3D/IA/VFX, para aplicar el filtro acá
+  const isLimited = Boolean(initialLimit) && !showAll && visibleVideos.length > (initialLimit ?? 0);
+  const shownVideos = isLimited ? visibleVideos.slice(0, initialLimit) : visibleVideos;
+
+  // el hero de la home dispara este evento al clickear 3D/AI/VFX, para aplicar el filtro acá
   useEffect(() => {
     const onSetFilter = (e: Event) => {
       const category = (e as CustomEvent<{ category?: ProjectCategory }>).detail?.category;
@@ -110,10 +116,21 @@ export default function PortfolioGrid({ videos }: PortfolioGridProps) {
 
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-1">
-        {visibleVideos.map((video) => (
+        {shownVideos.map((video) => (
           <VideoCard key={video.id} video={video} onClick={() => openProject(video.slug)} />
         ))}
       </div>
+
+      {isLimited && (
+        <div className="flex justify-center mt-10">
+          <button
+            onClick={() => setShowAll(true)}
+            className="px-8 py-3 border border-gold/50 text-gold text-[0.6rem] uppercase tracking-[0.35em] hover:bg-gold hover:text-studio-bg transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+          >
+            View more ({visibleVideos.length - shownVideos.length})
+          </button>
+        </div>
+      )}
 
       {visibleVideos.length === 0 && (
         <p className="text-center text-cream/60 text-sm mt-16 uppercase tracking-[0.3em] px-6">
@@ -172,18 +189,19 @@ function VideoCard({
       />
 
       {/* Hover overlay */}
-      <div className="absolute inset-0 bg-studio-bg/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      {/* en pantallas táctiles no hay hover: título y categoría se muestran siempre */}
+      <div className="absolute inset-0 bg-studio-bg/30 opacity-0 group-hover:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity duration-300" />
 
-      {/* Categoría — visible siempre, esquina inferior izq */}
+      {/* Categoría — esquina inferior izq */}
       <p
-        className="absolute bottom-3 left-4 text-[0.55rem] uppercase tracking-[0.3em] opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        className="absolute bottom-3 left-4 text-[0.55rem] uppercase tracking-[0.3em] opacity-0 group-hover:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity duration-300"
         style={{ color: accent }}
       >
         {video.categories.join(" · ")}
       </p>
 
-      {/* Title — centrado, visible solo en hover */}
-      <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 px-6">
+      {/* Title — centrado, visible en hover (o siempre en touch) */}
+      <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity duration-300 px-6">
         <p className="text-cream font-playfair font-medium leading-snug text-center line-clamp-3" style={{ fontSize: "1.1rem" }}>
           {video.title}
         </p>
@@ -242,10 +260,10 @@ export function VideoModal({
         <button
           ref={closeBtnRef}
           onClick={onClose}
-          aria-label="Cerrar modal"
+          aria-label="Close modal"
           className="fixed top-4 right-4 md:top-6 md:right-6 z-20 bg-studio-bg/70 backdrop-blur-sm px-3 py-2 text-cream/80 hover:text-gold transition-colors duration-200 text-[0.6rem] uppercase tracking-[0.35em] flex items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
         >
-          <span>Cerrar</span>
+          <span>Close</span>
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
           </svg>
@@ -360,10 +378,10 @@ export function VideoModal({
         <button
           ref={closeBtnRef}
           onClick={onClose}
-          aria-label="Cerrar modal"
+          aria-label="Close modal"
           className="absolute -top-10 right-0 text-cream/70 hover:text-gold transition-colors duration-200 text-[0.6rem] uppercase tracking-[0.35em] flex items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
         >
-          <span>Cerrar</span>
+          <span>Close</span>
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
           </svg>
