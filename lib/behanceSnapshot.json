@@ -2,14 +2,15 @@
   "255760357": {
     "id": 255760357,
     "title": "VAX TEAM",
-    "thumbnail": "https://mir-s3-cdn-cf.behance.net/projects/original_webp/b86b16255760357.Y3JvcCw4NjIsNjc1LDIxMSww.png",
+    "thumbnail": "/behance/255760357/portada.jpg",
     "modules": [
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/69b0aa255760357.6aa98cf2b1b21.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/f11c45255760357.6acd06117df37.gif",
         "width": 428,
         "height": 214,
-        "alt": "VAX TEAM"
+        "alt": "VAX TEAM",
+        "video": "/behance/255760357/f11c45255760357.6acd06117df37.mp4"
       },
       {
         "type": "text",
@@ -18,31 +19,33 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/846d94255760357.6aa95d1399134.png",
+        "src": "/behance/255760357/46f558255760357.6acd06117d124.webp",
         "width": 600,
         "height": 338,
         "alt": "Image may contain: outdoor, tree and sky"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6d9825255760357.6aa964223e8f7.png",
+        "src": "/behance/255760357/178e33255760357.6acd06117c36f.webp",
         "width": 600,
         "height": 300,
         "alt": "Image may contain: girl, clothing and doll"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/cdfc36255760357.6aa964223f0f9.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/82bf98255760357.6acd06117e584.gif",
         "width": 428,
         "height": 214,
-        "alt": "Image may contain: cartoon and clothing"
+        "alt": "Image may contain: cartoon and clothing",
+        "video": "/behance/255760357/82bf98255760357.6acd06117e584.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/99672d255760357.6aa964223f8ee.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/54491b255760357.6acd06117ca0a.gif",
         "width": 600,
         "height": 338,
-        "alt": "Image may contain: sketch, drawing and illustration"
+        "alt": "Image may contain: sketch, drawing and illustration",
+        "video": "/behance/255760357/54491b255760357.6acd06117ca0a.mp4"
       },
       {
         "type": "video",
@@ -54,55 +57,55 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/aa529a255760357.6aa97b2aebaca.png",
+            "src": "/behance/255760357/aa529a255760357.6aa97b2aebaca.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/f914cb255760357.6aa97b2aece6f.png",
+            "src": "/behance/255760357/f914cb255760357.6aa97b2aece6f.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/82fb68255760357.6aa97b2aec14c.png",
+            "src": "/behance/255760357/82fb68255760357.6aa97b2aec14c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/2143a1255760357.6aa97b2aea67c.png",
+            "src": "/behance/255760357/2143a1255760357.6aa97b2aea67c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/6d1be8255760357.6aa97b2aead07.png",
+            "src": "/behance/255760357/6d1be8255760357.6aa97b2aead07.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/e763cb255760357.6aa97b2ae9f6c.png",
+            "src": "/behance/255760357/e763cb255760357.6aa97b2ae9f6c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/aeb37a255760357.6aa97b2aeb3b8.png",
+            "src": "/behance/255760357/aeb37a255760357.6aa97b2aeb3b8.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/674ef1255760357.6aa97b2aec814.png",
+            "src": "/behance/255760357/674ef1255760357.6aa97b2aec814.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/4f209a255760357.6aa97b2aed4b1.png",
+            "src": "/behance/255760357/4f209a255760357.6aa97b2aed4b1.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
@@ -124,55 +127,55 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/b4c29f255760357.6aa97b2bbf291.png",
+            "src": "/behance/255760357/b4c29f255760357.6aa97b2bbf291.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/b64cdf255760357.6aa97b2bbea3c.png",
+            "src": "/behance/255760357/b64cdf255760357.6aa97b2bbea3c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/919eaa255760357.6aa97b2bbe1e2.png",
+            "src": "/behance/255760357/919eaa255760357.6aa97b2bbe1e2.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/3c8275255760357.6aa97b2bc1145.png",
+            "src": "/behance/255760357/3c8275255760357.6aa97b2bc1145.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/95a23e255760357.6aa97b2bbfa6b.png",
+            "src": "/behance/255760357/95a23e255760357.6aa97b2bbfa6b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/0afc15255760357.6aa97b2bc1825.png",
+            "src": "/behance/255760357/0afc15255760357.6aa97b2bc1825.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/90ca19255760357.6aa97b2bc0a72.png",
+            "src": "/behance/255760357/90ca19255760357.6aa97b2bc0a72.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/b735c6255760357.6aa97b2bc0271.png",
+            "src": "/behance/255760357/b735c6255760357.6aa97b2bc0271.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/1af46d255760357.6aa97b2bbd974.png",
+            "src": "/behance/255760357/1af46d255760357.6aa97b2bbd974.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
@@ -194,55 +197,55 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/a3cfce255760357.6aa97b2cc5bae.png",
+            "src": "/behance/255760357/a3cfce255760357.6aa97b2cc5bae.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/ad8c50255760357.6aa97b2cc6035.png",
+            "src": "/behance/255760357/ad8c50255760357.6aa97b2cc6035.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/05a765255760357.6aa97b2cc6432.png",
+            "src": "/behance/255760357/05a765255760357.6aa97b2cc6432.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/399ebc255760357.6aa97b2cc6868.png",
+            "src": "/behance/255760357/399ebc255760357.6aa97b2cc6868.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/961bcf255760357.6aa97b2cc7855.png",
+            "src": "/behance/255760357/961bcf255760357.6aa97b2cc7855.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/81a049255760357.6aa97b2cc5675.png",
+            "src": "/behance/255760357/81a049255760357.6aa97b2cc5675.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/22d80a255760357.6aa97b2cc7072.png",
+            "src": "/behance/255760357/22d80a255760357.6aa97b2cc7072.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/38ab12255760357.6aa97b2cc7442.png",
+            "src": "/behance/255760357/38ab12255760357.6aa97b2cc7442.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/ce0ff7255760357.6aa97b2cc6c7c.png",
+            "src": "/behance/255760357/ce0ff7255760357.6aa97b2cc6c7c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
@@ -264,55 +267,55 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/a48146255760357.6aa97b2ded152.png",
+            "src": "/behance/255760357/a48146255760357.6aa97b2ded152.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/da0374255760357.6aa97b2dec95c.png",
+            "src": "/behance/255760357/da0374255760357.6aa97b2dec95c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/9686f9255760357.6aa97b2de9286.png",
+            "src": "/behance/255760357/9686f9255760357.6aa97b2de9286.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/cc7344255760357.6aa97b2dec0b3.png",
+            "src": "/behance/255760357/cc7344255760357.6aa97b2dec0b3.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/c33365255760357.6aa97b2de9a27.png",
+            "src": "/behance/255760357/c33365255760357.6aa97b2de9a27.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/31c830255760357.6aa97b2dea15c.png",
+            "src": "/behance/255760357/31c830255760357.6aa97b2dea15c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/12559f255760357.6aa97b2deb87b.png",
+            "src": "/behance/255760357/12559f255760357.6aa97b2deb87b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/3a5323255760357.6aa97b2deb0be.png",
+            "src": "/behance/255760357/3a5323255760357.6aa97b2deb0be.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/2bd5fe255760357.6aa97b2dea980.png",
+            "src": "/behance/255760357/2bd5fe255760357.6aa97b2dea980.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
@@ -334,55 +337,55 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/3f751a255760357.6aa97b2ed73e1.png",
+            "src": "/behance/255760357/3f751a255760357.6aa97b2ed73e1.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/796177255760357.6aa97b2ed6551.png",
+            "src": "/behance/255760357/796177255760357.6aa97b2ed6551.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/8886e5255760357.6aa97b2ed6cca.png",
+            "src": "/behance/255760357/8886e5255760357.6aa97b2ed6cca.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/3d0062255760357.6aa97b2ed867b.png",
+            "src": "/behance/255760357/3d0062255760357.6aa97b2ed867b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/2423c0255760357.6aa97b2ed80a1.png",
+            "src": "/behance/255760357/2423c0255760357.6aa97b2ed80a1.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/167bac255760357.6aa97b2ed8c96.png",
+            "src": "/behance/255760357/167bac255760357.6aa97b2ed8c96.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/74b261255760357.6aa97b2ed7a73.png",
+            "src": "/behance/255760357/74b261255760357.6aa97b2ed7a73.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/7602c8255760357.6aa97b2ed5753.png",
+            "src": "/behance/255760357/7602c8255760357.6aa97b2ed5753.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/464852255760357.6aa97b2ed5e6e.png",
+            "src": "/behance/255760357/464852255760357.6aa97b2ed5e6e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
@@ -404,55 +407,55 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/1f21fc255760357.6aa97b310a9af.png",
+            "src": "/behance/255760357/1f21fc255760357.6aa97b310a9af.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/e2b4e9255760357.6aa97b3107dcf.png",
+            "src": "/behance/255760357/e2b4e9255760357.6aa97b3107dcf.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/66530c255760357.6aa97b3109a1a.png",
+            "src": "/behance/255760357/66530c255760357.6aa97b3109a1a.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/8963c8255760357.6aa97b31083f4.png",
+            "src": "/behance/255760357/8963c8255760357.6aa97b31083f4.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/c8d424255760357.6aa97b3107066.png",
+            "src": "/behance/255760357/c8d424255760357.6aa97b3107066.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/243428255760357.6aa97b310923c.png",
+            "src": "/behance/255760357/243428255760357.6aa97b310923c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/6ae8e5255760357.6aa97b3108aaa.png",
+            "src": "/behance/255760357/6ae8e5255760357.6aa97b3108aaa.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/e8cb89255760357.6aa97b310a1e4.png",
+            "src": "/behance/255760357/e8cb89255760357.6aa97b310a1e4.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/9a514f255760357.6aa97b3107750.png",
+            "src": "/behance/255760357/9a514f255760357.6aa97b3107750.webp",
             "width": 1920,
             "height": 1080,
             "alt": "VAX TEAM"
@@ -473,37 +476,37 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/492337255760357.6aa97b2949623.png",
+            "src": "/behance/255760357/492337255760357.6aa97b2949623.webp",
             "width": 2048,
             "height": 1152,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/f00ec4255760357.6aa97b294b7b2.png",
+            "src": "/behance/255760357/f00ec4255760357.6aa97b294b7b2.webp",
             "width": 3840,
             "height": 2160,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/570eb1255760357.6aa97b294a365.png",
+            "src": "/behance/255760357/570eb1255760357.6aa97b294a365.webp",
             "width": 3840,
             "height": 2160,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/ba3c9a255760357.6aa97b294aaf1.png",
+            "src": "/behance/255760357/ba3c9a255760357.6aa97b294aaf1.webp",
             "width": 2752,
             "height": 1536,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/15b438255760357.6aa97b2949cc5.png",
+            "src": "/behance/255760357/15b438255760357.6aa97b2949cc5.webp",
             "width": 4992,
             "height": 2808,
             "alt": "VAX TEAM"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/9f9d6b255760357.6aa97b294b174.png",
+            "src": "/behance/255760357/9f9d6b255760357.6aa97b294b174.webp",
             "width": 3840,
             "height": 2160,
             "alt": "VAX TEAM"
@@ -516,10 +519,11 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/95e48b255760357.6aad5cf9a6660.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/b8fe6d255760357.6acd06117d886.gif",
         "width": 558,
         "height": 279,
-        "alt": "Image may contain: human face, graphic design and graphics"
+        "alt": "Image may contain: human face, graphic design and graphics",
+        "video": "/behance/255760357/b8fe6d255760357.6acd06117d886.mp4"
       },
       {
         "type": "text",
@@ -534,14 +538,15 @@
   "256360691": {
     "id": 256360691,
     "title": "Mabe | Continental",
-    "thumbnail": "https://mir-s3-cdn-cf.behance.net/projects/original_webp/fabe55256360691.Y3JvcCwxMDc3LDg0MywyODgsMA.jpg",
+    "thumbnail": "/behance/256360691/portada.jpg",
     "modules": [
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/38af5b256360691.6aba7522892a2.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/00bd97256360691.6acd0611a807a.gif",
         "width": 428,
         "height": 214,
-        "alt": "Mabe | Continental"
+        "alt": "Mabe | Continental",
+        "video": "/behance/256360691/00bd97256360691.6acd0611a807a.mp4"
       },
       {
         "type": "text",
@@ -556,24 +561,26 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5de5c9256360691.6aba777205ec3.jpg",
+        "src": "/behance/256360691/7e3072256360691.6acd06119b074.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: sketch, illustration and drawing"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b5bb18256360691.6aba777202ee3.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/f6682c256360691.6acd0611a060e.gif",
         "width": 600,
         "height": 338,
-        "alt": "Image may contain: sketch, drawing and line art"
+        "alt": "Image may contain: sketch, drawing and line art",
+        "video": "/behance/256360691/f6682c256360691.6acd0611a060e.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c76e90256360691.6aba7772066e8.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/de2341256360691.6acd0611a5aef.gif",
         "width": 258,
         "height": 129,
-        "alt": "Mabe | Continental"
+        "alt": "Mabe | Continental",
+        "video": "/behance/256360691/de2341256360691.6acd0611a5aef.mp4"
       },
       {
         "type": "text",
@@ -587,13 +594,15 @@
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/ddefda256360691.6aba776f830e3.gif",
             "width": 1024,
             "height": 576,
-            "alt": "Mabe | Continental"
+            "alt": "Mabe | Continental",
+            "video": "/behance/256360691/ddefda256360691.6aba776f830e3.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/97a198256360691.6aba776f83741.gif",
             "width": 960,
             "height": 540,
-            "alt": "Mabe | Continental"
+            "alt": "Mabe | Continental",
+            "video": "/behance/256360691/97a198256360691.6aba776f83741.mp4"
           }
         ],
         "rows": [
@@ -602,101 +611,111 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6fab56256360691.6aba777200588.jpg",
+        "src": "/behance/256360691/d0c553256360691.6acd06119dffe.webp",
         "width": 600,
         "height": 338,
         "alt": "Image may contain: screenshot, interior design and indoor"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fdeede256360691.6aba7771f4035.jpg",
+        "src": "/behance/256360691/fb8fac256360691.6acd0611ad2ad.webp",
         "width": 600,
         "height": 338,
         "alt": "Image may contain: indoor, interior design and home"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5e3f61256360691.6aba7771f210e.jpg",
+        "src": "/behance/256360691/fb4c1d256360691.6acd0611aa941.webp",
         "width": 600,
         "height": 338,
         "alt": "Image may contain: interior design, indoor and window"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f27a1d256360691.6aba7771f28f1.jpg",
+        "src": "/behance/256360691/fc3852256360691.6acd0611a29ca.webp",
         "width": 600,
         "height": 338,
         "alt": "Image may contain: interior design, indoor and couch"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ffe89b256360691.6aba777204a15.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/92cae6256360691.6acd0611a3695.gif",
         "width": 258,
         "height": 129,
-        "alt": "Image may contain: human face, screenshot and clothing"
+        "alt": "Image may contain: human face, screenshot and clothing",
+        "video": "/behance/256360691/92cae6256360691.6acd0611a3695.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7310d2256360691.6aba7771f1617.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/e5d092256360691.6acd0611a74cf.gif",
         "width": 600,
         "height": 310,
-        "alt": "Image may contain: person, human face and clothing"
+        "alt": "Image may contain: person, human face and clothing",
+        "video": "/behance/256360691/e5d092256360691.6acd0611a74cf.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/df0716256360691.6aba7772037b5.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/33a89a256360691.6acd0611a6838.gif",
         "width": 600,
         "height": 433,
-        "alt": "Image may contain: human face, person and clothing"
+        "alt": "Image may contain: human face, person and clothing",
+        "video": "/behance/256360691/33a89a256360691.6acd0611a6838.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/612cbb256360691.6aba777208597.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/64407a256360691.6acd0611a4245.gif",
         "width": 600,
         "height": 433,
-        "alt": "Image may contain: human face, clothing and person"
+        "alt": "Image may contain: human face, clothing and person",
+        "video": "/behance/256360691/64407a256360691.6acd0611a4245.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b77d23256360691.6aba7771f3044.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/ab1b0d256360691.6acd0611a8cad.gif",
         "width": 600,
         "height": 338,
-        "alt": "Mabe | Continental"
+        "alt": "Mabe | Continental",
+        "video": "/behance/256360691/ab1b0d256360691.6acd0611a8cad.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2f45c6256360691.6aba7771f37fe.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/b7efc9256360691.6acd06119bcee.gif",
         "width": 600,
         "height": 750,
-        "alt": "Mabe | Continental"
+        "alt": "Mabe | Continental",
+        "video": "/behance/256360691/b7efc9256360691.6acd06119bcee.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6cba9d256360691.6aba7772019b9.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/446dee256360691.6acd0611a4ea1.gif",
         "width": 600,
         "height": 718,
-        "alt": "Mabe | Continental"
+        "alt": "Mabe | Continental",
+        "video": "/behance/256360691/446dee256360691.6acd0611a4ea1.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d07b07256360691.6aba77720705a.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/00ac38256360691.6acd06119ed1d.gif",
         "width": 600,
         "height": 484,
-        "alt": "Mabe | Continental"
+        "alt": "Mabe | Continental",
+        "video": "/behance/256360691/00ac38256360691.6acd06119ed1d.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8b0105256360691.6aba7772077db.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/deee8a256360691.6acd06119f959.gif",
         "width": 258,
         "height": 129,
-        "alt": "Image may contain: screenshot"
+        "alt": "Image may contain: screenshot",
+        "video": "/behance/256360691/deee8a256360691.6acd06119f959.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/78c218256360691.6aba777205675.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/a15ef1256360691.6acd0611ab58b.gif",
         "width": 600,
         "height": 609,
-        "alt": "Mabe | Continental"
+        "alt": "Mabe | Continental",
+        "video": "/behance/256360691/a15ef1256360691.6acd0611ab58b.mp4"
       },
       {
         "type": "text",
@@ -711,21 +730,23 @@
   "256360931": {
     "id": 256360931,
     "title": "Juegos Suramericanos 2026 - CAPI",
-    "thumbnail": "https://mir-s3-cdn-cf.behance.net/projects/original_webp/2219e7256360931.Y3JvcCw4NTYsNjcwLDIzOSww.png",
+    "thumbnail": "/behance/256360931/portada.jpg",
     "modules": [
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1418e5256360931.6aba762d0ceed.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/09ab6e256360931.6acd0611812f9.gif",
         "width": 338,
         "height": 169,
-        "alt": "Juegos Suramericanos 2026 - CAPI"
+        "alt": "Juegos Suramericanos 2026 - CAPI",
+        "video": "/behance/256360931/09ab6e256360931.6acd0611812f9.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/910c6c256360931.6aba762d0d852.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/fd2a0f256360931.6acd06118259d.gif",
         "width": 168,
         "height": 84,
-        "alt": "Image may contain: dance"
+        "alt": "Image may contain: dance",
+        "video": "/behance/256360931/fd2a0f256360931.6acd06118259d.mp4"
       },
       {
         "type": "text",
@@ -734,7 +755,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/535e78256360931.6aba762d0d47b.png",
+        "src": "/behance/256360931/ff3f33256360931.6acd061181c39.webp",
         "width": 586,
         "height": 293,
         "alt": "Image may contain: animation, fiction and animated cartoon"
@@ -764,49 +785,57 @@
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/f39d1a256360931.6aba7eb607394.gif",
             "width": 1080,
             "height": 591,
-            "alt": "Juegos Suramericanos 2026 - CAPI"
+            "alt": "Juegos Suramericanos 2026 - CAPI",
+            "video": "/behance/256360931/f39d1a256360931.6aba7eb607394.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/7519c1256360931.6aba7eb604b5c.gif",
             "width": 1080,
             "height": 591,
-            "alt": "Juegos Suramericanos 2026 - CAPI"
+            "alt": "Juegos Suramericanos 2026 - CAPI",
+            "video": "/behance/256360931/7519c1256360931.6aba7eb604b5c.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/1f4368256360931.6aba7eb606be3.gif",
             "width": 1080,
             "height": 591,
-            "alt": "Juegos Suramericanos 2026 - CAPI"
+            "alt": "Juegos Suramericanos 2026 - CAPI",
+            "video": "/behance/256360931/1f4368256360931.6aba7eb606be3.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/dcf898256360931.6aba7eb608148.gif",
             "width": 1080,
             "height": 591,
-            "alt": "Juegos Suramericanos 2026 - CAPI"
+            "alt": "Juegos Suramericanos 2026 - CAPI",
+            "video": "/behance/256360931/dcf898256360931.6aba7eb608148.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/fs_still/e97b1c256360931.6aba7eb605410.gif",
             "width": 1260,
             "height": 690,
-            "alt": "Juegos Suramericanos 2026 - CAPI"
+            "alt": "Juegos Suramericanos 2026 - CAPI",
+            "video": "/behance/256360931/e97b1c256360931.6aba7eb605410.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/3f7dbd256360931.6aba7eb605c76.gif",
             "width": 1400,
             "height": 766,
-            "alt": "Juegos Suramericanos 2026 - CAPI"
+            "alt": "Juegos Suramericanos 2026 - CAPI",
+            "video": "/behance/256360931/3f7dbd256360931.6aba7eb605c76.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/b93f53256360931.6aba7eb607abf.gif",
             "width": 1400,
             "height": 766,
-            "alt": "Juegos Suramericanos 2026 - CAPI"
+            "alt": "Juegos Suramericanos 2026 - CAPI",
+            "video": "/behance/256360931/b93f53256360931.6aba7eb607abf.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/3e4ba6256360931.6aba7eb60642b.gif",
             "width": 1120,
             "height": 612,
-            "alt": "Juegos Suramericanos 2026 - CAPI"
+            "alt": "Juegos Suramericanos 2026 - CAPI",
+            "video": "/behance/256360931/3e4ba6256360931.6aba7eb60642b.mp4"
           }
         ],
         "rows": [
@@ -818,149 +847,153 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/304e9c256360931.6aba7ebdf2423.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/bb1bef256360931.6acd06117f495.gif",
         "width": 168,
         "height": 84,
-        "alt": "Image may contain: dance"
+        "alt": "Image may contain: dance",
+        "video": "/behance/256360931/bb1bef256360931.6acd06117f495.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a561e9256360931.6aba7ebdef507.png",
+        "src": "/behance/256360931/e24315256360931.6acd061182eba.webp",
         "width": 108,
         "height": 54,
         "alt": "Image may contain: font, graphics and graphic design"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6d1bb9256360931.6abd2c12dc748.png",
+        "src": "/behance/256360931/9c313e256360931.6acd0611796cf.webp",
         "width": 416,
         "height": 208,
         "alt": "Image may contain: footwear, dance and cartoon"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/91c74c256360931.6aba7ebdf0b18.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/bded80256360931.6acd06117ac87.gif",
         "width": 600,
         "height": 338,
-        "alt": "Image may contain: cartoon, clipart and animal figure"
+        "alt": "Image may contain: cartoon, clipart and animal figure",
+        "video": "/behance/256360931/bded80256360931.6acd06117ac87.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/74ac75256360931.6aba7ebdf2fc1.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/9d3148256360931.6acd06117bad5.gif",
         "width": 168,
         "height": 84,
-        "alt": "Image may contain: dance"
+        "alt": "Image may contain: dance",
+        "video": "/behance/256360931/9d3148256360931.6acd06117bad5.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2bab68256360931.6aba7ebdf3a20.png",
+        "src": "/behance/256360931/ad72c4256360931.6acd06117a422.webp",
         "width": 108,
         "height": 54,
         "alt": "Image may contain: font, graphics and graphic design"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/34e0a7256360931.6aba7ebdf1031.png",
+        "src": "/behance/256360931/773b75256360931.6acd06117cf20.webp",
         "width": 538,
         "height": 269,
         "alt": "Image may contain: clothing and cartoon"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1d076e256360931.6aba7ebdf3547.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/487356256360931.6acd06117d72c.gif",
         "width": 600,
         "height": 600,
-        "alt": "Juegos Suramericanos 2026 - CAPI"
+        "alt": "Juegos Suramericanos 2026 - CAPI",
+        "video": "/behance/256360931/487356256360931.6acd06117d72c.mp4"
       },
       {
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/9e2fb5256360931.6aba7eb906ae2.png",
+            "src": "/behance/256360931/9e2fb5256360931.6aba7eb906ae2.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/9d270d256360931.6aba7eb906621.png",
+            "src": "/behance/256360931/9d270d256360931.6aba7eb906621.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/8b3aa2256360931.6aba7eb907a44.png",
+            "src": "/behance/256360931/8b3aa2256360931.6aba7eb907a44.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/7031a0256360931.6aba7eb908d86.png",
+            "src": "/behance/256360931/7031a0256360931.6aba7eb908d86.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/017622256360931.6aba7eb90960a.png",
+            "src": "/behance/256360931/017622256360931.6aba7eb90960a.webp",
             "width": 3840,
             "height": 2160,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/5d502f256360931.6aba7eb9091f7.png",
+            "src": "/behance/256360931/5d502f256360931.6aba7eb9091f7.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/7c8f8d256360931.6aba7eb907f8a.png",
+            "src": "/behance/256360931/7c8f8d256360931.6aba7eb907f8a.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/8568e8256360931.6aba7eb907469.png",
+            "src": "/behance/256360931/8568e8256360931.6aba7eb907469.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/4bd68c256360931.6aba7eb908453.png",
+            "src": "/behance/256360931/4bd68c256360931.6aba7eb908453.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/4fe69b256360931.6aba7eb909a8f.png",
+            "src": "/behance/256360931/4fe69b256360931.6aba7eb909a8f.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/54d4af256360931.6aba7eb909f2e.png",
+            "src": "/behance/256360931/54d4af256360931.6aba7eb909f2e.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/cf6515256360931.6aba7eb9088f6.png",
+            "src": "/behance/256360931/cf6515256360931.6aba7eb9088f6.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/9b6fca256360931.6aba7eb90a4b5.png",
+            "src": "/behance/256360931/9b6fca256360931.6aba7eb90a4b5.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/0801ed256360931.6aba7eb90a99b.png",
+            "src": "/behance/256360931/0801ed256360931.6aba7eb90a99b.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/efb2a8256360931.6aba7eb906fdb.png",
+            "src": "/behance/256360931/efb2a8256360931.6aba7eb906fdb.webp",
             "width": 5504,
             "height": 3072,
             "alt": "Juegos Suramericanos 2026 - CAPI"
@@ -976,14 +1009,15 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b0d5db256360931.6abd22bf1652d.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/ad47a6256360931.6acd06117ed04.gif",
         "width": 168,
         "height": 84,
-        "alt": "Image may contain: dance"
+        "alt": "Image may contain: dance",
+        "video": "/behance/256360931/ad47a6256360931.6acd06117ed04.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c22edc256360931.6aba7ebdf00c5.png",
+        "src": "/behance/256360931/1b7192256360931.6acd061179d6a.webp",
         "width": 108,
         "height": 54,
         "alt": "Image may contain: font, graphics and logo"
@@ -1001,25 +1035,29 @@
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/07fd92256360931.6aba7ebb68ac7.gif",
             "width": 1400,
             "height": 788,
-            "alt": "Juegos Suramericanos 2026 - CAPI"
+            "alt": "Juegos Suramericanos 2026 - CAPI",
+            "video": "/behance/256360931/07fd92256360931.6aba7ebb68ac7.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/a0e81c256360931.6aba7ebb68005.gif",
             "width": 1400,
             "height": 788,
-            "alt": "Juegos Suramericanos 2026 - CAPI"
+            "alt": "Juegos Suramericanos 2026 - CAPI",
+            "video": "/behance/256360931/a0e81c256360931.6aba7ebb68005.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/d06058256360931.6aba7ebb69063.gif",
             "width": 1400,
             "height": 788,
-            "alt": "Juegos Suramericanos 2026 - CAPI"
+            "alt": "Juegos Suramericanos 2026 - CAPI",
+            "video": "/behance/256360931/d06058256360931.6aba7ebb69063.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/def05c256360931.6aba7ebb685fe.gif",
             "width": 1400,
             "height": 788,
-            "alt": "Juegos Suramericanos 2026 - CAPI"
+            "alt": "Juegos Suramericanos 2026 - CAPI",
+            "video": "/behance/256360931/def05c256360931.6aba7ebb685fe.mp4"
           }
         ],
         "rows": [
@@ -1029,28 +1067,30 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1bd11c256360931.6abd22bf15f83.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/c8e670256360931.6acd06118026e.gif",
         "width": 168,
         "height": 84,
-        "alt": "Image may contain: dance"
+        "alt": "Image may contain: dance",
+        "video": "/behance/256360931/c8e670256360931.6acd06118026e.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b9a5ec256360931.6aba7ebdefb61.png",
+        "src": "/behance/256360931/4c278d256360931.6acd06117b427.webp",
         "width": 108,
         "height": 54,
         "alt": "Image may contain: font, graphics and graphic design"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/03b37c256360931.6aba7ebdf1a28.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/6aba8d256360931.6acd06117e684.gif",
         "width": 600,
         "height": 338,
-        "alt": "Juegos Suramericanos 2026 - CAPI"
+        "alt": "Juegos Suramericanos 2026 - CAPI",
+        "video": "/behance/256360931/6aba8d256360931.6acd06117e684.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f8e785256360931.6aba7ebdf29f8.png",
+        "src": "/behance/256360931/f041bd256360931.6acd06117dea7.webp",
         "width": 600,
         "height": 508,
         "alt": "Image may contain: screenshot, cartoon and flyer"
@@ -1059,25 +1099,25 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/7f514d256360931.6aba9a37f29c7.png",
+            "src": "/behance/256360931/7f514d256360931.6aba9a37f29c7.webp",
             "width": 8000,
             "height": 4500,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/99a00a256360931.6aba9a37f1b6b.png",
+            "src": "/behance/256360931/99a00a256360931.6aba9a37f1b6b.webp",
             "width": 8000,
             "height": 4500,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/37c17e256360931.6aba9a37f2097.png",
+            "src": "/behance/256360931/37c17e256360931.6aba9a37f2097.webp",
             "width": 8000,
             "height": 4500,
             "alt": "Juegos Suramericanos 2026 - CAPI"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/84ea32256360931.6aba9a37f2549.png",
+            "src": "/behance/256360931/84ea32256360931.6aba9a37f2549.webp",
             "width": 8000,
             "height": 4500,
             "alt": "Juegos Suramericanos 2026 - CAPI"
@@ -1090,38 +1130,41 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5fe03f256360931.6abd22bf16aea.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/b83b7a256360931.6acd06118384f.gif",
         "width": 168,
         "height": 84,
-        "alt": "Image may contain: dance"
+        "alt": "Image may contain: dance",
+        "video": "/behance/256360931/b83b7a256360931.6acd06118384f.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/490df9256360931.6abd22bf15284.png",
+        "src": "/behance/256360931/bc028d256360931.6acd06117c105.webp",
         "width": 108,
         "height": 54,
         "alt": "Image may contain: font, graphics and graphic design"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/83c3d6256360931.6abd2956cc94d.png",
+        "src": "/behance/256360931/9d77f6256360931.6acd06117fb6e.webp",
         "width": 476,
         "height": 238,
         "alt": "Image may contain: screenshot, font and brand"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/460b9a256360931.6aba7ebdf147c.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/d60995256360931.6acd06118098f.gif",
         "width": 168,
         "height": 84,
-        "alt": "Image may contain: dance"
+        "alt": "Image may contain: dance",
+        "video": "/behance/256360931/d60995256360931.6acd06118098f.mp4"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/385899256360931.6aba7ebdf1e7a.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/c3d94b256360931.6acd06117c755.gif",
         "width": 558,
         "height": 279,
-        "alt": "Image may contain: clipart, graphics and drawing"
+        "alt": "Image may contain: clipart, graphics and drawing",
+        "video": "/behance/256360931/c3d94b256360931.6acd06117c755.mp4"
       },
       {
         "type": "text",
@@ -1136,14 +1179,15 @@
   "256361195": {
     "id": 256361195,
     "title": "BIC 7 - HELADERAS MABE",
-    "thumbnail": "https://mir-s3-cdn-cf.behance.net/projects/original_webp/22cb60256361195.Y3JvcCwxMjA1LDk0MywzNzMsMTA3.jpg",
+    "thumbnail": "/behance/256361195/portada.jpg",
     "modules": [
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f0a5cb256361195.6aba7732622c9.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/2ae029256361195.6acd061125ba5.gif",
         "width": 428,
         "height": 214,
-        "alt": "BIC 7 - HELADERAS MABE"
+        "alt": "BIC 7 - HELADERAS MABE",
+        "video": "/behance/256361195/2ae029256361195.6acd061125ba5.mp4"
       },
       {
         "type": "text",
@@ -1158,149 +1202,150 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4cf2f3256361195.6aba7b83ba380.jpg",
+        "src": "/behance/256361195/143e2b256361195.6acd061123a89.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a6a558256361195.6aba7b83bab7f.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/b758f2256361195.6acd0611267ba.gif",
         "width": 532,
         "height": 266,
-        "alt": "BIC 7 - HELADERAS MABE"
+        "alt": "BIC 7 - HELADERAS MABE",
+        "video": "/behance/256361195/b758f2256361195.6acd0611267ba.mp4"
       },
       {
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/e11b5c256361195.6aba7b7f942f7.jpg",
+            "src": "/behance/256361195/e11b5c256361195.6aba7b7f942f7.webp",
             "width": 2500,
             "height": 2500,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/ca32b9256361195.6aba7b7f92cdb.jpg",
+            "src": "/behance/256361195/ca32b9256361195.6aba7b7f92cdb.webp",
             "width": 2500,
             "height": 2500,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/4d63ee256361195.6aba7b7f96877.jpg",
+            "src": "/behance/256361195/4d63ee256361195.6aba7b7f96877.webp",
             "width": 2500,
             "height": 2500,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/e30cf0256361195.6aba7b7f921f8.jpg",
+            "src": "/behance/256361195/e30cf0256361195.6aba7b7f921f8.webp",
             "width": 2500,
             "height": 2500,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/84bb59256361195.6aba7b7f91d83.jpg",
+            "src": "/behance/256361195/84bb59256361195.6aba7b7f91d83.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/8ab392256361195.6aba7b7f946f5.jpg",
+            "src": "/behance/256361195/8ab392256361195.6aba7b7f946f5.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/567ee0256361195.6aba7b7f930b2.jpg",
+            "src": "/behance/256361195/567ee0256361195.6aba7b7f930b2.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/97f95e256361195.6aba7b7f93a96.jpg",
+            "src": "/behance/256361195/97f95e256361195.6aba7b7f93a96.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/be87b0256361195.6aba7b7f92952.jpg",
+            "src": "/behance/256361195/be87b0256361195.6aba7b7f92952.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/ff10f3256361195.6aba7b7f92574.jpg",
+            "src": "/behance/256361195/ff10f3256361195.6aba7b7f92574.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/d33816256361195.6aba7b7f95697.jpg",
+            "src": "/behance/256361195/d33816256361195.6aba7b7f95697.webp",
             "width": 3840,
             "height": 2160,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/4b23de256361195.6aba7b7f93e40.jpg",
+            "src": "/behance/256361195/4b23de256361195.6aba7b7f93e40.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/b9c331256361195.6aba7b7f964af.jpg",
+            "src": "/behance/256361195/b9c331256361195.6aba7b7f964af.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/7c66fe256361195.6aba7b7f9340b.jpg",
+            "src": "/behance/256361195/7c66fe256361195.6aba7b7f9340b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/0bb13c256361195.6aba7b7f96be0.jpg",
+            "src": "/behance/256361195/0bb13c256361195.6aba7b7f96be0.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/f66ccb256361195.6aba7b7f952b6.jpg",
+            "src": "/behance/256361195/f66ccb256361195.6aba7b7f952b6.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/5b2912256361195.6aba7b7f95a2c.jpg",
+            "src": "/behance/256361195/5b2912256361195.6aba7b7f95a2c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/c1160f256361195.6aba7b7f95d7c.jpg",
+            "src": "/behance/256361195/c1160f256361195.6aba7b7f95d7c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/342125256361195.6aba7b7f94a99.jpg",
+            "src": "/behance/256361195/342125256361195.6aba7b7f94a99.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/fbbc36256361195.6aba7b7f93753.jpg",
+            "src": "/behance/256361195/fbbc36256361195.6aba7b7f93753.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/5c24d5256361195.6aba7b7f96125.jpg",
+            "src": "/behance/256361195/5c24d5256361195.6aba7b7f96125.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/8f6382256361195.6aba7b7f94e7d.jpg",
+            "src": "/behance/256361195/8f6382256361195.6aba7b7f94e7d.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - HELADERAS MABE"
@@ -1318,7 +1363,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4919c2256361195.6aba7b83baf75.jpg",
+        "src": "/behance/256361195/4bb600256361195.6acd061124e79.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot, blue and electric blue"
@@ -1330,67 +1375,78 @@
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/57667b256361195.6aba7b810f7b0.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - HELADERAS MABE"
+            "alt": "BIC 7 - HELADERAS MABE",
+            "video": "/behance/256361195/57667b256361195.6aba7b810f7b0.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/3726a8256361195.6aba7b8113566.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - HELADERAS MABE"
+            "alt": "BIC 7 - HELADERAS MABE",
+            "video": "/behance/256361195/3726a8256361195.6aba7b8113566.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/b9ec06256361195.6aba7b8111189.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - HELADERAS MABE"
+            "alt": "BIC 7 - HELADERAS MABE",
+            "video": "/behance/256361195/b9ec06256361195.6aba7b8111189.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/baf318256361195.6aba7b810ff49.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - HELADERAS MABE"
+            "alt": "BIC 7 - HELADERAS MABE",
+            "video": "/behance/256361195/baf318256361195.6aba7b810ff49.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/52c5bb256361195.6aba7b8110723.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - HELADERAS MABE"
+            "alt": "BIC 7 - HELADERAS MABE",
+            "video": "/behance/256361195/52c5bb256361195.6aba7b8110723.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/133140256361195.6aba7b8113c59.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - HELADERAS MABE"
+            "alt": "BIC 7 - HELADERAS MABE",
+            "video": "/behance/256361195/133140256361195.6aba7b8113c59.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/290c13256361195.6aba7b811267d.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - HELADERAS MABE"
+            "alt": "BIC 7 - HELADERAS MABE",
+            "video": "/behance/256361195/290c13256361195.6aba7b811267d.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/bbdd39256361195.6aba7b8112e05.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - HELADERAS MABE"
+            "alt": "BIC 7 - HELADERAS MABE",
+            "video": "/behance/256361195/bbdd39256361195.6aba7b8112e05.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/586868256361195.6aba7b8110c94.gif",
             "width": 640,
             "height": 360,
-            "alt": "BIC 7 - HELADERAS MABE"
+            "alt": "BIC 7 - HELADERAS MABE",
+            "video": "/behance/256361195/586868256361195.6aba7b8110c94.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/d933fb256361195.6aba7b8111853.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - HELADERAS MABE"
+            "alt": "BIC 7 - HELADERAS MABE",
+            "video": "/behance/256361195/d933fb256361195.6aba7b8111853.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/a7fe43256361195.6aba7b8111f2e.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - HELADERAS MABE"
+            "alt": "BIC 7 - HELADERAS MABE",
+            "video": "/behance/256361195/a7fe43256361195.6aba7b8111f2e.mp4"
           }
         ],
         "rows": [
@@ -1402,7 +1458,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8e046c256361195.6aba7b83ba790.jpg",
+        "src": "/behance/256361195/e3ee0e256361195.6acd061127b24.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: automotive, screenshot and car"
@@ -1426,14 +1482,15 @@
   "256363601": {
     "id": 256363601,
     "title": "BIC 7 - GE APPLIANCES",
-    "thumbnail": "https://mir-s3-cdn-cf.behance.net/projects/original_webp/96de78256363601.Y3JvcCwxMjg3LDEwMDYsMzE4LDcw.jpg",
+    "thumbnail": "/behance/256363601/portada.jpg",
     "modules": [
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/76bdda256363601.6aba83c212ed1.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/4f032e256363601.6acd06112d744.gif",
         "width": 428,
         "height": 214,
-        "alt": "BIC 7 - GE APPLIANCES"
+        "alt": "BIC 7 - GE APPLIANCES",
+        "video": "/behance/256363601/4f032e256363601.6acd06112d744.mp4"
       },
       {
         "type": "text",
@@ -1448,29 +1505,30 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/71acfe256363601.6abd545c0964d.jpg",
+        "src": "/behance/256363601/422a32256363601.6acd06112b63c.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot and car"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5c2640256363601.6aba8b2770c84.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/9f9dc5256363601.6acd06112cfe9.gif",
         "width": 532,
         "height": 266,
-        "alt": "BIC 7 - GE APPLIANCES"
+        "alt": "BIC 7 - GE APPLIANCES",
+        "video": "/behance/256363601/9f9dc5256363601.6acd06112cfe9.mp4"
       },
       {
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/7421a5256363601.6aba92bb8566b.jpg",
+            "src": "/behance/256363601/7421a5256363601.6aba92bb8566b.webp",
             "width": 2500,
             "height": 2500,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/4f918c256363601.6aba92bb8501e.jpg",
+            "src": "/behance/256363601/4f918c256363601.6aba92bb8501e.webp",
             "width": 2500,
             "height": 2500,
             "alt": "BIC 7 - GE APPLIANCES"
@@ -1484,133 +1542,133 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/f0d24a256363601.6aba92bc4b469.jpg",
+            "src": "/behance/256363601/f0d24a256363601.6aba92bc4b469.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/1e8912256363601.6aba92bc4dc0f.jpg",
+            "src": "/behance/256363601/1e8912256363601.6aba92bc4dc0f.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/85495b256363601.6aba92bc4bed2.jpg",
+            "src": "/behance/256363601/85495b256363601.6aba92bc4bed2.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/929a21256363601.6aba92bc4b7fa.jpg",
+            "src": "/behance/256363601/929a21256363601.6aba92bc4b7fa.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/d135b7256363601.6aba92bc4f2b5.jpg",
+            "src": "/behance/256363601/d135b7256363601.6aba92bc4f2b5.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/c6dbdf256363601.6aba92bc4d59e.jpg",
+            "src": "/behance/256363601/c6dbdf256363601.6aba92bc4d59e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/848bba256363601.6aba92bc4c216.jpg",
+            "src": "/behance/256363601/848bba256363601.6aba92bc4c216.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/e7620e256363601.6aba92bc4d262.jpg",
+            "src": "/behance/256363601/e7620e256363601.6aba92bc4d262.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/c24185256363601.6aba92bc4cbe0.jpg",
+            "src": "/behance/256363601/c24185256363601.6aba92bc4cbe0.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/8d5ad9256363601.6aba92bc4fa09.jpg",
+            "src": "/behance/256363601/8d5ad9256363601.6aba92bc4fa09.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/ae6a4f256363601.6aba92bc4e5b2.jpg",
+            "src": "/behance/256363601/ae6a4f256363601.6aba92bc4e5b2.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/135b01256363601.6aba92bc4cefb.jpg",
+            "src": "/behance/256363601/135b01256363601.6aba92bc4cefb.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/afe593256363601.6aba92bc4ec54.jpg",
+            "src": "/behance/256363601/afe593256363601.6aba92bc4ec54.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/5c5828256363601.6aba92bc4c56b.jpg",
+            "src": "/behance/256363601/5c5828256363601.6aba92bc4c56b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/010609256363601.6aba92bc4e914.jpg",
+            "src": "/behance/256363601/010609256363601.6aba92bc4e914.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/a016e9256363601.6aba92bc4c896.jpg",
+            "src": "/behance/256363601/a016e9256363601.6aba92bc4c896.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/330fab256363601.6aba92bc4d8e6.jpg",
+            "src": "/behance/256363601/330fab256363601.6aba92bc4d8e6.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/782939256363601.6aba92bc4bb8b.jpg",
+            "src": "/behance/256363601/782939256363601.6aba92bc4bb8b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/766388256363601.6aba92bc4df33.jpg",
+            "src": "/behance/256363601/766388256363601.6aba92bc4df33.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/625f04256363601.6aba92bc4ef67.jpg",
+            "src": "/behance/256363601/625f04256363601.6aba92bc4ef67.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/51e9c4256363601.6aba92bc4f67f.jpg",
+            "src": "/behance/256363601/51e9c4256363601.6aba92bc4f67f.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/00b139256363601.6aba92bc4e25b.jpg",
+            "src": "/behance/256363601/00b139256363601.6aba92bc4e25b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE APPLIANCES"
@@ -1632,7 +1690,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a337ed256363601.6abd545c091ad.jpg",
+        "src": "/behance/256363601/f22d97256363601.6acd06112c7a5.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot, logo and graphics"
@@ -1644,43 +1702,50 @@
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/abd17c256363601.6aba92bd98280.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - GE APPLIANCES"
+            "alt": "BIC 7 - GE APPLIANCES",
+            "video": "/behance/256363601/abd17c256363601.6aba92bd98280.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/8b613a256363601.6aba92bd97a76.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - GE APPLIANCES"
+            "alt": "BIC 7 - GE APPLIANCES",
+            "video": "/behance/256363601/8b613a256363601.6aba92bd97a76.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/6e3672256363601.6aba92bd99136.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - GE APPLIANCES"
+            "alt": "BIC 7 - GE APPLIANCES",
+            "video": "/behance/256363601/6e3672256363601.6aba92bd99136.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/eeb321256363601.6aba92bd997bf.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - GE APPLIANCES"
+            "alt": "BIC 7 - GE APPLIANCES",
+            "video": "/behance/256363601/eeb321256363601.6aba92bd997bf.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/f0670a256363601.6aba92bd98a31.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - GE APPLIANCES"
+            "alt": "BIC 7 - GE APPLIANCES",
+            "video": "/behance/256363601/f0670a256363601.6aba92bd98a31.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/bdd6fd256363601.6aba92bd99e0d.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - GE APPLIANCES"
+            "alt": "BIC 7 - GE APPLIANCES",
+            "video": "/behance/256363601/bdd6fd256363601.6aba92bd99e0d.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/ec1d6b256363601.6aba92bd9a548.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - GE APPLIANCES"
+            "alt": "BIC 7 - GE APPLIANCES",
+            "video": "/behance/256363601/ec1d6b256363601.6aba92bd9a548.mp4"
           }
         ],
         "rows": [
@@ -1690,7 +1755,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/dcdd88256363601.6abd545c09a9c.jpg",
+        "src": "/behance/256363601/a90a93256363601.6acd06112e259.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot, font and brand"
@@ -1714,14 +1779,15 @@
   "256367297": {
     "id": 256367297,
     "title": "BIC 7 - ESTUFA MABE",
-    "thumbnail": "https://mir-s3-cdn-cf.behance.net/projects/original_webp/c80eb3256367297.Y3JvcCwxMjU5LDk4NCwzNTIsOTM.jpg",
+    "thumbnail": "/behance/256367297/portada.jpg",
     "modules": [
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2bdd99256367297.6aba93740b8d7.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/fcce46256367297.6acd061155342.gif",
         "width": 428,
         "height": 214,
-        "alt": "BIC 7 - ESTUFA MABE"
+        "alt": "BIC 7 - ESTUFA MABE",
+        "video": "/behance/256367297/fcce46256367297.6acd061155342.mp4"
       },
       {
         "type": "text",
@@ -1736,191 +1802,192 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/73013f256367297.6aba946694a84.jpg",
+        "src": "/behance/256367297/59b41e256367297.6acd061157757.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot, graphics and graphic design"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9034e1256367297.6aba94669557e.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/cbf379256367297.6acd061156062.gif",
         "width": 486,
         "height": 243,
-        "alt": "BIC 7 - ESTUFA MABE"
+        "alt": "BIC 7 - ESTUFA MABE",
+        "video": "/behance/256367297/cbf379256367297.6acd061156062.mp4"
       },
       {
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/ce5ab6256367297.6aba946293c0f.jpg",
+            "src": "/behance/256367297/ce5ab6256367297.6aba946293c0f.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/cd3f03256367297.6aba9462985c3.jpg",
+            "src": "/behance/256367297/cd3f03256367297.6aba9462985c3.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/e8667a256367297.6aba946297f4e.jpg",
+            "src": "/behance/256367297/e8667a256367297.6aba946297f4e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/342981256367297.6aba9462948ff.jpg",
+            "src": "/behance/256367297/342981256367297.6aba9462948ff.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/f0eace256367297.6aba946295fad.jpg",
+            "src": "/behance/256367297/f0eace256367297.6aba946295fad.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/10a2f3256367297.6aba9462942be.jpg",
+            "src": "/behance/256367297/10a2f3256367297.6aba9462942be.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/6f94e0256367297.6aba94629350a.jpg",
+            "src": "/behance/256367297/6f94e0256367297.6aba94629350a.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/785ae9256367297.6aba94629c92a.jpg",
+            "src": "/behance/256367297/785ae9256367297.6aba94629c92a.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/b8e65f256367297.6aba946299ad7.jpg",
+            "src": "/behance/256367297/b8e65f256367297.6aba946299ad7.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/ebab48256367297.6aba94629b651.jpg",
+            "src": "/behance/256367297/ebab48256367297.6aba94629b651.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/e80dea256367297.6aba94629726e.jpg",
+            "src": "/behance/256367297/e80dea256367297.6aba94629726e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/c4c6ec256367297.6aba946296810.jpg",
+            "src": "/behance/256367297/c4c6ec256367297.6aba946296810.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/8e8815256367297.6aba946292ef4.jpg",
+            "src": "/behance/256367297/8e8815256367297.6aba946292ef4.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/ec27d4256367297.6aba9462928ea.jpg",
+            "src": "/behance/256367297/ec27d4256367297.6aba9462928ea.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/e48b98256367297.6aba94629584e.jpg",
+            "src": "/behance/256367297/e48b98256367297.6aba94629584e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/1a15bd256367297.6aba94629af6a.jpg",
+            "src": "/behance/256367297/1a15bd256367297.6aba94629af6a.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/1f85c4256367297.6aba94629a47c.jpg",
+            "src": "/behance/256367297/1f85c4256367297.6aba94629a47c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/6a2a8a256367297.6aba94629de1a.jpg",
+            "src": "/behance/256367297/6a2a8a256367297.6aba94629de1a.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/1ef8ea256367297.6aba946298b8b.jpg",
+            "src": "/behance/256367297/1ef8ea256367297.6aba946298b8b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/4b6104256367297.6aba9462950eb.jpg",
+            "src": "/behance/256367297/4b6104256367297.6aba9462950eb.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/d8d866256367297.6aba9462978f2.jpg",
+            "src": "/behance/256367297/d8d866256367297.6aba9462978f2.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/6a5aa2256367297.6aba946299f42.jpg",
+            "src": "/behance/256367297/6a5aa2256367297.6aba946299f42.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/4588b3256367297.6aba9462991c7.jpg",
+            "src": "/behance/256367297/4588b3256367297.6aba9462991c7.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/1b6abd256367297.6aba94629bcf7.jpg",
+            "src": "/behance/256367297/1b6abd256367297.6aba94629bcf7.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/58011a256367297.6aba94629a9cb.jpg",
+            "src": "/behance/256367297/58011a256367297.6aba94629a9cb.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/a8306c256367297.6aba94629cf0e.jpg",
+            "src": "/behance/256367297/a8306c256367297.6aba94629cf0e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/d399a9256367297.6aba94629d43b.jpg",
+            "src": "/behance/256367297/d399a9256367297.6aba94629d43b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/ac786b256367297.6aba946299684.jpg",
+            "src": "/behance/256367297/ac786b256367297.6aba946299684.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/0bae2f256367297.6aba94629d8ea.jpg",
+            "src": "/behance/256367297/0bae2f256367297.6aba94629d8ea.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ESTUFA MABE"
@@ -1941,7 +2008,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d44794256367297.6aba94669500b.jpg",
+        "src": "/behance/256367297/f75eb5256367297.6acd061152aa1.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot, light and graphics"
@@ -1953,55 +2020,64 @@
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/8b89ab256367297.6aba94649a1d5.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - ESTUFA MABE"
+            "alt": "BIC 7 - ESTUFA MABE",
+            "video": "/behance/256367297/8b89ab256367297.6aba94649a1d5.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/5559a1256367297.6aba9464981e2.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - ESTUFA MABE"
+            "alt": "BIC 7 - ESTUFA MABE",
+            "video": "/behance/256367297/5559a1256367297.6aba9464981e2.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/ecdefd256367297.6aba9464977bf.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - ESTUFA MABE"
+            "alt": "BIC 7 - ESTUFA MABE",
+            "video": "/behance/256367297/ecdefd256367297.6aba9464977bf.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/7da214256367297.6aba946498a29.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - ESTUFA MABE"
+            "alt": "BIC 7 - ESTUFA MABE",
+            "video": "/behance/256367297/7da214256367297.6aba946498a29.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/135629256367297.6aba946499a39.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - ESTUFA MABE"
+            "alt": "BIC 7 - ESTUFA MABE",
+            "video": "/behance/256367297/135629256367297.6aba946499a39.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/3757e5256367297.6aba9464992c4.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - ESTUFA MABE"
+            "alt": "BIC 7 - ESTUFA MABE",
+            "video": "/behance/256367297/3757e5256367297.6aba9464992c4.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/5a4778256367297.6aba94649a92f.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - ESTUFA MABE"
+            "alt": "BIC 7 - ESTUFA MABE",
+            "video": "/behance/256367297/5a4778256367297.6aba94649a92f.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/59c4b9256367297.6aba94649ba53.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - ESTUFA MABE"
+            "alt": "BIC 7 - ESTUFA MABE",
+            "video": "/behance/256367297/59c4b9256367297.6aba94649ba53.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/b35718256367297.6aba94649b1e2.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - ESTUFA MABE"
+            "alt": "BIC 7 - ESTUFA MABE",
+            "video": "/behance/256367297/b35718256367297.6aba94649b1e2.mp4"
           }
         ],
         "rows": [
@@ -2012,7 +2088,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/22e29f256367297.6aba946694411.jpg",
+        "src": "/behance/256367297/8b61f3256367297.6acd0611545aa.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot, graphics and font"
@@ -2036,14 +2112,15 @@
   "256367565": {
     "id": 256367565,
     "title": "BIC 7 - LAVAVAJILLAS MABE",
-    "thumbnail": "https://mir-s3-cdn-cf.behance.net/projects/original_webp/2cb552256367565.Y3JvcCwxMjA1LDk0Myw0MDIsMTM0.jpg",
+    "thumbnail": "/behance/256367565/portada.jpg",
     "modules": [
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b97367256367565.6aba94b931600.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/af0d77256367565.6acd061144476.gif",
         "width": 428,
         "height": 214,
-        "alt": "BIC 7 - LAVAVAJILLAS MABE"
+        "alt": "BIC 7 - LAVAVAJILLAS MABE",
+        "video": "/behance/256367565/af0d77256367565.6acd061144476.mp4"
       },
       {
         "type": "text",
@@ -2058,209 +2135,210 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/08cce0256367565.6aba97e411a7a.jpg",
+        "src": "/behance/256367565/92ec06256367565.6acd0611460dd.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/665e5f256367565.6aba97e412271.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/c8cceb256367565.6acd061144c28.gif",
         "width": 532,
         "height": 266,
-        "alt": "Image may contain: sketch, drawing and line art"
+        "alt": "Image may contain: sketch, drawing and line art",
+        "video": "/behance/256367565/c8cceb256367565.6acd061144c28.mp4"
       },
       {
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/f68b3e256367565.6aba97e01ac1b.jpg",
+            "src": "/behance/256367565/f68b3e256367565.6aba97e01ac1b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/eaf4e7256367565.6aba97e02201f.jpg",
+            "src": "/behance/256367565/eaf4e7256367565.6aba97e02201f.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/e17b12256367565.6aba97e01be6c.jpg",
+            "src": "/behance/256367565/e17b12256367565.6aba97e01be6c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/5b3f96256367565.6aba97e01e11e.jpg",
+            "src": "/behance/256367565/5b3f96256367565.6aba97e01e11e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/496c0f256367565.6aba97e01fb2a.jpg",
+            "src": "/behance/256367565/496c0f256367565.6aba97e01fb2a.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/4f69e5256367565.6aba97e01b5ac.jpg",
+            "src": "/behance/256367565/4f69e5256367565.6aba97e01b5ac.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/4d7278256367565.6aba97e01dcfe.jpg",
+            "src": "/behance/256367565/4d7278256367565.6aba97e01dcfe.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/41fad4256367565.6aba97e01f719.jpg",
+            "src": "/behance/256367565/41fad4256367565.6aba97e01f719.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/2b60c0256367565.6aba97e01d356.jpg",
+            "src": "/behance/256367565/2b60c0256367565.6aba97e01d356.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/7f31ab256367565.6aba97e01d87e.jpg",
+            "src": "/behance/256367565/7f31ab256367565.6aba97e01d87e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/234af6256367565.6aba97e020843.jpg",
+            "src": "/behance/256367565/234af6256367565.6aba97e020843.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/4ea69d256367565.6aba97e021a66.jpg",
+            "src": "/behance/256367565/4ea69d256367565.6aba97e021a66.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/2f76b0256367565.6aba97e02032a.jpg",
+            "src": "/behance/256367565/2f76b0256367565.6aba97e02032a.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/1c02c2256367565.6aba97e01f269.jpg",
+            "src": "/behance/256367565/1c02c2256367565.6aba97e01f269.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/040178256367565.6aba97e01ee04.jpg",
+            "src": "/behance/256367565/040178256367565.6aba97e01ee04.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/9e4d0d256367565.6aba97e01e59d.jpg",
+            "src": "/behance/256367565/9e4d0d256367565.6aba97e01e59d.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/36cbde256367565.6aba97e01c402.jpg",
+            "src": "/behance/256367565/36cbde256367565.6aba97e01c402.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/396005256367565.6aba97e0215f6.jpg",
+            "src": "/behance/256367565/396005256367565.6aba97e0215f6.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/4ae378256367565.6aba97e021125.jpg",
+            "src": "/behance/256367565/4ae378256367565.6aba97e021125.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/5dacbb256367565.6aba97e020cbb.jpg",
+            "src": "/behance/256367565/5dacbb256367565.6aba97e020cbb.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/c05fb4256367565.6aba97e01c9a8.jpg",
+            "src": "/behance/256367565/c05fb4256367565.6aba97e01c9a8.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/97ea52256367565.6aba97e01ba12.jpg",
+            "src": "/behance/256367565/97ea52256367565.6aba97e01ba12.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/3c3a0e256367565.6aba97e01e9f9.jpg",
+            "src": "/behance/256367565/3c3a0e256367565.6aba97e01e9f9.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/8aabb7256367565.6aba97e01b11e.jpg",
+            "src": "/behance/256367565/8aabb7256367565.6aba97e01b11e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/e0f1c3256367565.6aba97e01cdc6.jpg",
+            "src": "/behance/256367565/e0f1c3256367565.6aba97e01cdc6.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/6e66ec256367565.6aba97e01ff13.jpg",
+            "src": "/behance/256367565/6e66ec256367565.6aba97e01ff13.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/8a45e2256367565.6aba97e0224a9.jpg",
+            "src": "/behance/256367565/8a45e2256367565.6aba97e0224a9.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/742647256367565.6aba97e023cbe.jpg",
+            "src": "/behance/256367565/742647256367565.6aba97e023cbe.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/429ec7256367565.6aba97e0237b5.jpg",
+            "src": "/behance/256367565/429ec7256367565.6aba97e0237b5.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/40f4c6256367565.6aba97e022d9d.jpg",
+            "src": "/behance/256367565/40f4c6256367565.6aba97e022d9d.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/acbc92256367565.6aba97e02291a.jpg",
+            "src": "/behance/256367565/acbc92256367565.6aba97e02291a.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/663196256367565.6aba97e023287.jpg",
+            "src": "/behance/256367565/663196256367565.6aba97e023287.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - LAVAVAJILLAS MABE"
@@ -2282,7 +2360,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/de2dad256367565.6aba97e412ada.jpg",
+        "src": "/behance/256367565/f69f00256367565.6acd06114771b.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot"
@@ -2294,31 +2372,36 @@
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/44ea51256367565.6aba97e1b5fea.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - LAVAVAJILLAS MABE"
+            "alt": "BIC 7 - LAVAVAJILLAS MABE",
+            "video": "/behance/256367565/44ea51256367565.6aba97e1b5fea.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/88bcd3256367565.6aba97e1b5cc4.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - LAVAVAJILLAS MABE"
+            "alt": "BIC 7 - LAVAVAJILLAS MABE",
+            "video": "/behance/256367565/88bcd3256367565.6aba97e1b5cc4.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/35e82c256367565.6aba97e1b593f.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - LAVAVAJILLAS MABE"
+            "alt": "BIC 7 - LAVAVAJILLAS MABE",
+            "video": "/behance/256367565/35e82c256367565.6aba97e1b593f.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/7d28e5256367565.6aba97e1b6642.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - LAVAVAJILLAS MABE"
+            "alt": "BIC 7 - LAVAVAJILLAS MABE",
+            "video": "/behance/256367565/7d28e5256367565.6aba97e1b6642.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/b91e96256367565.6aba97e1b630e.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - LAVAVAJILLAS MABE"
+            "alt": "BIC 7 - LAVAVAJILLAS MABE",
+            "video": "/behance/256367565/b91e96256367565.6aba97e1b630e.mp4"
           }
         ],
         "rows": [
@@ -2328,7 +2411,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/255489256367565.6aba97e41115d.jpg",
+        "src": "/behance/256367565/f1cb6a256367565.6acd061143de5.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot and black"
@@ -2352,14 +2435,15 @@
   "256370179": {
     "id": 256370179,
     "title": "BIC 7 - GE PROFILE",
-    "thumbnail": "https://mir-s3-cdn-cf.behance.net/projects/original_webp/538c9a256370179.Y3JvcCwxMDA3LDc4OCwxOTcsMA.jpg",
+    "thumbnail": "/behance/256370179/portada.jpg",
     "modules": [
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/58d931256370179.6abaa236d44bb.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/20b277256370179.6acd06115df51.gif",
         "width": 428,
         "height": 214,
-        "alt": "BIC 7 - GE PROFILE"
+        "alt": "BIC 7 - GE PROFILE",
+        "video": "/behance/256370179/20b277256370179.6acd06115df51.mp4"
       },
       {
         "type": "text",
@@ -2374,179 +2458,180 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e19578256370179.6abaa6d965387.jpg",
+        "src": "/behance/256370179/22d6cf256370179.6acd06115d2b8.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot, black and white and monochrome photography"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b6b22a256370179.6abaa6d964970.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/797eae256370179.6acd061158fa1.gif",
         "width": 532,
         "height": 266,
-        "alt": "Image may contain: sketch, drawing and line art"
+        "alt": "Image may contain: sketch, drawing and line art",
+        "video": "/behance/256370179/797eae256370179.6acd061158fa1.mp4"
       },
       {
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/77248c256370179.6abaa6d54397e.jpg",
+            "src": "/behance/256370179/77248c256370179.6abaa6d54397e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/a37e53256370179.6abaa6d54b580.jpg",
+            "src": "/behance/256370179/a37e53256370179.6abaa6d54b580.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/881021256370179.6abaa6d54474b.jpg",
+            "src": "/behance/256370179/881021256370179.6abaa6d54474b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/dc47fc256370179.6abaa6d5456db.jpg",
+            "src": "/behance/256370179/dc47fc256370179.6abaa6d5456db.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/d039e6256370179.6abaa6d54a7c5.jpg",
+            "src": "/behance/256370179/d039e6256370179.6abaa6d54a7c5.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/2265a1256370179.6abaa6d549b63.jpg",
+            "src": "/behance/256370179/2265a1256370179.6abaa6d549b63.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/a33dea256370179.6abaa6d54846e.jpg",
+            "src": "/behance/256370179/a33dea256370179.6abaa6d54846e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/eb92c6256370179.6abaa6d54aeb2.jpg",
+            "src": "/behance/256370179/eb92c6256370179.6abaa6d54aeb2.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/20ecd7256370179.6abaa6d543495.jpg",
+            "src": "/behance/256370179/20ecd7256370179.6abaa6d543495.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/885742256370179.6abaa6d542f35.jpg",
+            "src": "/behance/256370179/885742256370179.6abaa6d542f35.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/3cd30a256370179.6abaa6d544bfb.jpg",
+            "src": "/behance/256370179/3cd30a256370179.6abaa6d544bfb.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/97d06a256370179.6abaa6d546b98.jpg",
+            "src": "/behance/256370179/97d06a256370179.6abaa6d546b98.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/227c83256370179.6abaa6d545da3.jpg",
+            "src": "/behance/256370179/227c83256370179.6abaa6d545da3.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/910b89256370179.6abaa6d543e33.jpg",
+            "src": "/behance/256370179/910b89256370179.6abaa6d543e33.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/b25500256370179.6abaa6d545129.jpg",
+            "src": "/behance/256370179/b25500256370179.6abaa6d545129.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/a1a5ea256370179.6abaa6d547b06.jpg",
+            "src": "/behance/256370179/a1a5ea256370179.6abaa6d547b06.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/073e41256370179.6abaa6d54c2b6.jpg",
+            "src": "/behance/256370179/073e41256370179.6abaa6d54c2b6.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/662735256370179.6abaa6d54c8c0.jpg",
+            "src": "/behance/256370179/662735256370179.6abaa6d54c8c0.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/7621c5256370179.6abaa6d54bc0c.jpg",
+            "src": "/behance/256370179/7621c5256370179.6abaa6d54bc0c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/fe9643256370179.6abaa6d54935d.jpg",
+            "src": "/behance/256370179/fe9643256370179.6abaa6d54935d.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/7a9d52256370179.6abaa6d548c23.jpg",
+            "src": "/behance/256370179/7a9d52256370179.6abaa6d548c23.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/2d22e7256370179.6abaa6d5473b6.jpg",
+            "src": "/behance/256370179/2d22e7256370179.6abaa6d5473b6.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/0b7fb5256370179.6abaa6d5442e2.jpg",
+            "src": "/behance/256370179/0b7fb5256370179.6abaa6d5442e2.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/422edb256370179.6abaa6d54648c.jpg",
+            "src": "/behance/256370179/422edb256370179.6abaa6d54648c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/613223256370179.6abaa6d54a1f8.jpg",
+            "src": "/behance/256370179/613223256370179.6abaa6d54a1f8.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/1b50cd256370179.6abaa6d54cf05.jpg",
+            "src": "/behance/256370179/1b50cd256370179.6abaa6d54cf05.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/0c1dbf256370179.6abaa6d54d5e0.jpg",
+            "src": "/behance/256370179/0c1dbf256370179.6abaa6d54d5e0.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - GE PROFILE"
@@ -2566,7 +2651,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/47ad1e256370179.6abaa6d965a47.jpg",
+        "src": "/behance/256370179/5ce61f256370179.6acd06115ab52.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: car and screenshot"
@@ -2578,19 +2663,22 @@
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/d50da8256370179.6abaa6d702a13.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - GE PROFILE"
+            "alt": "BIC 7 - GE PROFILE",
+            "video": "/behance/256370179/d50da8256370179.6abaa6d702a13.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/a5b6b5256370179.6abaa6d7038b5.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - GE PROFILE"
+            "alt": "BIC 7 - GE PROFILE",
+            "video": "/behance/256370179/a5b6b5256370179.6abaa6d7038b5.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/807135256370179.6abaa6d703144.gif",
             "width": 960,
             "height": 540,
-            "alt": "BIC 7 - GE PROFILE"
+            "alt": "BIC 7 - GE PROFILE",
+            "video": "/behance/256370179/807135256370179.6abaa6d703144.mp4"
           }
         ],
         "rows": [
@@ -2599,7 +2687,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/25c63a256370179.6abaa6d9643da.jpg",
+        "src": "/behance/256370179/29586f256370179.6acd06115c256.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot"
@@ -2623,14 +2711,15 @@
   "256373095": {
     "id": 256373095,
     "title": "Juegos Suramericanos 2026 - Institucional",
-    "thumbnail": "https://mir-s3-cdn-cf.behance.net/projects/original_webp/f52532256373095.Y3JvcCwyNzYxLDIxNjAsNTQwLDA.png",
+    "thumbnail": "/behance/256373095/portada.jpg",
     "modules": [
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/cb3480256373095.6abab23822fc3.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/e7df01256373095.6acd0611317de.gif",
         "width": 338,
         "height": 169,
-        "alt": "Juegos Suramericanos 2026 - Institucional"
+        "alt": "Juegos Suramericanos 2026 - Institucional",
+        "video": "/behance/256373095/e7df01256373095.6acd0611317de.mp4"
       },
       {
         "type": "text",
@@ -2639,17 +2728,18 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1fbba8256373095.6abab23822643.png",
+        "src": "/behance/256373095/e23c9f256373095.6acd061130353.webp",
         "width": 600,
         "height": 303,
         "alt": "Juegos Suramericanos 2026 - Institucional"
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a52630256373095.6abac619d5b30.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/78ec93256373095.6acd061130820.gif",
         "width": 94,
         "height": 47,
-        "alt": "Juegos Suramericanos 2026 - Institucional"
+        "alt": "Juegos Suramericanos 2026 - Institucional",
+        "video": "/behance/256373095/78ec93256373095.6acd061130820.mp4"
       },
       {
         "type": "video",
@@ -2664,25 +2754,29 @@
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/4db0a2256373095.6abab2353d674.gif",
             "width": 1400,
             "height": 788,
-            "alt": "Juegos Suramericanos 2026 - Institucional"
+            "alt": "Juegos Suramericanos 2026 - Institucional",
+            "video": "/behance/256373095/4db0a2256373095.6abab2353d674.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/f473e8256373095.6abab2353bf8b.gif",
             "width": 1400,
             "height": 788,
-            "alt": "Juegos Suramericanos 2026 - Institucional"
+            "alt": "Juegos Suramericanos 2026 - Institucional",
+            "video": "/behance/256373095/f473e8256373095.6abab2353bf8b.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/b4464a256373095.6abab2353cefc.gif",
             "width": 1400,
             "height": 788,
-            "alt": "Juegos Suramericanos 2026 - Institucional"
+            "alt": "Juegos Suramericanos 2026 - Institucional",
+            "video": "/behance/256373095/b4464a256373095.6abab2353cefc.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/d98d6f256373095.6abab2353c77e.gif",
             "width": 1400,
             "height": 788,
-            "alt": "Juegos Suramericanos 2026 - Institucional"
+            "alt": "Juegos Suramericanos 2026 - Institucional",
+            "video": "/behance/256373095/d98d6f256373095.6abab2353c77e.mp4"
           }
         ],
         "rows": [
@@ -2694,73 +2788,73 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/990487256373095.6abac618d1c56.png",
+            "src": "/behance/256373095/990487256373095.6abac618d1c56.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/5ea24a256373095.6abac618d4c3b.png",
+            "src": "/behance/256373095/5ea24a256373095.6abac618d4c3b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/71d646256373095.6abac618d25b1.png",
+            "src": "/behance/256373095/71d646256373095.6abac618d25b1.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/279e67256373095.6abac618d3e49.png",
+            "src": "/behance/256373095/279e67256373095.6abac618d3e49.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/9c169c256373095.6abac618d4720.png",
+            "src": "/behance/256373095/9c169c256373095.6abac618d4720.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/09a4d5256373095.6abac618d211e.png",
+            "src": "/behance/256373095/09a4d5256373095.6abac618d211e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/20fb76256373095.6abac618d299d.png",
+            "src": "/behance/256373095/20fb76256373095.6abac618d299d.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/0957c2256373095.6abac618d3264.png",
+            "src": "/behance/256373095/0957c2256373095.6abac618d3264.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/e34b24256373095.6abac618d3698.png",
+            "src": "/behance/256373095/e34b24256373095.6abac618d3698.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/59f1bd256373095.6abac618d41e1.png",
+            "src": "/behance/256373095/59f1bd256373095.6abac618d41e1.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/186dd4256373095.6abac618d3a7d.png",
+            "src": "/behance/256373095/186dd4256373095.6abac618d3a7d.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/fd86a2256373095.6abac618d2dcc.png",
+            "src": "/behance/256373095/fd86a2256373095.6abac618d2dcc.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
@@ -2775,10 +2869,11 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4a5ee0256373095.6abbbdb26370a.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/91f4e8256373095.6acd061130e11.gif",
         "width": 94,
         "height": 47,
-        "alt": "Juegos Suramericanos 2026 - Institucional"
+        "alt": "Juegos Suramericanos 2026 - Institucional",
+        "video": "/behance/256373095/91f4e8256373095.6acd061130e11.mp4"
       },
       {
         "type": "video",
@@ -2793,25 +2888,29 @@
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/660afa256373095.6abac0ed3ad3f.gif",
             "width": 1120,
             "height": 630,
-            "alt": "Juegos Suramericanos 2026 - Institucional"
+            "alt": "Juegos Suramericanos 2026 - Institucional",
+            "video": "/behance/256373095/660afa256373095.6abac0ed3ad3f.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/d87438256373095.6abac0ed3a6d3.gif",
             "width": 1120,
             "height": 630,
-            "alt": "Juegos Suramericanos 2026 - Institucional"
+            "alt": "Juegos Suramericanos 2026 - Institucional",
+            "video": "/behance/256373095/d87438256373095.6abac0ed3a6d3.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/3a1241256373095.6abac0ed3994d.gif",
             "width": 1120,
             "height": 630,
-            "alt": "Juegos Suramericanos 2026 - Institucional"
+            "alt": "Juegos Suramericanos 2026 - Institucional",
+            "video": "/behance/256373095/3a1241256373095.6abac0ed3994d.mp4"
           },
           {
             "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/fad911256373095.6abac0ed3a020.gif",
             "width": 1120,
             "height": 630,
-            "alt": "Juegos Suramericanos 2026 - Institucional"
+            "alt": "Juegos Suramericanos 2026 - Institucional",
+            "video": "/behance/256373095/fad911256373095.6abac0ed3a020.mp4"
           }
         ],
         "rows": [
@@ -2823,73 +2922,73 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/6300a8256373095.6abacb2be6b04.png",
+            "src": "/behance/256373095/6300a8256373095.6abacb2be6b04.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/504415256373095.6abacb2be795e.png",
+            "src": "/behance/256373095/504415256373095.6abacb2be795e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/2d3661256373095.6abacb2be63f6.png",
+            "src": "/behance/256373095/2d3661256373095.6abacb2be63f6.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/aedf6b256373095.6abacb2be44e2.png",
+            "src": "/behance/256373095/aedf6b256373095.6abacb2be44e2.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/56f02e256373095.6abacb2be4cc2.png",
+            "src": "/behance/256373095/56f02e256373095.6abacb2be4cc2.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/d67a7f256373095.6abacb2be549e.png",
+            "src": "/behance/256373095/d67a7f256373095.6abacb2be549e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/9daf4d256373095.6abacb2be872c.png",
+            "src": "/behance/256373095/9daf4d256373095.6abacb2be872c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/870ea3256373095.6abacb2be8024.png",
+            "src": "/behance/256373095/870ea3256373095.6abacb2be8024.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/eca4df256373095.6abacb2be9683.png",
+            "src": "/behance/256373095/eca4df256373095.6abacb2be9683.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/533079256373095.6abacb2be724a.png",
+            "src": "/behance/256373095/533079256373095.6abacb2be724a.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/faa071256373095.6abacb2be5c75.png",
+            "src": "/behance/256373095/faa071256373095.6abacb2be5c75.webp",
             "width": 1920,
             "height": 1080,
             "alt": "Juegos Suramericanos 2026 - Institucional"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_still/e0bf8d256373095.6abbc28e487a3.png",
+            "src": "/behance/256373095/e0bf8d256373095.6abbc28e487a3.webp",
             "width": 1088,
             "height": 608,
             "alt": "Juegos Suramericanos 2026 - Institucional"
@@ -2904,10 +3003,11 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/60e243256373095.6abbe7a19227a.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/6bc74d256373095.6acd061131313.gif",
         "width": 558,
         "height": 279,
-        "alt": "Image may contain: logo"
+        "alt": "Image may contain: logo",
+        "video": "/behance/256373095/6bc74d256373095.6acd061131313.mp4"
       },
       {
         "type": "text",
@@ -2922,14 +3022,15 @@
   "256374957": {
     "id": 256374957,
     "title": "BIC 7 - ALL PROJECTS",
-    "thumbnail": "https://mir-s3-cdn-cf.behance.net/projects/original_webp/349600256374957.Y3JvcCwxMDA3LDc4OCwxOTcsMA.jpg",
+    "thumbnail": "/behance/256374957/portada.jpg",
     "modules": [
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/819fad256374957.6ababc3d53baf.gif",
+        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/source/e9b9f5256374957.6acd06112402f.gif",
         "width": 428,
         "height": 214,
-        "alt": "BIC 7 - ALL PROJECTS"
+        "alt": "BIC 7 - ALL PROJECTS",
+        "video": "/behance/256374957/e9b9f5256374957.6acd06112402f.mp4"
       },
       {
         "type": "text",
@@ -2944,7 +3045,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9818b0256374957.6abac197b136b.jpg",
+        "src": "/behance/256374957/c937c3256374957.6acd061123b47.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: screenshot"
@@ -2953,31 +3054,31 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/6cd8fc256374957.6abac1943eff4.jpg",
+            "src": "/behance/256374957/6cd8fc256374957.6abac1943eff4.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/058035256374957.6abac1943f4f0.jpg",
+            "src": "/behance/256374957/058035256374957.6abac1943f4f0.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/3138e9256374957.6abac1943e69b.jpg",
+            "src": "/behance/256374957/3138e9256374957.6abac1943e69b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/dc3473256374957.6abac1943eb3b.jpg",
+            "src": "/behance/256374957/dc3473256374957.6abac1943eb3b.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/c7f4f0256374957.6abac1943e1d3.jpg",
+            "src": "/behance/256374957/c7f4f0256374957.6abac1943e1d3.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
@@ -2992,31 +3093,31 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/a242cc256374957.6abac19545378.jpg",
+            "src": "/behance/256374957/a242cc256374957.6abac19545378.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/b5817e256374957.6abac19545827.jpg",
+            "src": "/behance/256374957/b5817e256374957.6abac19545827.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/f84684256374957.6abac19545cef.jpg",
+            "src": "/behance/256374957/f84684256374957.6abac19545cef.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/f30be1256374957.6abac195461a9.jpg",
+            "src": "/behance/256374957/f30be1256374957.6abac195461a9.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/37c014256374957.6abac19544ead.jpg",
+            "src": "/behance/256374957/37c014256374957.6abac19544ead.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
@@ -3031,43 +3132,43 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/d91d98256374957.6abac196238b4.jpg",
+            "src": "/behance/256374957/d91d98256374957.6abac196238b4.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/4addc5256374957.6abac19624eaf.jpg",
+            "src": "/behance/256374957/4addc5256374957.6abac19624eaf.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/f6276e256374957.6abac19624198.jpg",
+            "src": "/behance/256374957/f6276e256374957.6abac19624198.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/4dba05256374957.6abac19625321.jpg",
+            "src": "/behance/256374957/4dba05256374957.6abac19625321.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/5dc31d256374957.6abac19624a5e.jpg",
+            "src": "/behance/256374957/5dc31d256374957.6abac19624a5e.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/765a6c256374957.6abac19623d39.jpg",
+            "src": "/behance/256374957/765a6c256374957.6abac19623d39.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/06e360256374957.6abac19624630.jpg",
+            "src": "/behance/256374957/06e360256374957.6abac19624630.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
@@ -3082,43 +3183,43 @@
         "type": "imageRow",
         "images": [
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/f066fa256374957.6abac196dfadc.jpg",
+            "src": "/behance/256374957/f066fa256374957.6abac196dfadc.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/afe79f256374957.6abac196e09b4.jpg",
+            "src": "/behance/256374957/afe79f256374957.6abac196e09b4.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/38d070256374957.6abac196dfe51.jpg",
+            "src": "/behance/256374957/38d070256374957.6abac196dfe51.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/0da537256374957.6abac196e0e56.jpg",
+            "src": "/behance/256374957/0da537256374957.6abac196e0e56.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/0f4bb4256374957.6abac196df716.jpg",
+            "src": "/behance/256374957/0f4bb4256374957.6abac196df716.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/d90a50256374957.6abac196e060c.jpg",
+            "src": "/behance/256374957/d90a50256374957.6abac196e060c.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
           },
           {
-            "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_still/efad50256374957.6abac196e0213.jpg",
+            "src": "/behance/256374957/efad50256374957.6abac196e0213.webp",
             "width": 1920,
             "height": 1080,
             "alt": "BIC 7 - ALL PROJECTS"
@@ -3131,7 +3232,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b497ea256374957.6abac197b1d85.jpg",
+        "src": "/behance/256374957/249293256374957.6acd0611214be.webp",
         "width": 258,
         "height": 129,
         "alt": "Image may contain: car"
@@ -3144,7 +3245,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/736ca8256374957.6abac197afac8.jpg",
+        "src": "/behance/256374957/9ef7e0256374957.6acd06112248d.webp",
         "width": 100,
         "height": 50,
         "alt": "Image may contain: screenshot and black"
@@ -3157,7 +3258,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/53817d256374957.6abac197b0776.jpg",
+        "src": "/behance/256374957/6a294e256374957.6acd061122be9.webp",
         "width": 100,
         "height": 50,
         "alt": "BIC 7 - ALL PROJECTS"
@@ -3170,7 +3271,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6958e9256374957.6abac197b0dcc.jpg",
+        "src": "/behance/256374957/08f809256374957.6acd06111ffca.webp",
         "width": 100,
         "height": 50,
         "alt": "BIC 7 - ALL PROJECTS"
@@ -3183,7 +3284,7 @@
       },
       {
         "type": "image",
-        "src": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5c8d75256374957.6abac197af4eb.jpg",
+        "src": "/behance/256374957/73109b256374957.6acd061121c2b.webp",
         "width": 100,
         "height": 50,
         "alt": "BIC 7 - ALL PROJECTS"

@@ -1,11 +1,12 @@
 import snapshot from "@/lib/behanceSnapshot.json";
 
 export type BehanceModule =
-  | { type: "image"; src: string; width: number; height: number; alt: string }
+  // video: GIF de Behance convertido a mp4 y servido desde la web (public/behance)
+  | { type: "image"; src: string; video?: string; width: number; height: number; alt: string }
   | { type: "text"; html: string; alignment?: string }
   | { type: "video"; embedSrc: string; width: number; height: number }
   // "colección de imágenes" de Behance — varias fotos agrupadas en una grilla
-  | { type: "imageRow"; images: { src: string; width: number; height: number; alt: string }[]; rows?: number[] };
+  | { type: "imageRow"; images: { src: string; video?: string; width: number; height: number; alt: string }[]; rows?: number[] };
 
 export interface BehanceProject {
   id: number;
@@ -115,12 +116,15 @@ async function fetchEmbed(id: string, url: string): Promise<BehanceProject | nul
 // a generar esta copia para que el cambio se vea en la web.
 const SNAPSHOT = snapshot as Record<string, Omit<BehanceProject, "url">>;
 
+// La copia va primero: sus imágenes y videos se sirven desde la propia web (public/behance),
+// así que no depende de que Behance los mantenga publicados ni le genera tráfico a la cuenta.
+// Solo un proyecto nuevo, que todavía no está en la copia, se intenta leer de Behance.
 export async function getBehanceProject(url: string): Promise<BehanceProject | null> {
   const id = url.match(/behance\.net\/gallery\/(\d+)/)?.[1];
-  const live = await fetchGallery(url);
-  if (live) return live;
   const saved = id ? SNAPSHOT[id] : undefined;
   if (saved) return { ...saved, url };
+  const live = await fetchGallery(url);
+  if (live) return live;
   return id ? fetchEmbed(id, url) : null;
 }
 

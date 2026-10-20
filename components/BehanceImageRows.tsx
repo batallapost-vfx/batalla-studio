@@ -1,7 +1,8 @@
-import Image from "next/image";
+import BehanceMedia from "@/components/BehanceMedia";
 
 interface RowImage {
   src: string;
+  video?: string;
   width: number;
   height: number;
   alt: string;
@@ -20,14 +21,13 @@ export default function BehanceImageRows({ images, rows }: { images: RowImage[];
         <div key={r} className="flex gap-1">
           {images.slice(starts[r], starts[r] + n).map((img, j) => (
             <div key={j} className="min-w-0" style={{ flex: `${img.width / img.height} 1 0%` }}>
-              <Image
+              <BehanceMedia
                 src={img.src}
+                video={img.video}
                 alt={img.alt}
                 width={img.width}
                 height={img.height}
                 sizes="(min-width: 640px) 50vw, 100vw"
-                className="w-full h-auto block"
-                unoptimized
               />
             </div>
           ))}

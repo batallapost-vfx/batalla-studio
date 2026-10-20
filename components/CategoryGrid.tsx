@@ -5,6 +5,7 @@ import Image from "next/image";
 import { VimeoVideo } from "@/lib/vimeo";
 import VimeoEmbeds from "@/components/VimeoEmbeds";
 import BehanceImageRows from "@/components/BehanceImageRows";
+import BehanceMedia from "@/components/BehanceMedia";
 
 type OrderOption = "Featured" | "Date" | "Name";
 const ORDER_OPTIONS: OrderOption[] = ["Featured", "Date", "Name"];
@@ -193,15 +194,7 @@ export default function CategoryGrid({ videos, accentColor }: CategoryGridProps)
                 <div key={i}>
                   {i > 0 && <div style={{ height: selected.behanceSpacerHeight ?? 60 }} />}
                   {mod.type === "image" && (
-                    <Image
-                      src={mod.src}
-                      alt={mod.alt}
-                      width={mod.width}
-                      height={mod.height}
-                      sizes="36rem"
-                      className="w-full h-auto block"
-                      unoptimized
-                    />
+                    <BehanceMedia src={mod.src} video={mod.video} alt={mod.alt} width={mod.width} height={mod.height} sizes="36rem" />
                   )}
                   {mod.type === "text" && (
                     <div

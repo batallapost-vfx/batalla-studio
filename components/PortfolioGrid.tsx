@@ -5,6 +5,7 @@ import Image from "next/image";
 import { VimeoVideo, ProjectCategory } from "@/lib/vimeo";
 import VimeoEmbeds from "@/components/VimeoEmbeds";
 import BehanceImageRows from "@/components/BehanceImageRows";
+import BehanceMedia from "@/components/BehanceMedia";
 import { openProject } from "@/lib/openProject";
 
 export interface PortfolioVideo extends VimeoVideo {
@@ -282,15 +283,7 @@ export function VideoModal({
               <div key={i}>
                 {i > 0 && <div style={{ height: video.behanceSpacerHeight ?? 60 }} />}
                 {mod.type === "image" && (
-                  <Image
-                    src={mod.src}
-                    alt={mod.alt}
-                    width={mod.width}
-                    height={mod.height}
-                    sizes="36rem"
-                    className="w-full h-auto block"
-                    unoptimized
-                  />
+                  <BehanceMedia src={mod.src} video={mod.video} alt={mod.alt} width={mod.width} height={mod.height} sizes="36rem" />
                 )}
                 {mod.type === "text" && (
                   <div
